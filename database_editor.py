@@ -852,8 +852,6 @@ def fillAbilitydexAPI(ruleset, database):
             addEntry(ruleset, database, name)
             listbox_entries.insert("end", name)
             listbox_entries.itemconfig("end", {"bg": todo_color})
-            
-            ruleset_library["rulesets"][ruleset][database][name]["Name"] = name.capitalize()
 #END_DEF
 
 

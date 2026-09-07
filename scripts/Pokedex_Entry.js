@@ -35,6 +35,14 @@ function formatStringArray(arr){
 	return null;
 }
 
+function titleCase(str, delimiter){
+	var splitStr = str.toLowerCase().split(delimiter);
+	for (var i = 0; i < splitStr.length; i++){
+		splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+	}
+	return splitStr.join(delimiter);
+}
+
 /* PHB Pokedex Database Functions */
 function formatASIText(asi){
 	const mod = Math.floor((asi - 10)/2);
@@ -49,45 +57,41 @@ function formatASIText(asi){
 	}
 	return null;
 }
-async function processPHBDatabase(phb_pokedex, entry_name){
-	// Fetch PHB JSON Database
-	const phb_data = await fetchJSON(phb_pokedex);
-	console.log(phb_data);
-	
+async function processPHBDatabase(phb_pokemon_data, entry_name){
 	// Process Title Info
-	setElementData("Species-Name", phb_data[entry_name].Name);
-	setElementData("Pokedex-Number", "#"+phb_data[entry_name].ID);
+	setElementData("Species-Name", phb_pokemon_data[entry_name].Name);
+	setElementData("Pokedex-Number", "#"+phb_pokemon_data[entry_name].ID);
 	
 	// Update all non-table element information
-	setElementData("Classification", phb_data[entry_name].Classification);
-	setElementData("SR", phb_data[entry_name].SR);
-	setElementData("Minimum_Level", phb_data[entry_name].Min_Level);
-	setElementData("Hit_Dice", phb_data[entry_name].Hit_Dice);
-	setElementData("Movement", phb_data[entry_name].Movement);
-	setElementData("Senses", phb_data[entry_name].Senses);
+	setElementData("Classification", phb_pokemon_data[entry_name].Classification);
+	setElementData("SR", phb_pokemon_data[entry_name].SR);
+	setElementData("Minimum_Level", phb_pokemon_data[entry_name].Min_Level);
+	setElementData("Hit_Dice", phb_pokemon_data[entry_name].Hit_Dice);
+	setElementData("Movement", phb_pokemon_data[entry_name].Movement);
+	setElementData("Senses", phb_pokemon_data[entry_name].Senses);
 	
-	setElementData("Proficient_Skills", formatStringArray(phb_data[entry_name].Skills));
-	setElementData("Saving_Throws", formatStringArray(phb_data[entry_name].Saves));
-	setElementData("Evolution_Text", phb_data[entry_name].Evolution);
+	setElementData("Proficient_Skills", formatStringArray(phb_pokemon_data[entry_name].Skills));
+	setElementData("Saving_Throws", formatStringArray(phb_pokemon_data[entry_name].Saves));
+	setElementData("Evolution_Text", phb_pokemon_data[entry_name].Evolution);
 	
 	// Process Stat Data
-	setElementData("HP_Value", String(phb_data[entry_name].Stats.HP).padEnd(7, " "));
-	setElementData("AC_Value", String(phb_data[entry_name].Stats.AC).padEnd(7, " "));
-	setElementData("STR_Value", formatASIText(phb_data[entry_name].Stats.STR));
-	setElementData("DEX_Value", formatASIText(phb_data[entry_name].Stats.DEX));
-	setElementData("CON_Value", formatASIText(phb_data[entry_name].Stats.CON));
-	setElementData("INT_Value", formatASIText(phb_data[entry_name].Stats.INT));
-	setElementData("WIS_Value", formatASIText(phb_data[entry_name].Stats.WIS));
-	setElementData("CHA_Value", formatASIText(phb_data[entry_name].Stats.CHA));
+	setElementData("HP_Value", String(phb_pokemon_data[entry_name].Stats.HP).padEnd(7, " "));
+	setElementData("AC_Value", String(phb_pokemon_data[entry_name].Stats.AC).padEnd(7, " "));
+	setElementData("STR_Value", formatASIText(phb_pokemon_data[entry_name].Stats.STR));
+	setElementData("DEX_Value", formatASIText(phb_pokemon_data[entry_name].Stats.DEX));
+	setElementData("CON_Value", formatASIText(phb_pokemon_data[entry_name].Stats.CON));
+	setElementData("INT_Value", formatASIText(phb_pokemon_data[entry_name].Stats.INT));
+	setElementData("WIS_Value", formatASIText(phb_pokemon_data[entry_name].Stats.WIS));
+	setElementData("CHA_Value", formatASIText(phb_pokemon_data[entry_name].Stats.CHA));
 	
-	document.getElementById("HP_Bar").value = phb_data[entry_name].Stats.HP;
-	document.getElementById("AC_Bar").value = phb_data[entry_name].Stats.AC;
-	document.getElementById("STR_Bar").value = phb_data[entry_name].Stats.STR;
-	document.getElementById("DEX_Bar").value = phb_data[entry_name].Stats.DEX;
-	document.getElementById("CON_Bar").value = phb_data[entry_name].Stats.CON;
-	document.getElementById("INT_Bar").value = phb_data[entry_name].Stats.INT;
-	document.getElementById("WIS_Bar").value = phb_data[entry_name].Stats.WIS;
-	document.getElementById("CHA_Bar").value = phb_data[entry_name].Stats.CHA;
+	document.getElementById("HP_Bar").value = phb_pokemon_data[entry_name].Stats.HP;
+	document.getElementById("AC_Bar").value = phb_pokemon_data[entry_name].Stats.AC;
+	document.getElementById("STR_Bar").value = phb_pokemon_data[entry_name].Stats.STR;
+	document.getElementById("DEX_Bar").value = phb_pokemon_data[entry_name].Stats.DEX;
+	document.getElementById("CON_Bar").value = phb_pokemon_data[entry_name].Stats.CON;
+	document.getElementById("INT_Bar").value = phb_pokemon_data[entry_name].Stats.INT;
+	document.getElementById("WIS_Bar").value = phb_pokemon_data[entry_name].Stats.WIS;
+	document.getElementById("CHA_Bar").value = phb_pokemon_data[entry_name].Stats.CHA;
 }
 
 
@@ -224,12 +228,16 @@ function getFlavorText(flavor_text_array){
 	}
 	return null;
 }
+function getAbilityTitle(ability_text_array){
+	for (const ability_text of ability_text_array){
+		if (ability_text.language.name == "en"){ // Just grab the first english one right now
+			return ability_text.name.replace(/[^a-zA-Z'%.!?’ é]/g, " "); // Some entries have special characters in them. They need to be removed.
+		}
+	}
+	return null;
+}
 
-async function processPokeAPIDatabase(entry_name){
-	const pokedex = await Pokedex.init();// Done to automatically cache the data from the request
-	const pokemon = await pokedex.getPokemonByName(entry_name);
-	const pokemon_species = await pokedex.getPokemonSpeciesByName(entry_name);
-	
+async function processPokeAPIDatabase(pokemon, pokemon_species){
 	// Process Title Info
 	setElementData("Genera", getGenera(pokemon_species.genera));
 	setElementData("Flavor-Text", getFlavorText(pokemon_species.flavor_text_entries));
@@ -267,11 +275,72 @@ async function processPokeAPIDatabase(entry_name){
 	setElementData("Immunities", type_matchups[2]);
 }
 
+function formatAbilityText(phb_ability_data, ability_name, ability_title){
+	const ability_link = "<a href=\"../Abilitydex/Ability_Entry.html?name=" + ability_name + "\">" + ability_title + "</a>";
+	const description = phb_ability_data[ability_name].Description;
+	return ability_link + " - " + description;
+}
+
+async function processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_data, entry_name){
+	const current_abilities = pokemon.abilities;
+	const past_abilities = pokemon.past_abilities;
+	
+	for (const current_ability of current_abilities){
+		const ability_name = current_ability.ability.name;
+		if (ability_name !== null){
+			//const ability_title = titleCase(titleCase(ability_name, '-'), ' ');
+			const ability_api_data = await pokedex.getAbilityByName(ability_name);
+			const ability_title = getAbilityTitle(ability_api_data.names);
+			if (current_ability.is_hidden == true){
+				document.getElementById("hidden_ability_div").style = "display:inline";
+				document.getElementById("Ability_Name_HA").style = "display:inline";
+				//document.getElementById("Ability_Name_HA").href = "../Abilitydex/Ability_Entry.html?name=" + ability_name;
+				const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
+				setElementData("Ability_Name_HA", div_data);
+			}
+			else{
+				document.getElementById("Ability_Name_" + current_ability.slot).style = "display:inline";
+				//document.getElementById("Ability_Name_" + current_ability.slot).href = "../Abilitydex/Ability_Entry.html?name=" + ability_name;
+				const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
+				setElementData("Ability_Name_" + current_ability.slot, div_data);
+			}
+		}
+	}
+	
+	for (const past_ability of past_abilities[0].abilities){
+		const ability = past_ability.ability;
+		if (ability !== null) {
+			const ability_name = ability.name;
+			if (ability_name !== null){
+				const ability_api_data = await pokedex.getAbilityByName(ability_name);
+				const ability_title = getAbilityTitle(ability_api_data.names);
+				
+				document.getElementById("special_abilities_div").style = "display:inline";
+				document.getElementById("Special_Ability_Name_" + past_ability.slot).style = "display:inline";
+				const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
+				setElementData("Special_Ability_Name_" + past_ability.slot, div_data);
+			}
+		}
+	}
+}
+
 // Entry Point
 
 // Retrieve the pokedex ID from the URL search parameters
 const params = new URLSearchParams(window.location.search);
 const entry_name = params.get("name");
 
-processPHBDatabase("/src/databases/Scarlet_League_3.0/Pokedex/Pokedex.json", entry_name);
-processPokeAPIDatabase(entry_name);
+// Fetch PHB JSON Database
+const phb_pokemon_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Pokedex/Pokedex.json");
+const phb_ability_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Abilitydex/Abilitydex.json");
+const phb_attack_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Attackdex/Attackdex.json");
+
+// Fetch PokeAPI Database
+const pokedex = await Pokedex.init();// Done to automatically cache the data from the request
+const pokemon = await pokedex.getPokemonByName(entry_name);
+const pokemon_species = await pokedex.getPokemonSpeciesByName(entry_name);
+
+processPHBDatabase(phb_pokemon_data, entry_name);
+processPokeAPIDatabase(pokemon, pokemon_species);
+
+processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_data, entry_name);
