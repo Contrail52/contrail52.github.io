@@ -307,20 +307,32 @@ async function processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_
 		}
 	}
 	
-	for (const past_ability of past_abilities[0].abilities){
-		const ability = past_ability.ability;
-		if (ability !== null) {
-			const ability_name = ability.name;
-			if (ability_name !== null){
-				const ability_api_data = await pokedex.getAbilityByName(ability_name);
-				const ability_title = getAbilityTitle(ability_api_data.names);
-				
-				document.getElementById("special_abilities_div").style = "display:inline";
-				document.getElementById("Special_Ability_Name_" + past_ability.slot).style = "display:inline";
-				const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
-				setElementData("Special_Ability_Name_" + past_ability.slot, div_data);
+	if (past_abilities.length !== 0){
+		for (const past_ability of past_abilities[0].abilities){
+			const ability = past_ability.ability;
+			if (ability !== null) {
+				const ability_name = ability.name;
+				if (ability_name !== null){
+					const ability_api_data = await pokedex.getAbilityByName(ability_name);
+					const ability_title = getAbilityTitle(ability_api_data.names);
+					
+					document.getElementById("special_abilities_div").style = "display:inline";
+					document.getElementById("Special_Ability_Name_" + past_ability.slot).style = "display:inline";
+					const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
+					setElementData("Special_Ability_Name_" + past_ability.slot, div_data);
+				}
 			}
 		}
+	}
+	
+	// Rockruff requires it's own special case for Own Tempo, because of course it does
+	if (entry_name == "rockruff"){
+		const ability_name = "own-tempo";
+		const ability_api_data = await pokedex.getAbilityByName(ability_name);
+		const ability_title = getAbilityTitle(ability_api_data.names);
+		document.getElementById("Ability_Name_3").style = "display:inline";
+		const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
+		setElementData("Ability_Name_3", div_data);
 	}
 }
 
