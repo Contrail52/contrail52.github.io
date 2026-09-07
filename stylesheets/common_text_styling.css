@@ -1,0 +1,29 @@
+@import "/stylesheets/common_pallete.css";
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Oxanium:wght@200..800&display=swap');
+
+
+
+/* General Header Formating */
+h2 {
+	font-family: "Oxanium", sans-serif;
+	font-weight: 600;
+	font-size: 32px;
+	margin: 0px;
+}
+
+
+
+/* Section Header Block Styling */
+.h2-block {
+	display: flex;
+	align-items: start;
+	flex-direction: row;
+	width: 100%;
+	border-style: solid;
+	border-color: var(--clr-primary-a0);
+	border-width: 0px 0px 3px 0px;
+	padding-left: 5px;
+	background: linear-gradient(2deg, var(--clr-dark-a0), #0000 60%);
+	margin-top: 10px;
+	color: var(--clr-text-a50);
+}

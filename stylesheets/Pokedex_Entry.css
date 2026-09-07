@@ -1,0 +1,398 @@
+@import "/stylesheets/common_pallete.css";
+@import "/stylesheets/common_text_styling.css";
+
+
+
+
+/* Dex Information Section Properties */
+.dex-container{
+	background-color: var(--clr-surface-a0);
+	color: var(--clr-text-a50);
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 100%;
+	padding: 12px;
+	font-family: "Oxanium", sans-serif;
+	border-radius: 15px;
+}
+
+.main-info-block{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 30px;
+}
+
+.info-block{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	gap: 8px;
+}
+
+.image-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 475px;
+}
+
+.info-title{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-bottom-style: solid;
+	border-color: var(--clr-primary-a40);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.name-type{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: right;
+}
+
+.number-genera{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: left;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.flavor-text{
+	color: var(--clr-surface-a50);
+	font-weight: 400;
+	font-size: 14px;
+	min-height: 40px;
+}
+
+
+
+.info-dnd{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+.info-dnd pre{
+	margin: 0px;
+}
+
+.info-dnd-row{
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+}
+
+
+
+/* Stat Value and Progress Bar Properties */
+.stat-block{
+	display: flex;
+	flex-direction: column;
+	align-items: top;
+	color: var(--clr-light-a0);
+	font-weight: 400;
+	font-size: 20px;
+	font-family: "Kode Mono", monospace;
+}
+
+.stat-block pre{
+	margin: 0px;
+}
+
+.stat-bar{
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+	gap: 5px;
+}
+
+.stat-bar progress{
+	width: 100%;
+	color: var(--clr-primary-a10);
+	background: var(--clr-surface-a10);
+	height: 14px;
+	border-radius: 7px;
+}
+.stat-bar progress::-moz-progress-bar{ /* Firefox: Filled portion of the progress bar */
+	background: var(--clr-primary-a0);
+	height: 14px;
+	border-radius: 7px;
+}
+.stat-bar progress::-webkit-progress-bar{ /* Chrome & Safari: Unfilled portion of the progress bar */
+	background: var(--clr-surface-a10);
+	height: 14px;
+	border-radius: 7px;
+}
+.stat-bar progress::-webkit-progress-value{ /* Chrome & Safari: Filled portion of the progress bar */
+	background: var(--clr-primary-a0);
+	height: 14px;
+	border-radius: 7px;
+}
+
+.stat-bar-item{
+	display: flex;
+	flex: 1;
+	align-self: center;
+	align-items: center;
+}
+
+.stat-bar-value{
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	align-items: center;
+}
+
+
+
+/* Sprite Image Properties */
+.image-block{
+	height: 475px;
+	position: relative;
+	justify-content: center;
+}
+
+.image-container{
+	width: 100%;
+	aspect-ratio: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.image-container img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+/* Sprite Background Idle Animation */
+.idler1 { /* Layer 1 */
+	z-index: 1;
+	width: 88%;
+	aspect-ratio: 1;
+	position: absolute;
+	border-width: 5px 19px;
+	border-style: dotted solid;
+	border-radius: 50%;
+	border-color: var(--clr-surface-tonal-a30) var(--clr-surface-a20);
+	animation: l16 120s infinite linear;
+}
+.idler2 { /* Layer 2 */
+	z-index: 2;
+	width: 73%;
+	aspect-ratio: 1;
+	position: absolute;
+	border-width: 5px 2px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: var(--clr-primary-a10) #0000;
+	animation: l16 63s infinite linear;
+	animation-direction: reverse;
+}
+.idler3 { /* Layer 3 */
+	z-index: 3;
+	width: 45%;
+	aspect-ratio: 1;
+	position: absolute;
+	background: linear-gradient(var(--clr-primary-a0) 50%, var(--clr-surface-a20) 50%);
+	border-radius: 50%;
+	animation: l16 253s infinite linear;
+}
+.idler4 { /* Layer 4 */
+	z-index: 4;
+	width: 45%;
+	height: 8px;
+	position: absolute;
+	background: var(--clr-surface-a0);
+	animation: l16 253s infinite linear;
+}
+.idler5 { /* Layer 5 */
+	z-index: 5;
+	width: 16%;
+	aspect-ratio: 1;
+	position: absolute;
+	background: var(--clr-surface-a20);
+	border-radius: 50%;
+	border-width: 8px;
+	border-style: solid;
+	border-color: var(--clr-surface-a0);
+}
+@keyframes l16 { 
+  100%{transform: rotate(1turn)}
+}
+
+
+
+
+/* General Info Text Box Properties */
+.entry-block{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	gap: 5px;
+}
+
+.entry{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.entry-title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: var(--clr-surface-tonal-a20);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 4px 4px 0px 0px;
+	border-style: solid;
+	border-width: 1px 1px 2px 1px;
+	border-color: var(--clr-surface-tonal-a40) var(--clr-surface-tonal-a30) var(--clr-surface-tonal-a0) var(--clr-surface-tonal-a30);
+}
+
+.entry-data{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: var(--clr-surface-a10);
+	padding: 5px;
+	border-radius: 0px 0px 4px 4px;
+	border-style: solid;
+	border-width: 0px 1px 0px 1px;
+	border-color: var(--clr-surface-tonal-a20);
+}
+
+
+
+
+/* Long Form Description Text Box Properties */
+.description-block{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	border-radius: 4px;
+}
+
+.description-title{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	justify-content: left;
+	background-color: var(--clr-surface-tonal-a20);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 4px 4px 0px 0px;
+	border-style: solid;
+	border-width: 1px 1px 2px 1px;
+	border-color: var(--clr-surface-tonal-a40) var(--clr-surface-tonal-a30) var(--clr-surface-tonal-a0) var(--clr-surface-tonal-a30);
+}
+
+.description-data{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	text-align: left;
+	justify-content: left;
+	background-color: var(--clr-surface-a10);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 0px 0px 4px 4px;
+	border-style: solid;
+	border-width: 0px 1px 0px 1px;
+	border-color: var(--clr-surface-tonal-a20);
+	gap: 2px;
+}
+
+.description-data a{
+	color: var(--clr-primary-a20);
+}
+
+
+
+
+
+/* Move Table Properties */
+:root {
+	--clr-table-inner-brd: var(--clr-surface-tonal-a40);
+	--clr-table-div-brd: var(--clr-primary-a30);
+	--thk-table-inner-brd: 1px;
+	--thk-table-div-brd: 2px;
+}
+
+.table-container{
+	margin: 5px 0px 5px 0px;
+	color: var(--clr-text-a50);
+}
+
+.table-title{
+	text-align: center;
+	background-color: var(--clr-surface-tonal-a10);
+	font-family: "Oxanium", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.table-attack{
+	font-family: "Oxanium", sans-serif;
+	background-color: var(--clr-surface-a10);
+	border-collapse: collapse;
+}
+
+.table-attack th, td{
+	padding: 4px;
+}
+
+.table-attack-header{
+	background-color: var(--clr-surface-tonal-a20);
+	border-style: solid;
+	border-width: var(--thk-table-inner-brd) var(--thk-table-inner-brd) var(--thk-table-div-brd) var(--thk-table-inner-brd);
+	border-color: var(--clr-surface-tonal-a40) var(--clr-surface-tonal-a30) var(--clr-table-div-brd) var(--clr-surface-tonal-a30);
+}
+
+.table-attack-name{
+	text-align: center;
+	border-width: 0px var(--thk-table-inner-brd) var(--thk-table-div-brd) var(--thk-table-inner-brd);
+	border-style: solid;
+	border-color: #0000 var(--clr-table-inner-brd) var(--clr-table-div-brd) var(--clr-table-inner-brd);
+}
+
+.table-attack-cen{
+	text-align: center;
+	border-width: 0px var(--thk-table-inner-brd) var(--thk-table-inner-brd) var(--thk-table-inner-brd);
+	border-style: solid;
+	border-color: var(--clr-table-inner-brd);
+}
+
+.table-attack-info-top{
+	border-width: var(--thk-table-inner-brd);
+	border-style: solid;
+	border-color: var(--clr-table-inner-brd);
+}
+
+.table-attack-info-bot{
+	border-width: var(--thk-table-inner-brd) var(--thk-table-inner-brd) var(--thk-table-div-brd) var(--thk-table-inner-brd);
+	border-style: solid;
+	border-color: var(--clr-table-inner-brd) var(--clr-table-inner-brd) var(--clr-table-div-brd) var(--clr-table-inner-brd);
+}

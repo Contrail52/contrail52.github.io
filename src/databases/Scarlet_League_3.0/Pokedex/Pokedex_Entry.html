@@ -1,0 +1,190 @@
+<!-- Page Specific Data --!>
+<link rel="stylesheet" type="text/css" href="/stylesheets/Pokedex_Entry.css">
+<!-- <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script> --!>
+<script type="module" src="/scripts/Pokedex_Entry.js" async></script>
+
+<div class="dex-container">
+	<div class="main-info-block">
+		<div class="info-block">
+			<div class="info-title">
+				<div class="name-type">
+					<div id="Species-Name" style="flex: 1; font-weight: 500; font-size: 40px;">???????</div>
+					<div style="display: flex; align-items: center;"><img id="Type-1" src="/images/type_icons/normal.png" alt="Normal"></div>
+					<div style="display: flex; align-items: center;"><img id="Type-2" src="/images/type_icons/normal.png" alt="Normal"></div>
+				</div>
+				<div class="number-genera">
+					<div id="Pokedex-Number">#????</div>
+					<div id="Genera">The Placeholder Pokémon</div>
+				</div>
+				<div class="flavor-text" id="Flavor-Text">
+					The Placeholder Pokémon. This is the default data for this webpage. Pokémon specific data has not been loaded. Check the developer console for any errors.
+				</div>
+			</div>
+			<div class="info-dnd">
+				<div class="info-dnd-row"><div><pre>Classification: </pre></div><div><pre id="Classification">Medium</pre></div></div>
+				<div class="info-dnd-row"><div><pre>SR: </pre></div><div><pre id="SR">11</pre></div></div>
+				<div class="info-dnd-row"><div><pre>Minimum Level: </pre></div><div><pre id="Minimum_Level">8</pre></div></div>
+				<div class="info-dnd-row"><div><pre>Hit Dice: </pre></div><div><pre id="Hit_Dice">1d12</pre></div></div>
+				<div class="info-dnd-row"><div><pre>Movement: </pre></div><div><pre id="Movement">40ft. walking</pre></div></div>
+				<div class="info-dnd-row"><div><pre>Senses: </pre></div><div><pre id="Senses">None</pre></div></div>
+			</div>
+			<div class="stat-block">
+				<div class="stat-bar"> <!-- HP --!>
+					<div class="stat-bar-value"><pre> HP</pre></div>
+					<div class="stat-bar-item"><progress id="HP_Bar" value="100" max="245"></progress></div>
+					<div class="stat-bar-value"><pre id="HP_Value">100    </pre></div>
+				</div>
+				<div class="stat-bar"> <!-- AC --!>
+					<div class="stat-bar-value"><pre> AC</pre></div>
+					<div class="stat-bar-item"><progress id="AC_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="AC_Value">10     </pre></div>
+				</div>
+				<div class="stat-bar"> <!-- STR --!>
+					<div class="stat-bar-value"><pre>STR</pre></div>
+					<div class="stat-bar-item"><progress id="STR_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="STR_Value">10(+ 0)</pre></div>
+				</div>
+				<div class="stat-bar"> <!-- DEX --!>
+					<div class="stat-bar-value"><pre>DEX</pre></div>
+					<div class="stat-bar-item"><progress id="DEX_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="DEX_Value">10(+ 0)</pre></div>
+				</div>
+				<div class="stat-bar"> <!-- CON --!>
+					<div class="stat-bar-value"><pre>CON</pre></div>
+					<div class="stat-bar-item"><progress id="CON_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="CON_Value">10(+ 0)</pre></div>
+				</div>
+				<div class="stat-bar"> <!-- INT --!>
+					<div class="stat-bar-value"><pre>INT</pre></div>
+					<div class="stat-bar-item"><progress id="INT_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="INT_Value"> 10(- 0)</pre></div>
+				</div>
+				<div class="stat-bar"> <!-- WIS --!>
+					<div class="stat-bar-value"><pre>WIS</pre></div>
+					<div class="stat-bar-item"><progress id="WIS_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="WIS_Value">10(+ 0)</pre></div>
+				</div>
+				<div class="stat-bar"> <!-- CHA --!>
+					<div class="stat-bar-value"><pre>CHA</pre></div>
+					<div class="stat-bar-item"><progress id="CHA_Bar" value="10" max="20"></progress></div>
+					<div class="stat-bar-value"><pre id="CHA_Value">10(+ 0)</pre></div>
+				</div>
+			</div>
+		</div>
+		<div class="image-block">
+			<div class="idler1"></div>
+			<div class="idler2"></div>
+			<div class="idler3"></div>
+			<div class="idler4"></div>
+			<div class="idler5"></div>
+			<div class="image-container"><img id="Sprite" src="/images/err_sprite.png"></div>
+		</div>
+	</div>
+	<div style="display: flex; flex-direction: column; align-items: top; gap: 8px;">
+		<div class="entry-block"> <!-- Height, Weight, Gender Ratio, Egg Groups --!>
+			<div class="entry">
+				<div class="entry-title">Height</div>
+				<div class="entry-data" id="Height">1.4m</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Weight</div>
+				<div class="entry-data" id="Weight">61.5kg</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Gender Ratio</div>
+				<div class="entry-data" id="Gender_Ratio">50% M / 50% F</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Egg Groups</div>
+				<div class="entry-data" id="Egg_Groups">Monster, Field</div>
+			</div>
+		</div>
+		<div class="entry-block"> <!-- Proficient Skills, Saves, Weaknesses, Resistances, Immunities --!>
+			<div class="entry">
+				<div class="entry-title">Proficient Skills</div>
+				<div class="entry-data" id="Proficient_Skills">Perception, Persuasion</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Saving Throws</div>
+				<div class="entry-data" id="Saving_Throws">Constitution, Wisdom</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Weaknesses</div>
+				<div class="entry-data" id="Weaknesses">Ground</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Resistances</div>
+				<div class="entry-data" id="Resistances">Electric, Steel, Flying</div>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Immunities</div>
+				<div class="entry-data" id="Immunities">--</div>
+			</div>
+		</div>
+		<div class="description-block"> <!-- Ability Descriptions -->
+			<div class="description-title">Abilities</div>
+			<div class="description-data">
+				<div>
+					<a id="Ability_Name_1" href="">???????</a>
+					- This is placeholder text. Specific data has not been loaded. Check the developer console for errors.
+				</div>
+				<div>
+					<a id="Ability_Name_2" href="">???????</a>
+					- This is placeholder text. Specific data has not been loaded. Check the developer console for errors.
+				</div>
+				<div><b><u>Hidden Ability</u></b></div>
+				<div>
+					<a id="Ability_Name_HA" href="">???????</a>
+					- This is placeholder text. Specific data has not been loaded. Check the developer console for errors.
+				</div>
+			</div>
+		</div>
+		<div class="description-block"> <!-- Evolution Process Description -->
+			<div class="description-title">Evolution</div>
+			<div class="description-data">
+				<div id="Evolution_Text">This is placeholder text. Specific data has not been loaded. Check the developer console for errors.</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="h2-block"><h2>Mainline Learnset</h2></div>
+<div class="table-container" id="Egg_Move_Table_Container">
+	<div class="table-title">Egg Moves</div>
+	<table class="table-attack" id="Egg_Move_Table"> <!-- Egg Move Table -->
+		<thead>
+			<tr>
+				<th class="table-attack-header">Attack Name</th>
+				<th class="table-attack-header">Type</th>
+				<th class="table-attack-header">Move Power</th>
+				<th class="table-attack-header">Move Time</th>
+				<th class="table-attack-header">Duration</th>
+				<th class="table-attack-header">Range</th>
+				<th class="table-attack-header">Exhaustion</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="table-attack-name" rowspan="3">Thunder Punch</td>
+				<td class="table-attack-cen"><img src="/images/type_banners/electric.png" alt="Electric"></td>
+				<td class="table-attack-cen">STR/DEX</td>
+				<td class="table-attack-cen">1 Action</td>
+				<td class="table-attack-cen">Instantaneous</td>
+				<td class="table-attack-cen">Melee</td>
+				<td class="table-attack-cen">B+</td>
+			</tr>
+			<tr><td class="table-attack-info-top" colspan="6">Your punches are imbued with electric energy. Make a melee attack on a target, doing 1d12 + MOVE electric damage on a hit. On a natural attack roll of 19 or 20, the target is paralyzed.</td></tr>
+			<tr><td class="table-attack-info-bot" colspan="6"><b>Higher Levels: </b>The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.</td></tr>
+			<tr>
+				<td class="table-attack-name" rowspan="3">Cotton Guard</td>
+				<td class="table-attack-cen"><img src="/images/type_banners/grass.png" alt="Grass"></td>
+				<td class="table-attack-cen">None</td>
+				<td class="table-attack-cen">1 Action</td>
+				<td class="table-attack-cen">1 minute - Concentration</td>
+				<td class="table-attack-cen">Self</td>
+				<td class="table-attack-cen">B+</td>
+			</tr>
+			<tr><td class="table-attack-info-top" colspan="6">You protect yourself by wrapping your body up in thick, soft cotton. For the duration, boost your AC by +4.</td></tr>
+			<tr><td class="table-attack-info-bot" colspan="6"><b>Higher Levels: </b></td></tr>
+		</tbody>
+	</table>
+</div>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+@import "/stylesheets/common_pallete.css";
+
+
+	
+	
+	
+:root{
+/** Container Sizes */
+--siz-header-h: 100px;
+--siz-sidebar-w: 240px;
+--siz-content-w: 1280px;
+--siz-content-padding: 15px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--clr-primary-a50);
+	background-color: var(--clr-dark-a0);
+	background-image: url("./../images/shattered.png");
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	align-items: center;
+}
+
+header {
+	background-color: var(--clr-primary-a0);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 10px 10px var(--clr-surface-tonal-a0);
+}
+
+.banner {
+	background-color: var(--clr-surface-a10);
+	height: var(--siz-header-h);
+	width: var(--siz-content-w);
+	display: flex;
+	flex-direction: row;
+}
+
+.banner-buffer{
+	background-color: var(--clr-primary-a10);
+	width: 300px;
+}
+
+.banner-center {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: bottom;
+}
+
+.banner-center-top {
+	background-color: var(--clr-primary-a30);
+	display: flex;
+	flex: 1;
+}
+
+.search-container {
+	background-color: var(--clr-surface-tonal-a0);
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-bar {
+	background-color: var(--clr-surface-a20);
+	color: var(--clr-surface-a50);
+	width: 450px;
+	border-radius: 20px;
+}
+
+.search-bar input{
+	background-color: var(--clr-surface-a20);
+	width: 100%;
+	padding: 0.5em;
+	outline: none;
+	box-shadow: none;
+	border-radius: 20px;
+	color: var(--clr-surface-a50);
+	font-size: 20px;
+	font-family: "Goldman", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 4px;
+}
+
+.container {
+	/*background-color: var(--clr-surface-a20);*/
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	width: var(--siz-content-w);
+	background-color: var(--clr-surface-a20);
+	box-shadow: 0px 20px 20px var(--clr-surface-tonal-a0);
+	padding: 20px;
+}
+
+footer {
+	background-color: var(--clr-surface-a0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	width: var(--siz-content-w);
+	box-shadow: 0px 20px 20px var(--clr-surface-tonal-a0);
+}

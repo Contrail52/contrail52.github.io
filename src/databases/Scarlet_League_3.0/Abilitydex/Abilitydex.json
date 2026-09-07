@@ -1,0 +1,1498 @@
+{
+    "stench": {
+        "Name": "Stench",
+        "Description": ""
+    },
+    "drizzle": {
+        "Name": "Drizzle",
+        "Description": ""
+    },
+    "speed-boost": {
+        "Name": "Speed-boost",
+        "Description": ""
+    },
+    "battle-armor": {
+        "Name": "Battle-armor",
+        "Description": ""
+    },
+    "sturdy": {
+        "Name": "Sturdy",
+        "Description": ""
+    },
+    "damp": {
+        "Name": "Damp",
+        "Description": ""
+    },
+    "limber": {
+        "Name": "Limber",
+        "Description": ""
+    },
+    "sand-veil": {
+        "Name": "Sand-veil",
+        "Description": ""
+    },
+    "static": {
+        "Name": "Static",
+        "Description": ""
+    },
+    "volt-absorb": {
+        "Name": "Volt-absorb",
+        "Description": ""
+    },
+    "water-absorb": {
+        "Name": "Water-absorb",
+        "Description": ""
+    },
+    "oblivious": {
+        "Name": "Oblivious",
+        "Description": ""
+    },
+    "cloud-nine": {
+        "Name": "Cloud-nine",
+        "Description": ""
+    },
+    "compound-eyes": {
+        "Name": "Compound-eyes",
+        "Description": ""
+    },
+    "insomnia": {
+        "Name": "Insomnia",
+        "Description": ""
+    },
+    "color-change": {
+        "Name": "Color-change",
+        "Description": ""
+    },
+    "immunity": {
+        "Name": "Immunity",
+        "Description": ""
+    },
+    "flash-fire": {
+        "Name": "Flash-fire",
+        "Description": ""
+    },
+    "shield-dust": {
+        "Name": "Shield-dust",
+        "Description": ""
+    },
+    "own-tempo": {
+        "Name": "Own-tempo",
+        "Description": ""
+    },
+    "suction-cups": {
+        "Name": "Suction-cups",
+        "Description": ""
+    },
+    "intimidate": {
+        "Name": "Intimidate",
+        "Description": ""
+    },
+    "shadow-tag": {
+        "Name": "Shadow-tag",
+        "Description": ""
+    },
+    "rough-skin": {
+        "Name": "Rough-skin",
+        "Description": ""
+    },
+    "wonder-guard": {
+        "Name": "Wonder-guard",
+        "Description": ""
+    },
+    "levitate": {
+        "Name": "Levitate",
+        "Description": ""
+    },
+    "effect-spore": {
+        "Name": "Effect-spore",
+        "Description": ""
+    },
+    "synchronize": {
+        "Name": "Synchronize",
+        "Description": ""
+    },
+    "clear-body": {
+        "Name": "Clear-body",
+        "Description": ""
+    },
+    "natural-cure": {
+        "Name": "Natural-cure",
+        "Description": ""
+    },
+    "lightning-rod": {
+        "Name": "Lightning-rod",
+        "Description": ""
+    },
+    "serene-grace": {
+        "Name": "Serene-grace",
+        "Description": ""
+    },
+    "swift-swim": {
+        "Name": "Swift-swim",
+        "Description": ""
+    },
+    "chlorophyll": {
+        "Name": "Chlorophyll",
+        "Description": ""
+    },
+    "illuminate": {
+        "Name": "Illuminate",
+        "Description": ""
+    },
+    "trace": {
+        "Name": "Trace",
+        "Description": ""
+    },
+    "huge-power": {
+        "Name": "Huge-power",
+        "Description": ""
+    },
+    "poison-point": {
+        "Name": "Poison-point",
+        "Description": ""
+    },
+    "inner-focus": {
+        "Name": "Inner-focus",
+        "Description": ""
+    },
+    "magma-armor": {
+        "Name": "Magma-armor",
+        "Description": ""
+    },
+    "water-veil": {
+        "Name": "Water-veil",
+        "Description": ""
+    },
+    "magnet-pull": {
+        "Name": "Magnet-pull",
+        "Description": ""
+    },
+    "soundproof": {
+        "Name": "Soundproof",
+        "Description": ""
+    },
+    "rain-dish": {
+        "Name": "Rain-dish",
+        "Description": ""
+    },
+    "sand-stream": {
+        "Name": "Sand-stream",
+        "Description": ""
+    },
+    "pressure": {
+        "Name": "Pressure",
+        "Description": ""
+    },
+    "thick-fat": {
+        "Name": "Thick-fat",
+        "Description": ""
+    },
+    "early-bird": {
+        "Name": "Early-bird",
+        "Description": ""
+    },
+    "flame-body": {
+        "Name": "Flame-body",
+        "Description": ""
+    },
+    "run-away": {
+        "Name": "Run-away",
+        "Description": ""
+    },
+    "keen-eye": {
+        "Name": "Keen-eye",
+        "Description": ""
+    },
+    "hyper-cutter": {
+        "Name": "Hyper-cutter",
+        "Description": ""
+    },
+    "pickup": {
+        "Name": "Pickup",
+        "Description": ""
+    },
+    "truant": {
+        "Name": "Truant",
+        "Description": ""
+    },
+    "hustle": {
+        "Name": "Hustle",
+        "Description": ""
+    },
+    "cute-charm": {
+        "Name": "Cute-charm",
+        "Description": ""
+    },
+    "plus": {
+        "Name": "Plus",
+        "Description": ""
+    },
+    "minus": {
+        "Name": "Minus",
+        "Description": ""
+    },
+    "forecast": {
+        "Name": "Forecast",
+        "Description": ""
+    },
+    "sticky-hold": {
+        "Name": "Sticky-hold",
+        "Description": ""
+    },
+    "shed-skin": {
+        "Name": "Shed-skin",
+        "Description": ""
+    },
+    "guts": {
+        "Name": "Guts",
+        "Description": ""
+    },
+    "marvel-scale": {
+        "Name": "Marvel-scale",
+        "Description": ""
+    },
+    "liquid-ooze": {
+        "Name": "Liquid-ooze",
+        "Description": ""
+    },
+    "overgrow": {
+        "Name": "Overgrow",
+        "Description": ""
+    },
+    "blaze": {
+        "Name": "Blaze",
+        "Description": ""
+    },
+    "torrent": {
+        "Name": "Torrent",
+        "Description": ""
+    },
+    "swarm": {
+        "Name": "Swarm",
+        "Description": ""
+    },
+    "rock-head": {
+        "Name": "Rock-head",
+        "Description": ""
+    },
+    "drought": {
+        "Name": "Drought",
+        "Description": ""
+    },
+    "arena-trap": {
+        "Name": "Arena-trap",
+        "Description": ""
+    },
+    "vital-spirit": {
+        "Name": "Vital-spirit",
+        "Description": ""
+    },
+    "white-smoke": {
+        "Name": "White-smoke",
+        "Description": ""
+    },
+    "pure-power": {
+        "Name": "Pure-power",
+        "Description": ""
+    },
+    "shell-armor": {
+        "Name": "Shell-armor",
+        "Description": ""
+    },
+    "air-lock": {
+        "Name": "Air-lock",
+        "Description": ""
+    },
+    "tangled-feet": {
+        "Name": "Tangled-feet",
+        "Description": ""
+    },
+    "motor-drive": {
+        "Name": "Motor-drive",
+        "Description": ""
+    },
+    "rivalry": {
+        "Name": "Rivalry",
+        "Description": ""
+    },
+    "steadfast": {
+        "Name": "Steadfast",
+        "Description": ""
+    },
+    "snow-cloak": {
+        "Name": "Snow-cloak",
+        "Description": ""
+    },
+    "gluttony": {
+        "Name": "Gluttony",
+        "Description": ""
+    },
+    "anger-point": {
+        "Name": "Anger-point",
+        "Description": ""
+    },
+    "unburden": {
+        "Name": "Unburden",
+        "Description": ""
+    },
+    "heatproof": {
+        "Name": "Heatproof",
+        "Description": ""
+    },
+    "simple": {
+        "Name": "Simple",
+        "Description": ""
+    },
+    "dry-skin": {
+        "Name": "Dry-skin",
+        "Description": ""
+    },
+    "download": {
+        "Name": "Download",
+        "Description": ""
+    },
+    "iron-fist": {
+        "Name": "Iron-fist",
+        "Description": ""
+    },
+    "poison-heal": {
+        "Name": "Poison-heal",
+        "Description": ""
+    },
+    "adaptability": {
+        "Name": "Adaptability",
+        "Description": ""
+    },
+    "skill-link": {
+        "Name": "Skill-link",
+        "Description": ""
+    },
+    "hydration": {
+        "Name": "Hydration",
+        "Description": ""
+    },
+    "solar-power": {
+        "Name": "Solar-power",
+        "Description": ""
+    },
+    "quick-feet": {
+        "Name": "Quick-feet",
+        "Description": ""
+    },
+    "normalize": {
+        "Name": "Normalize",
+        "Description": ""
+    },
+    "sniper": {
+        "Name": "Sniper",
+        "Description": ""
+    },
+    "magic-guard": {
+        "Name": "Magic-guard",
+        "Description": ""
+    },
+    "no-guard": {
+        "Name": "No-guard",
+        "Description": ""
+    },
+    "stall": {
+        "Name": "Stall",
+        "Description": ""
+    },
+    "technician": {
+        "Name": "Technician",
+        "Description": ""
+    },
+    "leaf-guard": {
+        "Name": "Leaf-guard",
+        "Description": ""
+    },
+    "klutz": {
+        "Name": "Klutz",
+        "Description": ""
+    },
+    "mold-breaker": {
+        "Name": "Mold-breaker",
+        "Description": ""
+    },
+    "super-luck": {
+        "Name": "Super-luck",
+        "Description": ""
+    },
+    "aftermath": {
+        "Name": "Aftermath",
+        "Description": ""
+    },
+    "anticipation": {
+        "Name": "Anticipation",
+        "Description": ""
+    },
+    "forewarn": {
+        "Name": "Forewarn",
+        "Description": ""
+    },
+    "unaware": {
+        "Name": "Unaware",
+        "Description": ""
+    },
+    "tinted-lens": {
+        "Name": "Tinted-lens",
+        "Description": ""
+    },
+    "filter": {
+        "Name": "Filter",
+        "Description": ""
+    },
+    "slow-start": {
+        "Name": "Slow-start",
+        "Description": ""
+    },
+    "scrappy": {
+        "Name": "Scrappy",
+        "Description": ""
+    },
+    "storm-drain": {
+        "Name": "Storm-drain",
+        "Description": ""
+    },
+    "ice-body": {
+        "Name": "Ice-body",
+        "Description": ""
+    },
+    "solid-rock": {
+        "Name": "Solid-rock",
+        "Description": ""
+    },
+    "snow-warning": {
+        "Name": "Snow-warning",
+        "Description": ""
+    },
+    "honey-gather": {
+        "Name": "Honey-gather",
+        "Description": ""
+    },
+    "frisk": {
+        "Name": "Frisk",
+        "Description": ""
+    },
+    "reckless": {
+        "Name": "Reckless",
+        "Description": ""
+    },
+    "multitype": {
+        "Name": "Multitype",
+        "Description": ""
+    },
+    "flower-gift": {
+        "Name": "Flower-gift",
+        "Description": ""
+    },
+    "bad-dreams": {
+        "Name": "Bad-dreams",
+        "Description": ""
+    },
+    "pickpocket": {
+        "Name": "Pickpocket",
+        "Description": ""
+    },
+    "sheer-force": {
+        "Name": "Sheer-force",
+        "Description": ""
+    },
+    "contrary": {
+        "Name": "Contrary",
+        "Description": ""
+    },
+    "unnerve": {
+        "Name": "Unnerve",
+        "Description": ""
+    },
+    "defiant": {
+        "Name": "Defiant",
+        "Description": ""
+    },
+    "defeatist": {
+        "Name": "Defeatist",
+        "Description": ""
+    },
+    "cursed-body": {
+        "Name": "Cursed-body",
+        "Description": ""
+    },
+    "healer": {
+        "Name": "Healer",
+        "Description": ""
+    },
+    "friend-guard": {
+        "Name": "Friend-guard",
+        "Description": ""
+    },
+    "weak-armor": {
+        "Name": "Weak-armor",
+        "Description": ""
+    },
+    "heavy-metal": {
+        "Name": "Heavy-metal",
+        "Description": ""
+    },
+    "light-metal": {
+        "Name": "Light-metal",
+        "Description": ""
+    },
+    "multiscale": {
+        "Name": "Multiscale",
+        "Description": ""
+    },
+    "toxic-boost": {
+        "Name": "Toxic-boost",
+        "Description": ""
+    },
+    "flare-boost": {
+        "Name": "Flare-boost",
+        "Description": ""
+    },
+    "harvest": {
+        "Name": "Harvest",
+        "Description": ""
+    },
+    "telepathy": {
+        "Name": "Telepathy",
+        "Description": ""
+    },
+    "moody": {
+        "Name": "Moody",
+        "Description": ""
+    },
+    "overcoat": {
+        "Name": "Overcoat",
+        "Description": ""
+    },
+    "poison-touch": {
+        "Name": "Poison-touch",
+        "Description": ""
+    },
+    "regenerator": {
+        "Name": "Regenerator",
+        "Description": ""
+    },
+    "big-pecks": {
+        "Name": "Big-pecks",
+        "Description": ""
+    },
+    "sand-rush": {
+        "Name": "Sand-rush",
+        "Description": ""
+    },
+    "wonder-skin": {
+        "Name": "Wonder-skin",
+        "Description": ""
+    },
+    "analytic": {
+        "Name": "Analytic",
+        "Description": ""
+    },
+    "illusion": {
+        "Name": "Illusion",
+        "Description": ""
+    },
+    "imposter": {
+        "Name": "Imposter",
+        "Description": ""
+    },
+    "infiltrator": {
+        "Name": "Infiltrator",
+        "Description": ""
+    },
+    "mummy": {
+        "Name": "Mummy",
+        "Description": ""
+    },
+    "moxie": {
+        "Name": "Moxie",
+        "Description": ""
+    },
+    "justified": {
+        "Name": "Justified",
+        "Description": ""
+    },
+    "rattled": {
+        "Name": "Rattled",
+        "Description": ""
+    },
+    "magic-bounce": {
+        "Name": "Magic-bounce",
+        "Description": ""
+    },
+    "sap-sipper": {
+        "Name": "Sap-sipper",
+        "Description": ""
+    },
+    "prankster": {
+        "Name": "Prankster",
+        "Description": ""
+    },
+    "sand-force": {
+        "Name": "Sand-force",
+        "Description": ""
+    },
+    "iron-barbs": {
+        "Name": "Iron-barbs",
+        "Description": ""
+    },
+    "zen-mode": {
+        "Name": "Zen-mode",
+        "Description": ""
+    },
+    "victory-star": {
+        "Name": "Victory-star",
+        "Description": ""
+    },
+    "turboblaze": {
+        "Name": "Turboblaze",
+        "Description": ""
+    },
+    "teravolt": {
+        "Name": "Teravolt",
+        "Description": ""
+    },
+    "aroma-veil": {
+        "Name": "Aroma-veil",
+        "Description": ""
+    },
+    "flower-veil": {
+        "Name": "Flower-veil",
+        "Description": ""
+    },
+    "cheek-pouch": {
+        "Name": "Cheek-pouch",
+        "Description": ""
+    },
+    "protean": {
+        "Name": "Protean",
+        "Description": ""
+    },
+    "fur-coat": {
+        "Name": "Fur-coat",
+        "Description": ""
+    },
+    "magician": {
+        "Name": "Magician",
+        "Description": ""
+    },
+    "bulletproof": {
+        "Name": "Bulletproof",
+        "Description": ""
+    },
+    "competitive": {
+        "Name": "Competitive",
+        "Description": ""
+    },
+    "strong-jaw": {
+        "Name": "Strong-jaw",
+        "Description": ""
+    },
+    "refrigerate": {
+        "Name": "Refrigerate",
+        "Description": ""
+    },
+    "sweet-veil": {
+        "Name": "Sweet-veil",
+        "Description": ""
+    },
+    "stance-change": {
+        "Name": "Stance-change",
+        "Description": ""
+    },
+    "gale-wings": {
+        "Name": "Gale-wings",
+        "Description": ""
+    },
+    "mega-launcher": {
+        "Name": "Mega-launcher",
+        "Description": ""
+    },
+    "grass-pelt": {
+        "Name": "Grass-pelt",
+        "Description": ""
+    },
+    "symbiosis": {
+        "Name": "Symbiosis",
+        "Description": ""
+    },
+    "tough-claws": {
+        "Name": "Tough-claws",
+        "Description": ""
+    },
+    "pixilate": {
+        "Name": "Pixilate",
+        "Description": ""
+    },
+    "gooey": {
+        "Name": "Gooey",
+        "Description": ""
+    },
+    "aerilate": {
+        "Name": "Aerilate",
+        "Description": ""
+    },
+    "parental-bond": {
+        "Name": "Parental-bond",
+        "Description": ""
+    },
+    "dark-aura": {
+        "Name": "Dark-aura",
+        "Description": ""
+    },
+    "fairy-aura": {
+        "Name": "Fairy-aura",
+        "Description": ""
+    },
+    "aura-break": {
+        "Name": "Aura-break",
+        "Description": ""
+    },
+    "primordial-sea": {
+        "Name": "Primordial-sea",
+        "Description": ""
+    },
+    "desolate-land": {
+        "Name": "Desolate-land",
+        "Description": ""
+    },
+    "delta-stream": {
+        "Name": "Delta-stream",
+        "Description": ""
+    },
+    "stamina": {
+        "Name": "Stamina",
+        "Description": ""
+    },
+    "wimp-out": {
+        "Name": "Wimp-out",
+        "Description": ""
+    },
+    "emergency-exit": {
+        "Name": "Emergency-exit",
+        "Description": ""
+    },
+    "water-compaction": {
+        "Name": "Water-compaction",
+        "Description": ""
+    },
+    "merciless": {
+        "Name": "Merciless",
+        "Description": ""
+    },
+    "shields-down": {
+        "Name": "Shields-down",
+        "Description": ""
+    },
+    "stakeout": {
+        "Name": "Stakeout",
+        "Description": ""
+    },
+    "water-bubble": {
+        "Name": "Water-bubble",
+        "Description": ""
+    },
+    "steelworker": {
+        "Name": "Steelworker",
+        "Description": ""
+    },
+    "berserk": {
+        "Name": "Berserk",
+        "Description": ""
+    },
+    "slush-rush": {
+        "Name": "Slush-rush",
+        "Description": ""
+    },
+    "long-reach": {
+        "Name": "Long-reach",
+        "Description": ""
+    },
+    "liquid-voice": {
+        "Name": "Liquid-voice",
+        "Description": ""
+    },
+    "triage": {
+        "Name": "Triage",
+        "Description": ""
+    },
+    "galvanize": {
+        "Name": "Galvanize",
+        "Description": ""
+    },
+    "surge-surfer": {
+        "Name": "Surge-surfer",
+        "Description": ""
+    },
+    "schooling": {
+        "Name": "Schooling",
+        "Description": ""
+    },
+    "disguise": {
+        "Name": "Disguise",
+        "Description": ""
+    },
+    "battle-bond": {
+        "Name": "Battle-bond",
+        "Description": ""
+    },
+    "power-construct": {
+        "Name": "Power-construct",
+        "Description": ""
+    },
+    "corrosion": {
+        "Name": "Corrosion",
+        "Description": ""
+    },
+    "comatose": {
+        "Name": "Comatose",
+        "Description": ""
+    },
+    "queenly-majesty": {
+        "Name": "Queenly-majesty",
+        "Description": ""
+    },
+    "innards-out": {
+        "Name": "Innards-out",
+        "Description": ""
+    },
+    "dancer": {
+        "Name": "Dancer",
+        "Description": ""
+    },
+    "battery": {
+        "Name": "Battery",
+        "Description": ""
+    },
+    "fluffy": {
+        "Name": "Fluffy",
+        "Description": ""
+    },
+    "dazzling": {
+        "Name": "Dazzling",
+        "Description": ""
+    },
+    "soul-heart": {
+        "Name": "Soul-heart",
+        "Description": ""
+    },
+    "tangling-hair": {
+        "Name": "Tangling-hair",
+        "Description": ""
+    },
+    "receiver": {
+        "Name": "Receiver",
+        "Description": ""
+    },
+    "power-of-alchemy": {
+        "Name": "Power-of-alchemy",
+        "Description": ""
+    },
+    "beast-boost": {
+        "Name": "Beast-boost",
+        "Description": ""
+    },
+    "rks-system": {
+        "Name": "Rks-system",
+        "Description": ""
+    },
+    "electric-surge": {
+        "Name": "Electric-surge",
+        "Description": ""
+    },
+    "psychic-surge": {
+        "Name": "Psychic-surge",
+        "Description": ""
+    },
+    "misty-surge": {
+        "Name": "Misty-surge",
+        "Description": ""
+    },
+    "grassy-surge": {
+        "Name": "Grassy-surge",
+        "Description": ""
+    },
+    "full-metal-body": {
+        "Name": "Full-metal-body",
+        "Description": ""
+    },
+    "shadow-shield": {
+        "Name": "Shadow-shield",
+        "Description": ""
+    },
+    "prism-armor": {
+        "Name": "Prism-armor",
+        "Description": ""
+    },
+    "neuroforce": {
+        "Name": "Neuroforce",
+        "Description": ""
+    },
+    "intrepid-sword": {
+        "Name": "Intrepid-sword",
+        "Description": ""
+    },
+    "dauntless-shield": {
+        "Name": "Dauntless-shield",
+        "Description": ""
+    },
+    "libero": {
+        "Name": "Libero",
+        "Description": ""
+    },
+    "ball-fetch": {
+        "Name": "Ball-fetch",
+        "Description": ""
+    },
+    "cotton-down": {
+        "Name": "Cotton-down",
+        "Description": ""
+    },
+    "propeller-tail": {
+        "Name": "Propeller-tail",
+        "Description": ""
+    },
+    "mirror-armor": {
+        "Name": "Mirror-armor",
+        "Description": ""
+    },
+    "gulp-missile": {
+        "Name": "Gulp-missile",
+        "Description": ""
+    },
+    "stalwart": {
+        "Name": "Stalwart",
+        "Description": ""
+    },
+    "steam-engine": {
+        "Name": "Steam-engine",
+        "Description": ""
+    },
+    "punk-rock": {
+        "Name": "Punk-rock",
+        "Description": ""
+    },
+    "sand-spit": {
+        "Name": "Sand-spit",
+        "Description": ""
+    },
+    "ice-scales": {
+        "Name": "Ice-scales",
+        "Description": ""
+    },
+    "ripen": {
+        "Name": "Ripen",
+        "Description": ""
+    },
+    "ice-face": {
+        "Name": "Ice-face",
+        "Description": ""
+    },
+    "power-spot": {
+        "Name": "Power-spot",
+        "Description": ""
+    },
+    "mimicry": {
+        "Name": "Mimicry",
+        "Description": ""
+    },
+    "screen-cleaner": {
+        "Name": "Screen-cleaner",
+        "Description": ""
+    },
+    "steely-spirit": {
+        "Name": "Steely-spirit",
+        "Description": ""
+    },
+    "perish-body": {
+        "Name": "Perish-body",
+        "Description": ""
+    },
+    "wandering-spirit": {
+        "Name": "Wandering-spirit",
+        "Description": ""
+    },
+    "gorilla-tactics": {
+        "Name": "Gorilla-tactics",
+        "Description": ""
+    },
+    "neutralizing-gas": {
+        "Name": "Neutralizing-gas",
+        "Description": ""
+    },
+    "pastel-veil": {
+        "Name": "Pastel-veil",
+        "Description": ""
+    },
+    "hunger-switch": {
+        "Name": "Hunger-switch",
+        "Description": ""
+    },
+    "quick-draw": {
+        "Name": "Quick-draw",
+        "Description": ""
+    },
+    "unseen-fist": {
+        "Name": "Unseen-fist",
+        "Description": ""
+    },
+    "curious-medicine": {
+        "Name": "Curious-medicine",
+        "Description": ""
+    },
+    "transistor": {
+        "Name": "Transistor",
+        "Description": ""
+    },
+    "dragons-maw": {
+        "Name": "Dragons-maw",
+        "Description": ""
+    },
+    "chilling-neigh": {
+        "Name": "Chilling-neigh",
+        "Description": ""
+    },
+    "grim-neigh": {
+        "Name": "Grim-neigh",
+        "Description": ""
+    },
+    "as-one-glastrier": {
+        "Name": "As-one-glastrier",
+        "Description": ""
+    },
+    "as-one-spectrier": {
+        "Name": "As-one-spectrier",
+        "Description": ""
+    },
+    "lingering-aroma": {
+        "Name": "Lingering-aroma",
+        "Description": ""
+    },
+    "seed-sower": {
+        "Name": "Seed-sower",
+        "Description": ""
+    },
+    "thermal-exchange": {
+        "Name": "Thermal-exchange",
+        "Description": ""
+    },
+    "anger-shell": {
+        "Name": "Anger-shell",
+        "Description": ""
+    },
+    "purifying-salt": {
+        "Name": "Purifying-salt",
+        "Description": ""
+    },
+    "well-baked-body": {
+        "Name": "Well-baked-body",
+        "Description": ""
+    },
+    "wind-rider": {
+        "Name": "Wind-rider",
+        "Description": ""
+    },
+    "guard-dog": {
+        "Name": "Guard-dog",
+        "Description": ""
+    },
+    "rocky-payload": {
+        "Name": "Rocky-payload",
+        "Description": ""
+    },
+    "wind-power": {
+        "Name": "Wind-power",
+        "Description": ""
+    },
+    "zero-to-hero": {
+        "Name": "Zero-to-hero",
+        "Description": ""
+    },
+    "commander": {
+        "Name": "Commander",
+        "Description": ""
+    },
+    "electromorphosis": {
+        "Name": "Electromorphosis",
+        "Description": ""
+    },
+    "protosynthesis": {
+        "Name": "Protosynthesis",
+        "Description": ""
+    },
+    "quark-drive": {
+        "Name": "Quark-drive",
+        "Description": ""
+    },
+    "good-as-gold": {
+        "Name": "Good-as-gold",
+        "Description": ""
+    },
+    "vessel-of-ruin": {
+        "Name": "Vessel-of-ruin",
+        "Description": ""
+    },
+    "sword-of-ruin": {
+        "Name": "Sword-of-ruin",
+        "Description": ""
+    },
+    "tablets-of-ruin": {
+        "Name": "Tablets-of-ruin",
+        "Description": ""
+    },
+    "beads-of-ruin": {
+        "Name": "Beads-of-ruin",
+        "Description": ""
+    },
+    "orichalcum-pulse": {
+        "Name": "Orichalcum-pulse",
+        "Description": ""
+    },
+    "hadron-engine": {
+        "Name": "Hadron-engine",
+        "Description": ""
+    },
+    "opportunist": {
+        "Name": "Opportunist",
+        "Description": ""
+    },
+    "cud-chew": {
+        "Name": "Cud-chew",
+        "Description": ""
+    },
+    "sharpness": {
+        "Name": "Sharpness",
+        "Description": ""
+    },
+    "supreme-overlord": {
+        "Name": "Supreme-overlord",
+        "Description": ""
+    },
+    "costar": {
+        "Name": "Costar",
+        "Description": ""
+    },
+    "toxic-debris": {
+        "Name": "Toxic-debris",
+        "Description": ""
+    },
+    "armor-tail": {
+        "Name": "Armor-tail",
+        "Description": ""
+    },
+    "earth-eater": {
+        "Name": "Earth-eater",
+        "Description": ""
+    },
+    "mycelium-might": {
+        "Name": "Mycelium-might",
+        "Description": ""
+    },
+    "minds-eye": {
+        "Name": "Minds-eye",
+        "Description": ""
+    },
+    "supersweet-syrup": {
+        "Name": "Supersweet-syrup",
+        "Description": ""
+    },
+    "hospitality": {
+        "Name": "Hospitality",
+        "Description": ""
+    },
+    "toxic-chain": {
+        "Name": "Toxic-chain",
+        "Description": ""
+    },
+    "embody-aspect": {
+        "Name": "Embody-aspect",
+        "Description": ""
+    },
+    "tera-shift": {
+        "Name": "Tera-shift",
+        "Description": ""
+    },
+    "tera-shell": {
+        "Name": "Tera-shell",
+        "Description": ""
+    },
+    "teraform-zero": {
+        "Name": "Teraform-zero",
+        "Description": ""
+    },
+    "poison-puppeteer": {
+        "Name": "Poison-puppeteer",
+        "Description": ""
+    },
+    "piercing-drill": {
+        "Name": "Piercing-drill",
+        "Description": ""
+    },
+    "dragonize": {
+        "Name": "Dragonize",
+        "Description": ""
+    },
+    "mega-sol": {
+        "Name": "Mega-sol",
+        "Description": ""
+    },
+    "spicy-spray": {
+        "Name": "Spicy-spray",
+        "Description": ""
+    },
+    "eelevate": {
+        "Name": "Eelevate",
+        "Description": ""
+    },
+    "fire-mane": {
+        "Name": "Fire-mane",
+        "Description": ""
+    },
+    "aura-guard": {
+        "Name": "Aura-guard",
+        "Description": ""
+    },
+    "mountaineer": {
+        "Name": "Mountaineer",
+        "Description": ""
+    },
+    "wave-rider": {
+        "Name": "Wave-rider",
+        "Description": ""
+    },
+    "skater": {
+        "Name": "Skater",
+        "Description": ""
+    },
+    "thrust": {
+        "Name": "Thrust",
+        "Description": ""
+    },
+    "perception": {
+        "Name": "Perception",
+        "Description": ""
+    },
+    "parry": {
+        "Name": "Parry",
+        "Description": ""
+    },
+    "instinct": {
+        "Name": "Instinct",
+        "Description": ""
+    },
+    "dodge": {
+        "Name": "Dodge",
+        "Description": ""
+    },
+    "jagged-edge": {
+        "Name": "Jagged-edge",
+        "Description": ""
+    },
+    "frostbite": {
+        "Name": "Frostbite",
+        "Description": ""
+    },
+    "tenacity": {
+        "Name": "Tenacity",
+        "Description": ""
+    },
+    "pride": {
+        "Name": "Pride",
+        "Description": ""
+    },
+    "deep-sleep": {
+        "Name": "Deep-sleep",
+        "Description": ""
+    },
+    "power-nap": {
+        "Name": "Power-nap",
+        "Description": ""
+    },
+    "spirit": {
+        "Name": "Spirit",
+        "Description": ""
+    },
+    "warm-blanket": {
+        "Name": "Warm-blanket",
+        "Description": ""
+    },
+    "gulp": {
+        "Name": "Gulp",
+        "Description": ""
+    },
+    "herbivore": {
+        "Name": "Herbivore",
+        "Description": ""
+    },
+    "sandpit": {
+        "Name": "Sandpit",
+        "Description": ""
+    },
+    "hot-blooded": {
+        "Name": "Hot-blooded",
+        "Description": ""
+    },
+    "medic": {
+        "Name": "Medic",
+        "Description": ""
+    },
+    "life-force": {
+        "Name": "Life-force",
+        "Description": ""
+    },
+    "lunchbox": {
+        "Name": "Lunchbox",
+        "Description": ""
+    },
+    "nurse": {
+        "Name": "Nurse",
+        "Description": ""
+    },
+    "melee": {
+        "Name": "Melee",
+        "Description": ""
+    },
+    "sponge": {
+        "Name": "Sponge",
+        "Description": ""
+    },
+    "bodyguard": {
+        "Name": "Bodyguard",
+        "Description": ""
+    },
+    "hero": {
+        "Name": "Hero",
+        "Description": ""
+    },
+    "last-bastion": {
+        "Name": "Last-bastion",
+        "Description": ""
+    },
+    "stealth": {
+        "Name": "Stealth",
+        "Description": ""
+    },
+    "vanguard": {
+        "Name": "Vanguard",
+        "Description": ""
+    },
+    "nomad": {
+        "Name": "Nomad",
+        "Description": ""
+    },
+    "sequence": {
+        "Name": "Sequence",
+        "Description": ""
+    },
+    "grass-cloak": {
+        "Name": "Grass-cloak",
+        "Description": ""
+    },
+    "celebrate": {
+        "Name": "Celebrate",
+        "Description": ""
+    },
+    "lullaby": {
+        "Name": "Lullaby",
+        "Description": ""
+    },
+    "calming": {
+        "Name": "Calming",
+        "Description": ""
+    },
+    "daze": {
+        "Name": "Daze",
+        "Description": ""
+    },
+    "frighten": {
+        "Name": "Frighten",
+        "Description": ""
+    },
+    "interference": {
+        "Name": "Interference",
+        "Description": ""
+    },
+    "mood-maker": {
+        "Name": "Mood-maker",
+        "Description": ""
+    },
+    "confidence": {
+        "Name": "Confidence",
+        "Description": ""
+    },
+    "fortune": {
+        "Name": "Fortune",
+        "Description": ""
+    },
+    "bonanza": {
+        "Name": "Bonanza",
+        "Description": ""
+    },
+    "explode": {
+        "Name": "Explode",
+        "Description": ""
+    },
+    "omnipotent": {
+        "Name": "Omnipotent",
+        "Description": ""
+    },
+    "share": {
+        "Name": "Share",
+        "Description": ""
+    },
+    "black-hole": {
+        "Name": "Black-hole",
+        "Description": ""
+    },
+    "shadow-dash": {
+        "Name": "Shadow-dash",
+        "Description": ""
+    },
+    "sprint": {
+        "Name": "Sprint",
+        "Description": ""
+    },
+    "disgust": {
+        "Name": "Disgust",
+        "Description": ""
+    },
+    "high-rise": {
+        "Name": "High-rise",
+        "Description": ""
+    },
+    "climber": {
+        "Name": "Climber",
+        "Description": ""
+    },
+    "flame-boost": {
+        "Name": "Flame-boost",
+        "Description": ""
+    },
+    "aqua-boost": {
+        "Name": "Aqua-boost",
+        "Description": ""
+    },
+    "run-up": {
+        "Name": "Run-up",
+        "Description": ""
+    },
+    "conqueror": {
+        "Name": "Conqueror",
+        "Description": ""
+    },
+    "shackle": {
+        "Name": "Shackle",
+        "Description": ""
+    },
+    "decoy": {
+        "Name": "Decoy",
+        "Description": ""
+    },
+    "shield": {
+        "Name": "Shield",
+        "Description": ""
+    }
+}
