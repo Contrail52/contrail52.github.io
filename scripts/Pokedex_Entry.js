@@ -6,6 +6,7 @@ Utilizes https://pokeapi.co/ and https://github.com/PokeAPI/pokeapi-js-wrapper.
 */
 
 import {Pokedex} from "https://cdn.jsdelivr.net/gh/pokeapi/pokeapi-js-wrapper@2.0.2/src/index.js";
+import {PHB_Loader} from "/scripts/phb_loader.js";
 
 /* Utility Functions */
 async function fetchJSON(filepath){
@@ -343,11 +344,17 @@ const params = new URLSearchParams(window.location.search);
 const entry_name = params.get("name");
 
 // Fetch PHB JSON Database
-const phb_pokemon_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Pokedex/Pokedex.json");
-const phb_ability_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Abilitydex/Abilitydex.json");
-const phb_attack_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Attackdex/Attackdex.json");
+const PHB_Cache = await PHB_Loader.init();
+PHB_Cache.invalidateCache();
+const phb_pokemon_data = await PHB_Cache.loadPHBPokedex("Scarlet_League_3.0");
+const phb_ability_data = await PHB_Cache.loadPHBAbilitydex("Scarlet_League_3.0");
+const phb_attack_data = await PHB_Cache.loadPHBAttackdex("Scarlet_League_3.0");
+//const phb_pokemon_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Pokedex/Pokedex.json");
+//const phb_ability_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Abilitydex/Abilitydex.json");
+//const phb_attack_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Attackdex/Attackdex.json");
 
 // Fetch PokeAPI Database
+//config = new Config();
 const pokedex = await Pokedex.init();// Done to automatically cache the data from the request
 const pokemon = await pokedex.getPokemonByName(entry_name);
 const pokemon_species = await pokedex.getPokemonSpeciesByName(entry_name);

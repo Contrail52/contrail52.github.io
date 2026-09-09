@@ -17,6 +17,10 @@
 # This script will also output a warning if a subdirectory does not contain any html files to compile, suggesting that section could be refactored or is incomplete.
 #
 # TODO: Add a feature to audit weblinks to make sure there are no broken links anywhere
+#
+#
+# Additions:
+# - Added section to configure the "/scripts/config.js" file by filling in the database path and database hash
 
 
 
@@ -107,6 +111,7 @@ website_path = os.path.join(pwd, "web")
 
 error_file = os.path.join(pwd, "404.html")
 hash_file = os.path.join(pwd, "database.hash")
+config_file = os.path.join(pwd, "scripts/config.js")
 template_file = os.path.join(source_path, "template.html")
 error_contents_file = os.path.join(source_path, "404_contents.html")
 
@@ -193,6 +198,14 @@ except Exception as e:
     log_file_handle.close()
     sys.exit(1)
 #END_TRY
+
+
+
+# Build the config.js file
+config_contents = "class Config {{\n\tconstructor(config={{}}){{\n\t\tthis.databasePath = \"{DATABASE_DIRECTORY}\";\n\t\tthis.hash = \"{DATABASE_HASH_VALUE}\";\n\t\tthis.cache = {CACHE};\n\t}}\n}}\n\nexport {{ Config }}"
+with open(config_file, "w") as file:
+    print_log(log_file_handle, "Building config.js...")
+    file.write(config_contents.format(DATABASE_DIRECTORY = "/src/databases/", DATABASE_HASH_VALUE = database_hash_value, CACHE = "true"))
 
 
 # Last step, write database hash value to file
