@@ -349,9 +349,6 @@ PHB_Cache.invalidateCache();
 const phb_pokemon_data = await PHB_Cache.loadPHBPokedex("Scarlet_League_3.0");
 const phb_ability_data = await PHB_Cache.loadPHBAbilitydex("Scarlet_League_3.0");
 const phb_attack_data = await PHB_Cache.loadPHBAttackdex("Scarlet_League_3.0");
-//const phb_pokemon_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Pokedex/Pokedex.json");
-//const phb_ability_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Abilitydex/Abilitydex.json");
-//const phb_attack_data = await fetchJSON("/src/databases/Scarlet_League_3.0/Attackdex/Attackdex.json");
 
 // Fetch PokeAPI Database
 //config = new Config();
