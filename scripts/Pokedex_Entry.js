@@ -7,42 +7,8 @@ Utilizes https://pokeapi.co/ and https://github.com/PokeAPI/pokeapi-js-wrapper.
 
 import {Pokedex} from "https://cdn.jsdelivr.net/gh/pokeapi/pokeapi-js-wrapper@2.0.2/src/index.js";
 import {PHB_Loader} from "/scripts/phb_loader.js";
+import { formatStringArray, setElementData, getCurrentRuleset } from "/scripts/utils.js";
 
-/* Utility Functions */
-async function fetchJSON(filepath){
-	return await fetch(filepath).then(response => {
-		if (!response.ok){
-			throw new Error('HTTP Error! Status: ${response.status}');
-		}
-		return response.json();
-	});
-}
-function setElementData(elementID, data){
-	document.getElementById(elementID).innerHTML = data;
-}
-function formatStringArray(arr){
-	const size = arr.length;
-	
-	if (size == 0){
-		return "--";
-	}
-	else {
-		var arr2 = [];
-		for (const [index, str] of arr.entries()){
-			arr2.push(str.charAt(0).toUpperCase() + str.slice(1));
-		}
-		return arr2.reduce(function(a, b) { return a + ", " + b; });
-	}
-	return null;
-}
-
-function titleCase(str, delimiter){
-	var splitStr = str.toLowerCase().split(delimiter);
-	for (var i = 0; i < splitStr.length; i++){
-		splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
-	}
-	return splitStr.join(delimiter);
-}
 
 /* PHB Pokedex Database Functions */
 function formatASIText(asi){
@@ -58,6 +24,7 @@ function formatASIText(asi){
 	}
 	return null;
 }
+
 async function processPHBDatabase(phb_pokemon_data, entry_name){
 	// Process Title Info
 	setElementData("Species-Name", phb_pokemon_data[entry_name].Name);
@@ -289,19 +256,16 @@ async function processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_
 	for (const current_ability of current_abilities){
 		const ability_name = current_ability.ability.name;
 		if (ability_name !== null){
-			//const ability_title = titleCase(titleCase(ability_name, '-'), ' ');
 			const ability_api_data = await pokedex.getAbilityByName(ability_name);
 			const ability_title = getAbilityTitle(ability_api_data.names);
 			if (current_ability.is_hidden == true){
 				document.getElementById("hidden_ability_div").style = "display:inline";
 				document.getElementById("Ability_Name_HA").style = "display:inline";
-				//document.getElementById("Ability_Name_HA").href = "../Abilitydex/Ability_Entry.html?name=" + ability_name;
 				const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
 				setElementData("Ability_Name_HA", div_data);
 			}
 			else{
 				document.getElementById("Ability_Name_" + current_ability.slot).style = "display:inline";
-				//document.getElementById("Ability_Name_" + current_ability.slot).href = "../Abilitydex/Ability_Entry.html?name=" + ability_name;
 				const div_data = formatAbilityText(phb_ability_data, ability_name, ability_title);
 				setElementData("Ability_Name_" + current_ability.slot, div_data);
 			}
@@ -339,6 +303,8 @@ async function processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_
 
 // Entry Point
 
+const ruleset = getCurrentRuleset();
+
 // Retrieve the pokedex ID from the URL search parameters
 const params = new URLSearchParams(window.location.search);
 const entry_name = params.get("name");
@@ -346,12 +312,11 @@ const entry_name = params.get("name");
 // Fetch PHB JSON Database
 const PHB_Cache = await PHB_Loader.init();
 PHB_Cache.invalidateCache();
-const phb_pokemon_data = await PHB_Cache.loadPHBPokedex("Scarlet_League_3.0");
-const phb_ability_data = await PHB_Cache.loadPHBAbilitydex("Scarlet_League_3.0");
-const phb_attack_data = await PHB_Cache.loadPHBAttackdex("Scarlet_League_3.0");
+const phb_pokemon_data = await PHB_Cache.loadPHBPokedex(ruleset);
+const phb_ability_data = await PHB_Cache.loadPHBAbilitydex(ruleset);
+const phb_attack_data = await PHB_Cache.loadPHBAttackdex(ruleset);
 
 // Fetch PokeAPI Database
-//config = new Config();
 const pokedex = await Pokedex.init();// Done to automatically cache the data from the request
 const pokemon = await pokedex.getPokemonByName(entry_name);
 const pokemon_species = await pokedex.getPokemonSpeciesByName(entry_name);
