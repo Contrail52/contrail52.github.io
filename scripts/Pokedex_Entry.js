@@ -7,7 +7,7 @@ Utilizes https://pokeapi.co/ and https://github.com/PokeAPI/pokeapi-js-wrapper.
 
 import {Pokedex} from "https://cdn.jsdelivr.net/gh/pokeapi/pokeapi-js-wrapper@2.0.2/src/index.js";
 import {PHB_Loader} from "/scripts/phb_loader.js";
-import { formatStringArray, setElementData, getCurrentRuleset } from "/scripts/utils.js";
+import { formatStringArray, setElementData, getCurrentRuleset, formatString } from "/scripts/utils.js";
 
 
 /* PHB Pokedex Database Functions */
@@ -301,8 +301,109 @@ async function processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_
 	}
 }
 
-// Entry Point
+async function getLineage(pokedex, entry_name){
+	let lineage = [entry_name];
+	const pokemon_species = await pokedex.getPokemonSpeciesByName(entry_name);
+	const predecessor = pokemon_species.evolves_from_species;
+	if (predecessor !== null) {
+		const res = await getLineage(pokedex, predecessor.name);
+		lineage.push(...res);
+	}
+	return lineage;
+}
 
+async function getMovesets(pokedex, lineage){
+	let egg_moves = [];
+	let learned_moves = [];
+	let machine_moves = [];
+	let tutor_moves = [];
+	let train_moves = []; // Champions learnset
+	let other_moves = []; // Other niche learn methods
+	
+	for (const species of lineage){
+		const pokemon = await pokedex.getPokemonByName(species);
+		for (const move of pokemon.moves ){
+			const move_name = move.move.name;
+			for (const details of move.version_group_details)
+				switch (details.move_learn_method.name) {
+					case "egg":
+						egg_moves.push(move_name);
+						break;
+					case "level-up":
+						learned_moves.push(move_name);
+						break;
+					case "machine":
+						machine_moves.push(move_name);
+						break;
+					case "tutor":
+						tutor_moves.push(move_name);
+						break;
+					case "train":
+						train_moves.push(move_name);
+						break;
+					default:
+						other_moves.push(move_name);
+						break;
+				}
+		}
+	}
+	
+	// Filter down arrays
+	egg_moves = egg_moves.filter((el) => !learned_moves.includes(el));
+	other_moves = other_moves.filter((el) => !learned_moves.includes(el));
+	train_moves = train_moves.filter((el) => !learned_moves.includes(el));
+	tutor_moves = tutor_moves.filter((el) => !learned_moves.includes(el));
+	
+	other_moves = other_moves.filter((el) => !egg_moves.includes(el));
+	train_moves = train_moves.filter((el) => !egg_moves.includes(el));
+	
+	other_moves = other_moves.filter((el) => !tutor_moves.includes(el));
+	train_moves = train_moves.filter((el) => !tutor_moves.includes(el));
+	
+	other_moves = other_moves.filter((el) => !machine_moves.includes(el));
+	train_moves = train_moves.filter((el) => !machine_moves.includes(el));
+	
+	train_moves = train_moves.filter((el) => !other_moves.includes(el));
+	
+	return { "egg": [...new Set(egg_moves.sort())], "levelup": [...new Set(learned_moves.sort())], "machine": [...new Set(machine_moves.sort())], "tutor": [...new Set(tutor_moves.sort())], "train": [...new Set(train_moves.sort())], "other": [...new Set(other_moves.sort())] };
+}
+
+async function buildAttackTable(href, moveset, phb_attack_dex) {
+	const table_entry_template = "".concat("<tr>",
+				"<td class=\"table-attack-name\" rowspan=\"3\"><a href=\"{0}\">{1}</td>",
+				"<td class=\"table-attack-cen\"><img src=\"/images/type_banners/{2}.png\" alt=\"{2}\"></td>",
+				"<td class=\"table-attack-cen\">{3}</td>",
+				"<td class=\"table-attack-cen\">{4}</td>",
+				"<td class=\"table-attack-cen\">{5}</td>",
+				"<td class=\"table-attack-cen\">{6}</td>",
+				"<td class=\"table-attack-cen\">{7}</td>",
+				"</tr>",
+				"<tr><td class=\"table-attack-info-top\" colspan=\"6\">{8}</td></tr>",
+				"<tr><td class=\"table-attack-info-bot\" colspan=\"6\"><b>Higher Levels: </b>{9}</td></tr>");
+	
+	let table_data = "";
+	for (const move of moveset) {
+		let move_name = move;
+		if (phb_attack_dex[move].Redirect !== ""){
+			move_name = phb_attack_dex[move].Redirect;
+		}
+		const href_full = href.concat("/Attackdex/Attack_Entry.html?name=", move_name);
+		const name = phb_attack_dex[move_name].Name;
+		const type = phb_attack_dex[move_name].Type;
+		const power = phb_attack_dex[move_name].Power;
+		const time = phb_attack_dex[move_name].Time;
+		const duration = phb_attack_dex[move_name].Duration;
+		const range = phb_attack_dex[move_name].Range;
+		const exhaustion = phb_attack_dex[move_name].Exhaustion;
+		const description = phb_attack_dex[move_name].Description;
+		const higher_levels = phb_attack_dex[move_name].Higher_Levels;
+		
+		table_data = table_data.concat(formatString(table_entry_template, href_full, name, type, power, time, duration, range, exhaustion, description, higher_levels));
+	}
+	return table_data;
+}
+
+// Entry Point
 const ruleset = getCurrentRuleset();
 
 // Retrieve the pokedex ID from the URL search parameters
@@ -325,3 +426,21 @@ processPHBDatabase(phb_pokemon_data, entry_name);
 processPokeAPIDatabase(pokemon, pokemon_species);
 
 processAbilities(pokedex, pokemon, phb_pokemon_data, phb_ability_data, entry_name);
+
+// Build Moveset Tables
+const lineage = await getLineage(pokedex, entry_name)
+const moveset = await getMovesets(pokedex, lineage);
+console.log(moveset);
+const egg_move_table = await buildAttackTable("/web/".concat(ruleset), moveset.egg, phb_attack_data);
+const levelup_move_table = await buildAttackTable("/web/".concat(ruleset), moveset.levelup, phb_attack_data);
+const machine_move_table = await buildAttackTable("/web/".concat(ruleset), moveset.machine, phb_attack_data);
+const tutor_move_table = await buildAttackTable("/web/".concat(ruleset), moveset.tutor, phb_attack_data);
+const champions_move_table = await buildAttackTable("/web/".concat(ruleset), moveset.train, phb_attack_data);
+const other_move_table = await buildAttackTable("/web/".concat(ruleset), moveset.other, phb_attack_data);
+
+setElementData("Egg_Move_Table-body", egg_move_table);
+setElementData("Levelup_Move_Table-body", levelup_move_table);
+setElementData("Machine_Move_Table-body", machine_move_table);
+setElementData("Tutor_Move_Table-body", tutor_move_table);
+setElementData("Champions_Move_Table-body", champions_move_table);
+setElementData("Other_Move_Table-body", other_move_table);

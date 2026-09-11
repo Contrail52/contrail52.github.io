@@ -200,13 +200,24 @@
 		</div>
 	</div>
 </div>
+<script>
+	function toggleTable(id) {
+		var table = document.getElementById(id);
+		if (table.style.display === "none") {
+			table.style.display = "block";
+		}
+		else {
+			table.style.display = "none";
+		}
+	}
+</script>
 <div class="h2-block"><h2>Mainline Learnset</h2></div>
 <div class="table-container" id="Egg_Move_Table_Container">
-	<div class="table-title">Egg Moves</div>
-	<table class="table-attack" id="Egg_Move_Table"> <!-- Egg Move Table -->
+	<div class="table-title" onClick="toggleTable('Egg_Move_Table')">Egg Moves</div>
+	<table class="table-attack" id="Egg_Move_Table">
 		<thead>
 			<tr>
-				<th class="table-attack-header">Attack Name</th>
+				<th class="table-attack-header-name">Attack Name</th>
 				<th class="table-attack-header">Type</th>
 				<th class="table-attack-header">Move Power</th>
 				<th class="table-attack-header">Move Time</th>
@@ -215,7 +226,7 @@
 				<th class="table-attack-header">Exhaustion</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="Egg_Move_Table-body">
 			<tr>
 				<td class="table-attack-name" rowspan="3">Thunder Punch</td>
 				<td class="table-attack-cen"><img src="/images/type_banners/electric.png" alt="Electric"></td>
@@ -239,6 +250,91 @@
 			<tr><td class="table-attack-info-top" colspan="6">You protect yourself by wrapping your body up in thick, soft cotton. For the duration, boost your AC by +4.</td></tr>
 			<tr><td class="table-attack-info-bot" colspan="6"><b>Higher Levels: </b></td></tr>
 		</tbody>
+	</table>
+</div>
+<div class="table-container" id="Levelup_Move_Table_Container">
+	<div class="table-title" onClick="toggleTable('Levelup_Move_Table')">Level-Up Moves</div>
+	<table class="table-attack" id="Levelup_Move_Table">
+		<thead>
+			<tr>
+				<th class="table-attack-header-name">Attack Name</th>
+				<th class="table-attack-header">Type</th>
+				<th class="table-attack-header">Move Power</th>
+				<th class="table-attack-header">Move Time</th>
+				<th class="table-attack-header">Duration</th>
+				<th class="table-attack-header">Range</th>
+				<th class="table-attack-header">Exhaustion</th>
+			</tr>
+		</thead>
+		<tbody id="Levelup_Move_Table-body"></tbody>
+	</table>
+</div>
+<div class="table-container" id="Machine_Move_Table_Container">
+	<div class="table-title" onClick="toggleTable('Machine_Move_Table')">TR/TM/HM Moves</div>
+	<table class="table-attack" id="Machine_Move_Table">
+		<thead>
+			<tr>
+				<th class="table-attack-header-name">Attack Name</th>
+				<th class="table-attack-header">Type</th>
+				<th class="table-attack-header">Move Power</th>
+				<th class="table-attack-header">Move Time</th>
+				<th class="table-attack-header">Duration</th>
+				<th class="table-attack-header">Range</th>
+				<th class="table-attack-header">Exhaustion</th>
+			</tr>
+		</thead>
+		<tbody id="Machine_Move_Table-body"></tbody>
+	</table>
+</div>
+<div class="table-container" id="Tutor_Move_Table_Container">
+	<div class="table-title" onClick="toggleTable('Tutor_Move_Table')">Tutor Moves</div>
+	<table class="table-attack" id="Tutor_Move_Table">
+		<thead>
+			<tr>
+				<th class="table-attack-header-name">Attack Name</th>
+				<th class="table-attack-header">Type</th>
+				<th class="table-attack-header">Move Power</th>
+				<th class="table-attack-header">Move Time</th>
+				<th class="table-attack-header">Duration</th>
+				<th class="table-attack-header">Range</th>
+				<th class="table-attack-header">Exhaustion</th>
+			</tr>
+		</thead>
+		<tbody id="Tutor_Move_Table-body"></tbody>
+	</table>
+</div>
+<div class="table-container" id="Champions_Move_Table_Container">
+	<div class="table-title" onClick="toggleTable('Champions_Move_Table')">Champions Only Moves</div>
+	<table class="table-attack" id="Champions_Move_Table">
+		<thead>
+			<tr>
+				<th class="table-attack-header-name">Attack Name</th>
+				<th class="table-attack-header">Type</th>
+				<th class="table-attack-header">Move Power</th>
+				<th class="table-attack-header">Move Time</th>
+				<th class="table-attack-header">Duration</th>
+				<th class="table-attack-header">Range</th>
+				<th class="table-attack-header">Exhaustion</th>
+			</tr>
+		</thead>
+		<tbody id="Champions_Move_Table-body"></tbody>
+	</table>
+</div>
+<div class="table-container" id="Other_Move_Table_Container">
+	<div class="table-title" onClick="toggleTable('Other_Move_Table')">Miscellaneous Moves</div>
+	<table class="table-attack" id="Other_Move_Table">
+		<thead>
+			<tr>
+				<th class="table-attack-header-name">Attack Name</th>
+				<th class="table-attack-header">Type</th>
+				<th class="table-attack-header">Move Power</th>
+				<th class="table-attack-header">Move Time</th>
+				<th class="table-attack-header">Duration</th>
+				<th class="table-attack-header">Range</th>
+				<th class="table-attack-header">Exhaustion</th>
+			</tr>
+		</thead>
+		<tbody id="Other_Move_Table-body"></tbody>
 	</table>
 </div>
 		

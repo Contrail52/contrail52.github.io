@@ -68,7 +68,7 @@ default_evo_text = "{name1} can evolve into {name2} at level {lvl} and above. Wh
 
 # Attackdex
 power = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
-type = ("???", "Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy")
+type = ("Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy")
 exhaustion = ("S+", "S", "S-", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-")
 
 # Ruleset and Database Object Definitions

@@ -36,4 +36,10 @@ function getCurrentRuleset(){
 	return url.split(subdomain)[1].split("/")[0];
 }
 
-export { fetchJSON, setElementData, formatStringArray, getCurrentRuleset };
+function formatString(str, ...values) {
+  return str.replace(/{(\d+)}/g, function(match, index) {
+    return typeof values[index] !== 'undefined' ? values[index] : match;
+  });
+}
+
+export { fetchJSON, setElementData, formatStringArray, getCurrentRuleset, formatString };

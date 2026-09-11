@@ -1,1 +1,1498 @@
-{}
+{
+    "stench": {
+        "Name": "",
+        "Description": ""
+    },
+    "drizzle": {
+        "Name": "",
+        "Description": ""
+    },
+    "speed-boost": {
+        "Name": "",
+        "Description": ""
+    },
+    "battle-armor": {
+        "Name": "",
+        "Description": ""
+    },
+    "sturdy": {
+        "Name": "",
+        "Description": ""
+    },
+    "damp": {
+        "Name": "",
+        "Description": ""
+    },
+    "limber": {
+        "Name": "",
+        "Description": ""
+    },
+    "sand-veil": {
+        "Name": "",
+        "Description": ""
+    },
+    "static": {
+        "Name": "",
+        "Description": ""
+    },
+    "volt-absorb": {
+        "Name": "",
+        "Description": ""
+    },
+    "water-absorb": {
+        "Name": "",
+        "Description": ""
+    },
+    "oblivious": {
+        "Name": "",
+        "Description": ""
+    },
+    "cloud-nine": {
+        "Name": "",
+        "Description": ""
+    },
+    "compound-eyes": {
+        "Name": "",
+        "Description": ""
+    },
+    "insomnia": {
+        "Name": "",
+        "Description": ""
+    },
+    "color-change": {
+        "Name": "",
+        "Description": ""
+    },
+    "immunity": {
+        "Name": "",
+        "Description": ""
+    },
+    "flash-fire": {
+        "Name": "",
+        "Description": ""
+    },
+    "shield-dust": {
+        "Name": "",
+        "Description": ""
+    },
+    "own-tempo": {
+        "Name": "",
+        "Description": ""
+    },
+    "suction-cups": {
+        "Name": "",
+        "Description": ""
+    },
+    "intimidate": {
+        "Name": "",
+        "Description": ""
+    },
+    "shadow-tag": {
+        "Name": "",
+        "Description": ""
+    },
+    "rough-skin": {
+        "Name": "",
+        "Description": ""
+    },
+    "wonder-guard": {
+        "Name": "",
+        "Description": ""
+    },
+    "levitate": {
+        "Name": "",
+        "Description": ""
+    },
+    "effect-spore": {
+        "Name": "",
+        "Description": ""
+    },
+    "synchronize": {
+        "Name": "",
+        "Description": ""
+    },
+    "clear-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "natural-cure": {
+        "Name": "",
+        "Description": ""
+    },
+    "lightning-rod": {
+        "Name": "",
+        "Description": ""
+    },
+    "serene-grace": {
+        "Name": "",
+        "Description": ""
+    },
+    "swift-swim": {
+        "Name": "",
+        "Description": ""
+    },
+    "chlorophyll": {
+        "Name": "",
+        "Description": ""
+    },
+    "illuminate": {
+        "Name": "",
+        "Description": ""
+    },
+    "trace": {
+        "Name": "",
+        "Description": ""
+    },
+    "huge-power": {
+        "Name": "",
+        "Description": ""
+    },
+    "poison-point": {
+        "Name": "",
+        "Description": ""
+    },
+    "inner-focus": {
+        "Name": "",
+        "Description": ""
+    },
+    "magma-armor": {
+        "Name": "",
+        "Description": ""
+    },
+    "water-veil": {
+        "Name": "",
+        "Description": ""
+    },
+    "magnet-pull": {
+        "Name": "",
+        "Description": ""
+    },
+    "soundproof": {
+        "Name": "",
+        "Description": ""
+    },
+    "rain-dish": {
+        "Name": "",
+        "Description": ""
+    },
+    "sand-stream": {
+        "Name": "",
+        "Description": ""
+    },
+    "pressure": {
+        "Name": "",
+        "Description": ""
+    },
+    "thick-fat": {
+        "Name": "",
+        "Description": ""
+    },
+    "early-bird": {
+        "Name": "",
+        "Description": ""
+    },
+    "flame-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "run-away": {
+        "Name": "",
+        "Description": ""
+    },
+    "keen-eye": {
+        "Name": "",
+        "Description": ""
+    },
+    "hyper-cutter": {
+        "Name": "",
+        "Description": ""
+    },
+    "pickup": {
+        "Name": "",
+        "Description": ""
+    },
+    "truant": {
+        "Name": "",
+        "Description": ""
+    },
+    "hustle": {
+        "Name": "",
+        "Description": ""
+    },
+    "cute-charm": {
+        "Name": "",
+        "Description": ""
+    },
+    "plus": {
+        "Name": "",
+        "Description": ""
+    },
+    "minus": {
+        "Name": "",
+        "Description": ""
+    },
+    "forecast": {
+        "Name": "",
+        "Description": ""
+    },
+    "sticky-hold": {
+        "Name": "",
+        "Description": ""
+    },
+    "shed-skin": {
+        "Name": "",
+        "Description": ""
+    },
+    "guts": {
+        "Name": "",
+        "Description": ""
+    },
+    "marvel-scale": {
+        "Name": "",
+        "Description": ""
+    },
+    "liquid-ooze": {
+        "Name": "",
+        "Description": ""
+    },
+    "overgrow": {
+        "Name": "",
+        "Description": ""
+    },
+    "blaze": {
+        "Name": "",
+        "Description": ""
+    },
+    "torrent": {
+        "Name": "",
+        "Description": ""
+    },
+    "swarm": {
+        "Name": "",
+        "Description": ""
+    },
+    "rock-head": {
+        "Name": "",
+        "Description": ""
+    },
+    "drought": {
+        "Name": "",
+        "Description": ""
+    },
+    "arena-trap": {
+        "Name": "",
+        "Description": ""
+    },
+    "vital-spirit": {
+        "Name": "",
+        "Description": ""
+    },
+    "white-smoke": {
+        "Name": "",
+        "Description": ""
+    },
+    "pure-power": {
+        "Name": "",
+        "Description": ""
+    },
+    "shell-armor": {
+        "Name": "",
+        "Description": ""
+    },
+    "air-lock": {
+        "Name": "",
+        "Description": ""
+    },
+    "tangled-feet": {
+        "Name": "",
+        "Description": ""
+    },
+    "motor-drive": {
+        "Name": "",
+        "Description": ""
+    },
+    "rivalry": {
+        "Name": "",
+        "Description": ""
+    },
+    "steadfast": {
+        "Name": "",
+        "Description": ""
+    },
+    "snow-cloak": {
+        "Name": "",
+        "Description": ""
+    },
+    "gluttony": {
+        "Name": "",
+        "Description": ""
+    },
+    "anger-point": {
+        "Name": "",
+        "Description": ""
+    },
+    "unburden": {
+        "Name": "",
+        "Description": ""
+    },
+    "heatproof": {
+        "Name": "",
+        "Description": ""
+    },
+    "simple": {
+        "Name": "",
+        "Description": ""
+    },
+    "dry-skin": {
+        "Name": "",
+        "Description": ""
+    },
+    "download": {
+        "Name": "",
+        "Description": ""
+    },
+    "iron-fist": {
+        "Name": "",
+        "Description": ""
+    },
+    "poison-heal": {
+        "Name": "",
+        "Description": ""
+    },
+    "adaptability": {
+        "Name": "",
+        "Description": ""
+    },
+    "skill-link": {
+        "Name": "",
+        "Description": ""
+    },
+    "hydration": {
+        "Name": "",
+        "Description": ""
+    },
+    "solar-power": {
+        "Name": "",
+        "Description": ""
+    },
+    "quick-feet": {
+        "Name": "",
+        "Description": ""
+    },
+    "normalize": {
+        "Name": "",
+        "Description": ""
+    },
+    "sniper": {
+        "Name": "",
+        "Description": ""
+    },
+    "magic-guard": {
+        "Name": "",
+        "Description": ""
+    },
+    "no-guard": {
+        "Name": "",
+        "Description": ""
+    },
+    "stall": {
+        "Name": "",
+        "Description": ""
+    },
+    "technician": {
+        "Name": "",
+        "Description": ""
+    },
+    "leaf-guard": {
+        "Name": "",
+        "Description": ""
+    },
+    "klutz": {
+        "Name": "",
+        "Description": ""
+    },
+    "mold-breaker": {
+        "Name": "",
+        "Description": ""
+    },
+    "super-luck": {
+        "Name": "",
+        "Description": ""
+    },
+    "aftermath": {
+        "Name": "",
+        "Description": ""
+    },
+    "anticipation": {
+        "Name": "",
+        "Description": ""
+    },
+    "forewarn": {
+        "Name": "",
+        "Description": ""
+    },
+    "unaware": {
+        "Name": "",
+        "Description": ""
+    },
+    "tinted-lens": {
+        "Name": "",
+        "Description": ""
+    },
+    "filter": {
+        "Name": "",
+        "Description": ""
+    },
+    "slow-start": {
+        "Name": "",
+        "Description": ""
+    },
+    "scrappy": {
+        "Name": "",
+        "Description": ""
+    },
+    "storm-drain": {
+        "Name": "",
+        "Description": ""
+    },
+    "ice-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "solid-rock": {
+        "Name": "",
+        "Description": ""
+    },
+    "snow-warning": {
+        "Name": "",
+        "Description": ""
+    },
+    "honey-gather": {
+        "Name": "",
+        "Description": ""
+    },
+    "frisk": {
+        "Name": "",
+        "Description": ""
+    },
+    "reckless": {
+        "Name": "",
+        "Description": ""
+    },
+    "multitype": {
+        "Name": "",
+        "Description": ""
+    },
+    "flower-gift": {
+        "Name": "",
+        "Description": ""
+    },
+    "bad-dreams": {
+        "Name": "",
+        "Description": ""
+    },
+    "pickpocket": {
+        "Name": "",
+        "Description": ""
+    },
+    "sheer-force": {
+        "Name": "",
+        "Description": ""
+    },
+    "contrary": {
+        "Name": "",
+        "Description": ""
+    },
+    "unnerve": {
+        "Name": "",
+        "Description": ""
+    },
+    "defiant": {
+        "Name": "",
+        "Description": ""
+    },
+    "defeatist": {
+        "Name": "",
+        "Description": ""
+    },
+    "cursed-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "healer": {
+        "Name": "",
+        "Description": ""
+    },
+    "friend-guard": {
+        "Name": "",
+        "Description": ""
+    },
+    "weak-armor": {
+        "Name": "",
+        "Description": ""
+    },
+    "heavy-metal": {
+        "Name": "",
+        "Description": ""
+    },
+    "light-metal": {
+        "Name": "",
+        "Description": ""
+    },
+    "multiscale": {
+        "Name": "",
+        "Description": ""
+    },
+    "toxic-boost": {
+        "Name": "",
+        "Description": ""
+    },
+    "flare-boost": {
+        "Name": "",
+        "Description": ""
+    },
+    "harvest": {
+        "Name": "",
+        "Description": ""
+    },
+    "telepathy": {
+        "Name": "",
+        "Description": ""
+    },
+    "moody": {
+        "Name": "",
+        "Description": ""
+    },
+    "overcoat": {
+        "Name": "",
+        "Description": ""
+    },
+    "poison-touch": {
+        "Name": "",
+        "Description": ""
+    },
+    "regenerator": {
+        "Name": "",
+        "Description": ""
+    },
+    "big-pecks": {
+        "Name": "",
+        "Description": ""
+    },
+    "sand-rush": {
+        "Name": "",
+        "Description": ""
+    },
+    "wonder-skin": {
+        "Name": "",
+        "Description": ""
+    },
+    "analytic": {
+        "Name": "",
+        "Description": ""
+    },
+    "illusion": {
+        "Name": "",
+        "Description": ""
+    },
+    "imposter": {
+        "Name": "",
+        "Description": ""
+    },
+    "infiltrator": {
+        "Name": "",
+        "Description": ""
+    },
+    "mummy": {
+        "Name": "",
+        "Description": ""
+    },
+    "moxie": {
+        "Name": "",
+        "Description": ""
+    },
+    "justified": {
+        "Name": "",
+        "Description": ""
+    },
+    "rattled": {
+        "Name": "",
+        "Description": ""
+    },
+    "magic-bounce": {
+        "Name": "",
+        "Description": ""
+    },
+    "sap-sipper": {
+        "Name": "",
+        "Description": ""
+    },
+    "prankster": {
+        "Name": "",
+        "Description": ""
+    },
+    "sand-force": {
+        "Name": "",
+        "Description": ""
+    },
+    "iron-barbs": {
+        "Name": "",
+        "Description": ""
+    },
+    "zen-mode": {
+        "Name": "",
+        "Description": ""
+    },
+    "victory-star": {
+        "Name": "",
+        "Description": ""
+    },
+    "turboblaze": {
+        "Name": "",
+        "Description": ""
+    },
+    "teravolt": {
+        "Name": "",
+        "Description": ""
+    },
+    "aroma-veil": {
+        "Name": "",
+        "Description": ""
+    },
+    "flower-veil": {
+        "Name": "",
+        "Description": ""
+    },
+    "cheek-pouch": {
+        "Name": "",
+        "Description": ""
+    },
+    "protean": {
+        "Name": "",
+        "Description": ""
+    },
+    "fur-coat": {
+        "Name": "",
+        "Description": ""
+    },
+    "magician": {
+        "Name": "",
+        "Description": ""
+    },
+    "bulletproof": {
+        "Name": "",
+        "Description": ""
+    },
+    "competitive": {
+        "Name": "",
+        "Description": ""
+    },
+    "strong-jaw": {
+        "Name": "",
+        "Description": ""
+    },
+    "refrigerate": {
+        "Name": "",
+        "Description": ""
+    },
+    "sweet-veil": {
+        "Name": "",
+        "Description": ""
+    },
+    "stance-change": {
+        "Name": "",
+        "Description": ""
+    },
+    "gale-wings": {
+        "Name": "",
+        "Description": ""
+    },
+    "mega-launcher": {
+        "Name": "",
+        "Description": ""
+    },
+    "grass-pelt": {
+        "Name": "",
+        "Description": ""
+    },
+    "symbiosis": {
+        "Name": "",
+        "Description": ""
+    },
+    "tough-claws": {
+        "Name": "",
+        "Description": ""
+    },
+    "pixilate": {
+        "Name": "",
+        "Description": ""
+    },
+    "gooey": {
+        "Name": "",
+        "Description": ""
+    },
+    "aerilate": {
+        "Name": "",
+        "Description": ""
+    },
+    "parental-bond": {
+        "Name": "",
+        "Description": ""
+    },
+    "dark-aura": {
+        "Name": "",
+        "Description": ""
+    },
+    "fairy-aura": {
+        "Name": "",
+        "Description": ""
+    },
+    "aura-break": {
+        "Name": "",
+        "Description": ""
+    },
+    "primordial-sea": {
+        "Name": "",
+        "Description": ""
+    },
+    "desolate-land": {
+        "Name": "",
+        "Description": ""
+    },
+    "delta-stream": {
+        "Name": "",
+        "Description": ""
+    },
+    "stamina": {
+        "Name": "",
+        "Description": ""
+    },
+    "wimp-out": {
+        "Name": "",
+        "Description": ""
+    },
+    "emergency-exit": {
+        "Name": "",
+        "Description": ""
+    },
+    "water-compaction": {
+        "Name": "",
+        "Description": ""
+    },
+    "merciless": {
+        "Name": "",
+        "Description": ""
+    },
+    "shields-down": {
+        "Name": "",
+        "Description": ""
+    },
+    "stakeout": {
+        "Name": "",
+        "Description": ""
+    },
+    "water-bubble": {
+        "Name": "",
+        "Description": ""
+    },
+    "steelworker": {
+        "Name": "",
+        "Description": ""
+    },
+    "berserk": {
+        "Name": "",
+        "Description": ""
+    },
+    "slush-rush": {
+        "Name": "",
+        "Description": ""
+    },
+    "long-reach": {
+        "Name": "",
+        "Description": ""
+    },
+    "liquid-voice": {
+        "Name": "",
+        "Description": ""
+    },
+    "triage": {
+        "Name": "",
+        "Description": ""
+    },
+    "galvanize": {
+        "Name": "",
+        "Description": ""
+    },
+    "surge-surfer": {
+        "Name": "",
+        "Description": ""
+    },
+    "schooling": {
+        "Name": "",
+        "Description": ""
+    },
+    "disguise": {
+        "Name": "",
+        "Description": ""
+    },
+    "battle-bond": {
+        "Name": "",
+        "Description": ""
+    },
+    "power-construct": {
+        "Name": "",
+        "Description": ""
+    },
+    "corrosion": {
+        "Name": "",
+        "Description": ""
+    },
+    "comatose": {
+        "Name": "",
+        "Description": ""
+    },
+    "queenly-majesty": {
+        "Name": "",
+        "Description": ""
+    },
+    "innards-out": {
+        "Name": "",
+        "Description": ""
+    },
+    "dancer": {
+        "Name": "",
+        "Description": ""
+    },
+    "battery": {
+        "Name": "",
+        "Description": ""
+    },
+    "fluffy": {
+        "Name": "",
+        "Description": ""
+    },
+    "dazzling": {
+        "Name": "",
+        "Description": ""
+    },
+    "soul-heart": {
+        "Name": "",
+        "Description": ""
+    },
+    "tangling-hair": {
+        "Name": "",
+        "Description": ""
+    },
+    "receiver": {
+        "Name": "",
+        "Description": ""
+    },
+    "power-of-alchemy": {
+        "Name": "",
+        "Description": ""
+    },
+    "beast-boost": {
+        "Name": "",
+        "Description": ""
+    },
+    "rks-system": {
+        "Name": "",
+        "Description": ""
+    },
+    "electric-surge": {
+        "Name": "",
+        "Description": ""
+    },
+    "psychic-surge": {
+        "Name": "",
+        "Description": ""
+    },
+    "misty-surge": {
+        "Name": "",
+        "Description": ""
+    },
+    "grassy-surge": {
+        "Name": "",
+        "Description": ""
+    },
+    "full-metal-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "shadow-shield": {
+        "Name": "",
+        "Description": ""
+    },
+    "prism-armor": {
+        "Name": "",
+        "Description": ""
+    },
+    "neuroforce": {
+        "Name": "",
+        "Description": ""
+    },
+    "intrepid-sword": {
+        "Name": "",
+        "Description": ""
+    },
+    "dauntless-shield": {
+        "Name": "",
+        "Description": ""
+    },
+    "libero": {
+        "Name": "",
+        "Description": ""
+    },
+    "ball-fetch": {
+        "Name": "",
+        "Description": ""
+    },
+    "cotton-down": {
+        "Name": "",
+        "Description": ""
+    },
+    "propeller-tail": {
+        "Name": "",
+        "Description": ""
+    },
+    "mirror-armor": {
+        "Name": "",
+        "Description": ""
+    },
+    "gulp-missile": {
+        "Name": "",
+        "Description": ""
+    },
+    "stalwart": {
+        "Name": "",
+        "Description": ""
+    },
+    "steam-engine": {
+        "Name": "",
+        "Description": ""
+    },
+    "punk-rock": {
+        "Name": "",
+        "Description": ""
+    },
+    "sand-spit": {
+        "Name": "",
+        "Description": ""
+    },
+    "ice-scales": {
+        "Name": "",
+        "Description": ""
+    },
+    "ripen": {
+        "Name": "",
+        "Description": ""
+    },
+    "ice-face": {
+        "Name": "",
+        "Description": ""
+    },
+    "power-spot": {
+        "Name": "",
+        "Description": ""
+    },
+    "mimicry": {
+        "Name": "",
+        "Description": ""
+    },
+    "screen-cleaner": {
+        "Name": "",
+        "Description": ""
+    },
+    "steely-spirit": {
+        "Name": "",
+        "Description": ""
+    },
+    "perish-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "wandering-spirit": {
+        "Name": "",
+        "Description": ""
+    },
+    "gorilla-tactics": {
+        "Name": "",
+        "Description": ""
+    },
+    "neutralizing-gas": {
+        "Name": "",
+        "Description": ""
+    },
+    "pastel-veil": {
+        "Name": "",
+        "Description": ""
+    },
+    "hunger-switch": {
+        "Name": "",
+        "Description": ""
+    },
+    "quick-draw": {
+        "Name": "",
+        "Description": ""
+    },
+    "unseen-fist": {
+        "Name": "",
+        "Description": ""
+    },
+    "curious-medicine": {
+        "Name": "",
+        "Description": ""
+    },
+    "transistor": {
+        "Name": "",
+        "Description": ""
+    },
+    "dragons-maw": {
+        "Name": "",
+        "Description": ""
+    },
+    "chilling-neigh": {
+        "Name": "",
+        "Description": ""
+    },
+    "grim-neigh": {
+        "Name": "",
+        "Description": ""
+    },
+    "as-one-glastrier": {
+        "Name": "",
+        "Description": ""
+    },
+    "as-one-spectrier": {
+        "Name": "",
+        "Description": ""
+    },
+    "lingering-aroma": {
+        "Name": "",
+        "Description": ""
+    },
+    "seed-sower": {
+        "Name": "",
+        "Description": ""
+    },
+    "thermal-exchange": {
+        "Name": "",
+        "Description": ""
+    },
+    "anger-shell": {
+        "Name": "",
+        "Description": ""
+    },
+    "purifying-salt": {
+        "Name": "",
+        "Description": ""
+    },
+    "well-baked-body": {
+        "Name": "",
+        "Description": ""
+    },
+    "wind-rider": {
+        "Name": "",
+        "Description": ""
+    },
+    "guard-dog": {
+        "Name": "",
+        "Description": ""
+    },
+    "rocky-payload": {
+        "Name": "",
+        "Description": ""
+    },
+    "wind-power": {
+        "Name": "",
+        "Description": ""
+    },
+    "zero-to-hero": {
+        "Name": "",
+        "Description": ""
+    },
+    "commander": {
+        "Name": "",
+        "Description": ""
+    },
+    "electromorphosis": {
+        "Name": "",
+        "Description": ""
+    },
+    "protosynthesis": {
+        "Name": "",
+        "Description": ""
+    },
+    "quark-drive": {
+        "Name": "",
+        "Description": ""
+    },
+    "good-as-gold": {
+        "Name": "",
+        "Description": ""
+    },
+    "vessel-of-ruin": {
+        "Name": "",
+        "Description": ""
+    },
+    "sword-of-ruin": {
+        "Name": "",
+        "Description": ""
+    },
+    "tablets-of-ruin": {
+        "Name": "",
+        "Description": ""
+    },
+    "beads-of-ruin": {
+        "Name": "",
+        "Description": ""
+    },
+    "orichalcum-pulse": {
+        "Name": "",
+        "Description": ""
+    },
+    "hadron-engine": {
+        "Name": "",
+        "Description": ""
+    },
+    "opportunist": {
+        "Name": "",
+        "Description": ""
+    },
+    "cud-chew": {
+        "Name": "",
+        "Description": ""
+    },
+    "sharpness": {
+        "Name": "",
+        "Description": ""
+    },
+    "supreme-overlord": {
+        "Name": "",
+        "Description": ""
+    },
+    "costar": {
+        "Name": "",
+        "Description": ""
+    },
+    "toxic-debris": {
+        "Name": "",
+        "Description": ""
+    },
+    "armor-tail": {
+        "Name": "",
+        "Description": ""
+    },
+    "earth-eater": {
+        "Name": "",
+        "Description": ""
+    },
+    "mycelium-might": {
+        "Name": "",
+        "Description": ""
+    },
+    "minds-eye": {
+        "Name": "",
+        "Description": ""
+    },
+    "supersweet-syrup": {
+        "Name": "",
+        "Description": ""
+    },
+    "hospitality": {
+        "Name": "",
+        "Description": ""
+    },
+    "toxic-chain": {
+        "Name": "",
+        "Description": ""
+    },
+    "embody-aspect": {
+        "Name": "",
+        "Description": ""
+    },
+    "tera-shift": {
+        "Name": "",
+        "Description": ""
+    },
+    "tera-shell": {
+        "Name": "",
+        "Description": ""
+    },
+    "teraform-zero": {
+        "Name": "",
+        "Description": ""
+    },
+    "poison-puppeteer": {
+        "Name": "",
+        "Description": ""
+    },
+    "piercing-drill": {
+        "Name": "",
+        "Description": ""
+    },
+    "dragonize": {
+        "Name": "",
+        "Description": ""
+    },
+    "mega-sol": {
+        "Name": "",
+        "Description": ""
+    },
+    "spicy-spray": {
+        "Name": "",
+        "Description": ""
+    },
+    "eelevate": {
+        "Name": "",
+        "Description": ""
+    },
+    "fire-mane": {
+        "Name": "",
+        "Description": ""
+    },
+    "aura-guard": {
+        "Name": "",
+        "Description": ""
+    },
+    "mountaineer": {
+        "Name": "",
+        "Description": ""
+    },
+    "wave-rider": {
+        "Name": "",
+        "Description": ""
+    },
+    "skater": {
+        "Name": "",
+        "Description": ""
+    },
+    "thrust": {
+        "Name": "",
+        "Description": ""
+    },
+    "perception": {
+        "Name": "",
+        "Description": ""
+    },
+    "parry": {
+        "Name": "",
+        "Description": ""
+    },
+    "instinct": {
+        "Name": "",
+        "Description": ""
+    },
+    "dodge": {
+        "Name": "",
+        "Description": ""
+    },
+    "jagged-edge": {
+        "Name": "",
+        "Description": ""
+    },
+    "frostbite": {
+        "Name": "",
+        "Description": ""
+    },
+    "tenacity": {
+        "Name": "",
+        "Description": ""
+    },
+    "pride": {
+        "Name": "",
+        "Description": ""
+    },
+    "deep-sleep": {
+        "Name": "",
+        "Description": ""
+    },
+    "power-nap": {
+        "Name": "",
+        "Description": ""
+    },
+    "spirit": {
+        "Name": "",
+        "Description": ""
+    },
+    "warm-blanket": {
+        "Name": "",
+        "Description": ""
+    },
+    "gulp": {
+        "Name": "",
+        "Description": ""
+    },
+    "herbivore": {
+        "Name": "",
+        "Description": ""
+    },
+    "sandpit": {
+        "Name": "",
+        "Description": ""
+    },
+    "hot-blooded": {
+        "Name": "",
+        "Description": ""
+    },
+    "medic": {
+        "Name": "",
+        "Description": ""
+    },
+    "life-force": {
+        "Name": "",
+        "Description": ""
+    },
+    "lunchbox": {
+        "Name": "",
+        "Description": ""
+    },
+    "nurse": {
+        "Name": "",
+        "Description": ""
+    },
+    "melee": {
+        "Name": "",
+        "Description": ""
+    },
+    "sponge": {
+        "Name": "",
+        "Description": ""
+    },
+    "bodyguard": {
+        "Name": "",
+        "Description": ""
+    },
+    "hero": {
+        "Name": "",
+        "Description": ""
+    },
+    "last-bastion": {
+        "Name": "",
+        "Description": ""
+    },
+    "stealth": {
+        "Name": "",
+        "Description": ""
+    },
+    "vanguard": {
+        "Name": "",
+        "Description": ""
+    },
+    "nomad": {
+        "Name": "",
+        "Description": ""
+    },
+    "sequence": {
+        "Name": "",
+        "Description": ""
+    },
+    "grass-cloak": {
+        "Name": "",
+        "Description": ""
+    },
+    "celebrate": {
+        "Name": "",
+        "Description": ""
+    },
+    "lullaby": {
+        "Name": "",
+        "Description": ""
+    },
+    "calming": {
+        "Name": "",
+        "Description": ""
+    },
+    "daze": {
+        "Name": "",
+        "Description": ""
+    },
+    "frighten": {
+        "Name": "",
+        "Description": ""
+    },
+    "interference": {
+        "Name": "",
+        "Description": ""
+    },
+    "mood-maker": {
+        "Name": "",
+        "Description": ""
+    },
+    "confidence": {
+        "Name": "",
+        "Description": ""
+    },
+    "fortune": {
+        "Name": "",
+        "Description": ""
+    },
+    "bonanza": {
+        "Name": "",
+        "Description": ""
+    },
+    "explode": {
+        "Name": "",
+        "Description": ""
+    },
+    "omnipotent": {
+        "Name": "",
+        "Description": ""
+    },
+    "share": {
+        "Name": "",
+        "Description": ""
+    },
+    "black-hole": {
+        "Name": "",
+        "Description": ""
+    },
+    "shadow-dash": {
+        "Name": "",
+        "Description": ""
+    },
+    "sprint": {
+        "Name": "",
+        "Description": ""
+    },
+    "disgust": {
+        "Name": "",
+        "Description": ""
+    },
+    "high-rise": {
+        "Name": "",
+        "Description": ""
+    },
+    "climber": {
+        "Name": "",
+        "Description": ""
+    },
+    "flame-boost": {
+        "Name": "",
+        "Description": ""
+    },
+    "aqua-boost": {
+        "Name": "",
+        "Description": ""
+    },
+    "run-up": {
+        "Name": "",
+        "Description": ""
+    },
+    "conqueror": {
+        "Name": "",
+        "Description": ""
+    },
+    "shackle": {
+        "Name": "",
+        "Description": ""
+    },
+    "decoy": {
+        "Name": "",
+        "Description": ""
+    },
+    "shield": {
+        "Name": "",
+        "Description": ""
+    }
+}

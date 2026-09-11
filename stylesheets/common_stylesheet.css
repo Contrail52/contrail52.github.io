@@ -17,6 +17,10 @@
 	box-sizing: border-box;
 }
 
+a {
+	color: var(--clr-primary-a20);
+}
+
 html,
 body {
 	margin: 0;
