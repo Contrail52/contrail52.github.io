@@ -401,7 +401,7 @@
     },
     "technician": {
         "Name": "Technician",
-        "Description": "For weak, damaging moves activated by this Pok\u00e9mon, they may add a single additional damage die. <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Technician_(Ability)\">(List of moves affected by Technician can be found on Bulbapedia.)<\/a>"
+        "Description": "For weak, damaging moves activated by this Pok\u00e9mon, they may add a single additional damage die. <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Technician_(Ability)\" target=\"_blank\" rel=\"noopener noreferrer\">(List of moves affected by Technician can be found on Bulbapedia.)<\/a>"
     },
     "leaf-guard": {
         "Name": "Leaf Guard",
@@ -621,7 +621,7 @@
     },
     "magic-bounce": {
         "Name": "Magic Bounce",
-        "Description": "A number of times equal to your proficiency modifier per long rest, when you are subjected to a <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Magic_Coat_(move)#Affected_moves\">reflectable move<\/a>, this Pok\u00e9mon can instead reflect the effect back on the attacker."
+        "Description": "A number of times equal to your proficiency modifier per long rest, when you are subjected to a <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Magic_Coat_(move)#Affected_moves\" target=\"_blank\" rel=\"noopener noreferrer\">reflectable move<\/a>, this Pok\u00e9mon can instead reflect the effect back on the attacker."
     },
     "sap-sipper": {
         "Name": "Sap Sipper",

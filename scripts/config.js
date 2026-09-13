@@ -1,7 +1,7 @@
 class Config {
 	constructor(config={}){
 		this.databasePath = "/src/databases/";
-		this.hash = "7826ac960c76e929b772c724a2f909a1";
+		this.hash = "29cad3c18c96ace8875cef6889d04131";
 		this.cache = true;
 	}
 }
