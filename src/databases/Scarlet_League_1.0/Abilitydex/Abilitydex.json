@@ -1,755 +1,755 @@
 {
     "stench": {
-        "Name": "",
-        "Description": ""
+        "Name": "Stench",
+        "Description": "When this Pok\u00e9mon is hit by a melee attack, roll a d10. On a 10, the attacker flinches."
     },
     "drizzle": {
-        "Name": "",
-        "Description": ""
+        "Name": "Drizzle",
+        "Description": "When this Pok\u00e9mon enters an outside battle, the weather immediately changes to light rain for 5 rounds."
     },
     "speed-boost": {
-        "Name": "",
-        "Description": ""
+        "Name": "Speed Boost",
+        "Description": "This Pok\u00e9mon's speed is increased by 10 feet while in an environment related to its type (DM discretion)."
     },
     "battle-armor": {
-        "Name": "",
-        "Description": ""
+        "Name": "Battle Armor",
+        "Description": "This Pok\u00e9mon gains +2 AC until the end of their next turn if they exclusively use damage dealing moves on their turn."
     },
     "sturdy": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sturdy",
+        "Description": "When taking damage equal to half or more of your current HP, roll a d4. On a result of 3 or 4, half the damage dealt."
     },
     "damp": {
-        "Name": "",
-        "Description": ""
+        "Name": "Damp",
+        "Description": "This Pok\u00e9mon is unaffected by explosive moves and abilities, and gains two levels of resistance to Fire-type moves. Additionally, non-Water-types with this ability gain STAB with water moves."
     },
     "limber": {
-        "Name": "",
-        "Description": ""
+        "Name": "Limber",
+        "Description": "This Pok\u00e9mon is immune to being paralyzed."
     },
     "sand-veil": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sand Veil",
+        "Description": "This Pok\u00e9mon is immune to Sandstorm damage. In addition, its AC increases by 2 in desert terrain, or during a Sandstorm."
     },
     "static": {
-        "Name": "",
-        "Description": ""
+        "Name": "Static",
+        "Description": "When this Pok\u00e9mon is hit byu a melee attack, roll a d4. On a result of 4, the attack takes an amount of electric damage equal to this Pok\u00e9mon's proficiency bonus."
     },
     "volt-absorb": {
-        "Name": "",
-        "Description": ""
+        "Name": "Volt Absorb",
+        "Description": "This Pok\u00e9mon takes no damage from electricity or electric-type attacks. Instead, half of any electric damage done is absorbed, restoring the Pok\u00e9mon's HP."
     },
     "water-absorb": {
-        "Name": "",
-        "Description": ""
+        "Name": "Water Absorb",
+        "Description": "This Pok\u00e9mon takes no damage from water or water-type attacks. Instead, half of any water damage done is absorbed, restoring the Pok\u00e9mon's HP."
     },
     "oblivious": {
-        "Name": "",
-        "Description": ""
+        "Name": "Oblivious",
+        "Description": "This Pok\u00e9mon is immune to moves that attempt to charm or taunt it."
     },
     "cloud-nine": {
-        "Name": "",
-        "Description": ""
+        "Name": "Cloud Nine",
+        "Description": "While this Pok\u00e9mon is in battle, weather-related abilities have no effect on the Pok\u00e9mon that have them."
     },
     "compound-eyes": {
-        "Name": "",
-        "Description": ""
+        "Name": "Compound Eyes",
+        "Description": "This Pok\u00e9mon gets an additional +1 to attack rolls."
     },
     "insomnia": {
-        "Name": "",
-        "Description": ""
+        "Name": "Insomnia",
+        "Description": "This Pok\u00e9mon is immune to sleep."
     },
     "color-change": {
-        "Name": "",
-        "Description": ""
+        "Name": "Color Change",
+        "Description": "When hit by a damaging attack, this Pok\u00e9mon's type changes to the type that hit it. It takes on the new type's resistances, vulnerabilities, and immunities."
     },
     "immunity": {
-        "Name": "",
-        "Description": ""
+        "Name": "Immunity",
+        "Description": "This Pok\u00e9mon is immune to becoming poisoned."
     },
     "flash-fire": {
-        "Name": "",
-        "Description": ""
+        "Name": "Flash Fire",
+        "Description": "This Pok\u00e9mon takes no damage from fire or fire-type attacks. Instead, immediately after taking a hit from a fire-type move, or in open flames, double the STAB bonus on the next fire-type move."
     },
     "shield-dust": {
-        "Name": "",
-        "Description": ""
+        "Name": "Shield Dust",
+        "Description": "Once per long rest, this Pok\u00e9mon can ignore a negative status condition that results from an enemy move."
     },
     "own-tempo": {
-        "Name": "",
-        "Description": ""
+        "Name": "Own Tempo",
+        "Description": "This Pok\u00e9mon is immune to becoming confused."
     },
     "suction-cups": {
-        "Name": "",
-        "Description": ""
+        "Name": "Suction Cups",
+        "Description": "This Pok\u00e9mon cannot be moved unwillingly. Additionally, when maintaining a grapple, this Pok\u00e9mon has advantage on all rolls to keep the target grappled."
     },
     "intimidate": {
-        "Name": "",
-        "Description": ""
+        "Name": "Intimidate",
+        "Description": "Once per short rest, you can impose disadvantage on an enemy attack roll of your choice. You also gain proficiency in Intimidation."
     },
     "shadow-tag": {
-        "Name": "",
-        "Description": ""
+        "Name": "Shadow Tag",
+        "Description": "Creatures within 50 feet of this Pok\u00e9mon may no flee or switch out, except by item, move, or ability."
     },
     "rough-skin": {
-        "Name": "",
-        "Description": ""
+        "Name": "Rough Skin",
+        "Description": "When this Pok\u00e9mon is hit by a melee attack, it may roll a d4. On a 4, deal an amount of typeless damage equal to its proficiency modifier to its attacker."
     },
     "wonder-guard": {
-        "Name": "",
-        "Description": ""
+        "Name": "Wonder Guard",
+        "Description": "This Pok\u00e9mon is immune to damaging attacks from types that are not in its vulnerabilities list. Only Shedinja can have this ability. This ability cannot be passed or swapped."
     },
     "levitate": {
-        "Name": "",
-        "Description": ""
+        "Name": "Levitate",
+        "Description": "This Pok\u00e9mon is immune to ground moves."
     },
     "effect-spore": {
-        "Name": "",
-        "Description": ""
+        "Name": "Effect Spore",
+        "Description": "When hit by a melee attack, roll a d4. On a 4, roll another d4. The second d4 can poison, paralyze, confuse, or flinch the attacker."
     },
     "synchronize": {
-        "Name": "",
-        "Description": ""
+        "Name": "Synchronize",
+        "Description": "If this Pok\u00e9mon becomes burned, paralyzed, or poisoned, its attacker receives the negative status condition as well (if not immune)."
     },
     "clear-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Clear Body",
+        "Description": "Other Pok\u00e9mon's moves or abilities cannot lower this Pok\u00e9mon's stats."
     },
     "natural-cure": {
-        "Name": "",
-        "Description": ""
+        "Name": "Natural Cure",
+        "Description": "Upon gaining a negative status effect, this Pok\u00e9mon can choose to roll a d4. On a result of 4, this Pok\u00e9mon is immediately cured."
     },
     "lightning-rod": {
-        "Name": "",
-        "Description": ""
+        "Name": "Lightning Rod",
+        "Description": "If this Pok\u00e9mon or an ally within 30 feet is targeted with a direct electric-type, damage-dealing move, the Pok\u00e9mon may use a reaction to nullify the damage dealt to themselves, or halve the damage dealt to an ally."
     },
     "serene-grace": {
-        "Name": "",
-        "Description": ""
+        "Name": "Serene Grace",
+        "Description": "The Move DC to pass a saving throw against one of this Pok\u00e9mon's moves is increased by 1."
     },
     "swift-swim": {
-        "Name": "",
-        "Description": ""
+        "Name": "Swift Swim",
+        "Description": "This Pok\u00e9mon's speed is doubled in rainy conditions."
     },
     "chlorophyll": {
-        "Name": "",
-        "Description": ""
+        "Name": "Chlorophyll",
+        "Description": "This Pok\u00e9mon's speed is doubled in harsh sunlight."
     },
     "illuminate": {
-        "Name": "",
-        "Description": ""
+        "Name": "Illuminate",
+        "Description": "This Pok\u00e9mon knows the Light cantrip and can cast it at will."
     },
     "trace": {
-        "Name": "",
-        "Description": ""
+        "Name": "Trace",
+        "Description": "This Pok\u00e9mon copies a random ability of an opponent when entering battle. The ability cannot be Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode."
     },
     "huge-power": {
-        "Name": "",
-        "Description": ""
+        "Name": "Huge Power",
+        "Description": "Once per short rest, this Pok\u00e9mon may double the damage dice for a single damage roll. The player must announce that they are using this ability before the attack roll."
     },
     "poison-point": {
-        "Name": "",
-        "Description": ""
+        "Name": "Poison Point",
+        "Description": "When this Pok\u00e9mon is hit with a melee attack, roll a d4. On a result of 4, the attacker takes an amount of poison damage equal to thie Pok\u00e9mon's proficiency modifier."
     },
     "inner-focus": {
-        "Name": "",
-        "Description": ""
+        "Name": "Inner Focus",
+        "Description": "This Pok\u00e9mon is immune to flinching."
     },
     "magma-armor": {
-        "Name": "",
-        "Description": ""
+        "Name": "Magma Armor",
+        "Description": "This Pok\u00e9mon gains +2 AC in harsh sunlight."
     },
     "water-veil": {
-        "Name": "",
-        "Description": ""
+        "Name": "Water Veil",
+        "Description": "This Pok\u00e9mon gains +2 AC in rain."
     },
     "magnet-pull": {
-        "Name": "",
-        "Description": ""
+        "Name": "Magnet Pull",
+        "Description": "Steel opponents in battle with this Pok\u00e9mon have their speeds reduced by half."
     },
     "soundproof": {
-        "Name": "",
-        "Description": ""
+        "Name": "Soundproof",
+        "Description": "This Pok\u00e9mon is immune to sound-based moves."
     },
     "rain-dish": {
-        "Name": "",
-        "Description": ""
+        "Name": "Rain Dish",
+        "Description": "In rainy conditions, this Pok\u00e9mon heals for an amount or HP equal to its proficiency bonus at the end of its turns."
     },
     "sand-stream": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sand Stream",
+        "Description": "When this Pok\u00e9mon enters an outside battle, the weather immediately changes to a Sandstorm for 5 rounds."
     },
     "pressure": {
-        "Name": "",
-        "Description": ""
+        "Name": "Pressure",
+        "Description": "Any move targeting this Pok\u00e9mon directly (non-area of effect moves) doubles the stamina drain on the user when activated."
     },
     "thick-fat": {
-        "Name": "",
-        "Description": ""
+        "Name": "Thick Fat",
+        "Description": "This Pok\u00e9mon takes half the damage it otherwise would from ice and fire damage."
     },
     "early-bird": {
-        "Name": "",
-        "Description": ""
+        "Name": "Early Bird",
+        "Description": "For a number of times equal to their proficiency modifier per long rest, this Pok\u00e9mon can choose to use a move with the time of \"1 action\" as a bonus action instead. Additionally, they have advantage on rolls to wake up from sleep."
     },
     "flame-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Flame Body",
+        "Description": "The flames from this Pok\u00e9mon's body shine dim light in a 15 foot radius. In addition, when hit by a melee attack, roll a d10. On a 10, the attacker is burned. You also gain a single level of resistance to fire-type moves."
     },
     "run-away": {
-        "Name": "",
-        "Description": ""
+        "Name": "Run Away",
+        "Description": "This Pok\u00e9mon cannot be the target of an attack of opportunity."
     },
     "keen-eye": {
-        "Name": "",
-        "Description": ""
+        "Name": "Keen Eye",
+        "Description": "This Pok\u00e9mon ignores disadvantage when it relates to sight. You also gain proficiency in Perception."
     },
     "hyper-cutter": {
-        "Name": "",
-        "Description": ""
+        "Name": "Hyper Cutter",
+        "Description": "This Pok\u00e9mon's attack or damage bonuses cannot be decreased by an opponent's moves."
     },
     "pickup": {
-        "Name": "",
-        "Description": ""
+        "Name": "Pickup",
+        "Description": "If an opponent uses a consumable held item in battle, this Pok\u00e9mon gains a copy of it if it is not currently holding an item."
     },
     "truant": {
-        "Name": "",
-        "Description": ""
+        "Name": "Truant",
+        "Description": "This Pok\u00e9mon cannot use the same move in back to back rounds."
     },
     "hustle": {
-        "Name": "",
-        "Description": ""
+        "Name": "Hustle",
+        "Description": "When you score a critical hit, you may immediately gain an additional action on your turn. If this action is used to make an attack, you have disadvantage on the roll. You may only ever have one additional action per round."
     },
     "cute-charm": {
-        "Name": "",
-        "Description": ""
+        "Name": "Cute Charm",
+        "Description": "Once per short rest, you can impose a flat -5 on an enemy attack roll of your choice as a reaction."
     },
     "plus": {
-        "Name": "",
-        "Description": ""
+        "Name": "Plus",
+        "Description": "This Pok\u00e9mon boosts its attack and damage rolls by 2 if an ally also has the Plus or Minus ability."
     },
     "minus": {
-        "Name": "",
-        "Description": ""
+        "Name": "Minus",
+        "Description": "This Pok\u00e9mon boosts its attack and damage rolls by 2 if an ally also has the Plus or Minus ability."
     },
     "forecast": {
-        "Name": "",
-        "Description": ""
+        "Name": "Forecast",
+        "Description": "This Pok\u00e9mon changes form with the weather. In rain it becomes water-type, in harsh sunlight it becomes fire-type, in cold and snowy conditions it becomes ice-type. In all other conditions it is normal-type. Its STAB, resistance, immunities, and vulnerabilites change to match the form it takes."
     },
     "sticky-hold": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sticky Hold",
+        "Description": "Held items cannot be stolen or knocked away from this Pok\u00e9mon. Additionally, when maintaining a grapple, this Pok\u00e9mon has advantage on all rolls to keep the target grappled."
     },
     "shed-skin": {
-        "Name": "",
-        "Description": ""
+        "Name": "Shed Skin",
+        "Description": "If this Pok\u00e9mon is affected by a negative status ailment, they can roll a d4 at the end of each of thier turns. On a result of 4, they are cured."
     },
     "guts": {
-        "Name": "",
-        "Description": ""
+        "Name": "Guts",
+        "Description": "When this Pok\u00e9mon is burned or poisoned, they are not affected by the negative effects or the condition and they double their MOVE modifier for damage. They still take damage at the end of each of their turns."
     },
     "marvel-scale": {
-        "Name": "",
-        "Description": ""
+        "Name": "Marvel Scale",
+        "Description": "This Pok\u00e9mon's AC increase by 2 when suffering froma negative status condition."
     },
     "liquid-ooze": {
-        "Name": "",
-        "Description": ""
+        "Name": "Liquid Ooze",
+        "Description": "If an enemy uses a leeching or absorb move against this Pok\u00e9mon, the Pok\u00e9mon must make a CON save against this Pok\u00e9mon’s CON or become poisoned."
     },
     "overgrow": {
-        "Name": "",
-        "Description": ""
+        "Name": "Overgrow",
+        "Description": "This Pok\u00e9mon doubles its STAB bonus when it has 25% or less of its maximum health."
     },
     "blaze": {
-        "Name": "",
-        "Description": ""
+        "Name": "Blaze",
+        "Description": "This Pok\u00e9mon doubles its STAB bonus when it has 25% or less of its maximum health."
     },
     "torrent": {
-        "Name": "",
-        "Description": ""
+        "Name": "Torrent",
+        "Description": "This Pok\u00e9mon doubles its STAB bonus when it has 25% or less of its maximum health."
     },
     "swarm": {
-        "Name": "",
-        "Description": ""
+        "Name": "Swarm",
+        "Description": "This Pok\u00e9mon doubles its STAB bonus when it has 25% or less of its maximum health."
     },
     "rock-head": {
-        "Name": "",
-        "Description": ""
+        "Name": "Rock Head",
+        "Description": "This Pok\u00e9mon takes no recoil damage."
     },
     "drought": {
-        "Name": "",
-        "Description": ""
+        "Name": "Drought",
+        "Description": "When this Pok\u00e9mon enters an outside battle, the weather immediately changes to bright sunlight for 5 rounds."
     },
     "arena-trap": {
-        "Name": "",
-        "Description": ""
+        "Name": "Arena Trap",
+        "Description": "Grounded creatures within 50 feet of this Pok\u00e9mon may not flee or switch out, except by item, move, or ability."
     },
     "vital-spirit": {
-        "Name": "",
-        "Description": ""
+        "Name": "Vital Spirit",
+        "Description": "This Pok\u00e9mon cannot be put to sleep."
     },
     "white-smoke": {
-        "Name": "",
-        "Description": ""
+        "Name": "White Smoke",
+        "Description": "Other Pok\u00e9mon's moves or abilities cannot lower this Pok\u00e9mon's stats."
     },
     "pure-power": {
-        "Name": "",
-        "Description": ""
+        "Name": "Pure Power",
+        "Description": "Once per short rest, this Pok\u00e9mon may double the damage dice for a single damage roll. The player must announce that they are using this ability before the attack roll."
     },
     "shell-armor": {
-        "Name": "",
-        "Description": ""
+        "Name": "Shell Armor",
+        "Description": "This Pok\u00e9mon is immune to extra damage dealt by a critical hit."
     },
     "air-lock": {
-        "Name": "",
-        "Description": ""
+        "Name": "Air Lock",
+        "Description": "While this Pok\u00e9mon is in battle, weather-related abilities have no effect on the Pok\u00e9mon that have them."
     },
     "tangled-feet": {
-        "Name": "",
-        "Description": ""
+        "Name": "Tangled Feet",
+        "Description": "Attacks against this Pok\u00e9mon have disadvantage when it is confused."
     },
     "motor-drive": {
-        "Name": "",
-        "Description": ""
+        "Name": "Motor Drive",
+        "Description": "When hit by an electric-type move, if not immune, this Pok\u00e9mon's speed increases by 10 feet until the end of combat (up to a max of 50 additional feet)."
     },
     "rivalry": {
-        "Name": "",
-        "Description": ""
+        "Name": "Rivalry",
+        "Description": "This Pok\u00e9mon adds its proficiency bonus to damage when attacking a Pok\u00e9mon of the same type."
     },
     "steadfast": {
-        "Name": "",
-        "Description": ""
+        "Name": "Steadfast",
+        "Description": "Once per long rest, when this Pok\u00e9mon fails a saving throw against a negative condition, it can choose to pass instead."
     },
     "snow-cloak": {
-        "Name": "",
-        "Description": ""
+        "Name": "Snow Cloak",
+        "Description": "This Pok\u00e9mon is immune to Hail damage. It's AC is increased by 2 in arctic conditions, or when it is snowing or hailing."
     },
     "gluttony": {
-        "Name": "",
-        "Description": ""
+        "Name": "Gluttony",
+        "Description": "This Pok\u00e9mon gains an additional die of healing whenever a healing move restores it."
     },
     "anger-point": {
-        "Name": "",
-        "Description": ""
+        "Name": "Anger Point",
+        "Description": "After suffering a critical hit, this Pok\u00e9mon doubles the damage dice for a single move it activates on the following turn."
     },
     "unburden": {
-        "Name": "",
-        "Description": ""
+        "Name": "Unburden",
+        "Description": "While this Pok\u00e9mon is not holding an item, it gains 10 feet to its speed."
     },
     "heatproof": {
-        "Name": "",
-        "Description": ""
+        "Name": "Heatproof",
+        "Description": "This Pok\u00e9mon takes half the damage it otherwise would from fire damage, and is immune to the burning condition."
     },
     "simple": {
-        "Name": "",
-        "Description": ""
+        "Name": "Simple",
+        "Description": "Once per short rest, you may double this Pok\u00e9mon's Move modifier for a single attack or damage roll."
     },
     "dry-skin": {
-        "Name": "",
-        "Description": ""
+        "Name": "Dry Skin",
+        "Description": "At the end of each of this Pok\u00e9mon's turns, it takes an amount of damage equal to its proficiency modifier in harsh sunlight, or heals for the same amount during rain."
     },
     "download": {
-        "Name": "",
-        "Description": ""
+        "Name": "Download",
+        "Description": "Once per short rest, this Pok\u00e9mon can choose a different damage type for one of their normal attacks."
     },
     "iron-fist": {
-        "Name": "",
-        "Description": ""
+        "Name": "Iron Fist",
+        "Description": "When attacking with a punch-based move, this Pok\u00e9mon may roll the damage twice and choose either total. Also, this Pok\u00e9mon may learn any non-exclusive punching move and have an easier time learning them."
     },
     "poison-heal": {
-        "Name": "",
-        "Description": ""
+        "Name": "Poison Heal",
+        "Description": "This Pok\u00e9mon does not suffer the disadvantage effects of the poisoned status. In addition, this Pok\u00e9mon recovers half of all poison damage it would take, including the damage at each of its turns."
     },
     "adaptability": {
-        "Name": "",
-        "Description": ""
+        "Name": "Adaptability",
+        "Description": "When this Pok\u00e9mon uses a move of its own type, it may roll the damage twice and choose either total."
     },
     "skill-link": {
-        "Name": "",
-        "Description": ""
+        "Name": "Skill Link",
+        "Description": "Combo moves that have the ability to hit more than once, after the same attack roll, are guaranteed to hit at least twice."
     },
     "hydration": {
-        "Name": "",
-        "Description": ""
+        "Name": "Hydration",
+        "Description": "This Pok\u00e9mon is unaffected by negative status ailments in water or during rainy conditions."
     },
     "solar-power": {
-        "Name": "",
-        "Description": ""
+        "Name": "Solar Power",
+        "Description": "Damage rolls for this Pok\u00e9mon get an additional +2 during harsh sunlight."
     },
     "quick-feet": {
-        "Name": "",
-        "Description": ""
+        "Name": "Quick Feet",
+        "Description": "When suffering from a negative status condition, this Pok\u00e9mon's speed increases by 15 feet."
     },
     "normalize": {
-        "Name": "",
-        "Description": ""
+        "Name": "Normalize",
+        "Description": "Every move this Pok\u00e9mon activates is normal-type."
     },
     "sniper": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sniper",
+        "Description": "On a critical hit made by this Pok\u00e9mon, triple the dice roll instead of doubling it."
     },
     "magic-guard": {
-        "Name": "",
-        "Description": ""
+        "Name": "Magic Guard",
+        "Description": "If this Pok\u00e9mon is subjected to a move that forces it to make a saving throw to take only half damage, it instead takes no damage on a success. Additionally, you do not take indirect damage from weather."
     },
     "no-guard": {
-        "Name": "",
-        "Description": ""
+        "Name": "No Guard",
+        "Description": "Any attack made by or against this Pok\u00e9mon has advantage."
     },
     "stall": {
-        "Name": "",
-        "Description": ""
+        "Name": "Stall",
+        "Description": "This Pok\u00e9mon is always last in initiative order."
     },
     "technician": {
-        "Name": "",
-        "Description": ""
+        "Name": "Technician",
+        "Description": "For weak, damaging moves activated by this Pok\u00e9mon, they may add a single additional damage die. <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Technician_(Ability)\">(List of moves affected by Technician can be found on Bulbapedia.)<\/a>"
     },
     "leaf-guard": {
-        "Name": "",
-        "Description": ""
+        "Name": "Leaf Guard",
+        "Description": "This Pok\u00e9mon does not suffer from any negative status ailments in harsh sunlight."
     },
     "klutz": {
-        "Name": "",
-        "Description": ""
+        "Name": "Klutz",
+        "Description": "Once per long rest, this Pok\u00e9mon can reroll a natural 1. This Pok\u00e9mon cannot hold an item."
     },
     "mold-breaker": {
-        "Name": "",
-        "Description": ""
+        "Name": "Mold Breaker",
+        "Description": "This Pok\u00e9mon's moves ignore any abilities that would lessen their effect or ability to hit an opponent."
     },
     "super-luck": {
-        "Name": "",
-        "Description": ""
+        "Name": "Super Luck",
+        "Description": "This Pok\u00e9mon increases its critical hit range by 1."
     },
     "aftermath": {
-        "Name": "",
-        "Description": ""
+        "Name": "Aftermath",
+        "Description": "This Pok\u00e9mon deals damage to an attacker equal to half of the damage received when knocked out by a melee move."
     },
     "anticipation": {
-        "Name": "",
-        "Description": ""
+        "Name": "Anticipation",
+        "Description": "This Pok\u00e9mon can sacrifice its action now to make two attacks on its next turn, or make two attacks now and sacrifice its next action."
     },
     "forewarn": {
-        "Name": "",
-        "Description": ""
+        "Name": "Forewarn",
+        "Description": "This Pok\u00e9mon can sacrifice its action now to make two attacks on its next turn, or make two attacks now and sacrifice its next action."
     },
     "unaware": {
-        "Name": "",
-        "Description": ""
+        "Name": "Unaware",
+        "Description": "When this Pok\u00e9mon attacks an opponent, it ignores any stat boosts the opponent has been affected with after the start of battle. This includes boosts to AC or saving throws the Pok\u00e9mon has to make."
     },
     "tinted-lens": {
-        "Name": "",
-        "Description": ""
+        "Name": "Tinted Lens",
+        "Description": "This Pok\u00e9mon's moves ignore resistances."
     },
     "filter": {
-        "Name": "",
-        "Description": ""
+        "Name": "Filter",
+        "Description": "When hit by a move type this Pok\u00e9mon is vulnerable to, it may roll a d4. On a result of 4, it does not take the additional damage."
     },
     "slow-start": {
-        "Name": "",
-        "Description": ""
+        "Name": "Slow Start",
+        "Description": "This Pok\u00e9mon's speed is halved and its attacks are made at disadvantage for the first two rounds of every combat."
     },
     "scrappy": {
-        "Name": "",
-        "Description": ""
+        "Name": "Scrappy",
+        "Description": "This Pok\u00e9mon's normal and fighting type moves ignore immunities granted by a Pok\u00e9mon's type. If a target's secondary type gives it vulnerability or resistance to the attack, it follows the secondary type for that effect."
     },
     "storm-drain": {
-        "Name": "",
-        "Description": ""
+        "Name": "Storm Drain",
+        "Description": "If this Pok\u00e9mon or an ally within 30 feet is targeted with a direct water-type, damage-dealing move, the Pok\u00e9mon may use a reaction to nullify the damage dealt to themselves, or halve the damage dealt to an ally."
     },
     "ice-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Ice Body",
+        "Description": "While it is snowing or hailing, this Pok\u00e9mon heals for an amount of HP equal to its proficiency modifier at the end of each of its turns."
     },
     "solid-rock": {
-        "Name": "",
-        "Description": ""
+        "Name": "Solid Rock",
+        "Description": "When hit by a move type this Pok\u00e9mon is vulnerable to, it may roll a d4. In a result of 4, it does not take the additional damage."
     },
     "snow-warning": {
-        "Name": "",
-        "Description": ""
+        "Name": "Snow Warning",
+        "Description": "When this Pok\u00e9mon enters an outside battle, the weather immediately changes to hail or snow for 5 rounds."
     },
     "honey-gather": {
-        "Name": "",
-        "Description": ""
+        "Name": "Honey Gather",
+        "Description": "At the end of each battle, this Pok\u00e9mon may roll a d20 plus its proficiency bonus. On a result of 20 or higher, its trainer adds a Honey to their inventory."
     },
     "frisk": {
-        "Name": "",
-        "Description": ""
+        "Name": "Frisk",
+        "Description": "Upon entering a battle, a single opponent's held item is revealed, if it has one. You also have an easier time finding good items while traveling."
     },
     "reckless": {
-        "Name": "",
-        "Description": ""
+        "Name": "Reckless",
+        "Description": "When attacking with moves with recoil damage, this Pok\u00e9mon doubles its STAB bonus."
     },
     "multitype": {
-        "Name": "",
-        "Description": ""
+        "Name": "Multitype",
+        "Description": "This Pok\u00e9mon's type and form change to match the type of Elemental Plate this Pok\u00e9mon holds. The Plate cannot be effected by any item-removing ability or move."
     },
     "flower-gift": {
-        "Name": "",
-        "Description": ""
+        "Name": "Flower Gift",
+        "Description": "During harsh sunlight, ally Pok\u00e9mon within 30 feet of this Pok\u00e9mon add their proficiency bonus to damage rolls."
     },
     "bad-dreams": {
-        "Name": "",
-        "Description": ""
+        "Name": "Bad Dreams",
+        "Description": "If an opponent in battle with this Pok\u00e9mon falls asleep, they take an amount of damage equal to this Pok\u00e9mon's proficiency bonus at the end of each of their turns."
     },
     "pickpocket": {
-        "Name": "",
-        "Description": ""
+        "Name": "Pickpocket",
+        "Description": "When hit by a melee attack, this Pok\u00e9mon may use a reaction to attempt to steal the creature's held item with a Sleight of Hand check contested by the target's Passive Perception. After the first attempt, all other attempts against the same opponent are rolled at disadvantage."
     },
     "sheer-force": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sheer Force",
+        "Description": "When activating a move that has a chance to impose a stat change or inflict a status, this creature instead doubles its move modifier for the damage with no chance of the additional effect."
     },
     "contrary": {
-        "Name": "",
-        "Description": ""
+        "Name": "Contrary",
+        "Description": "Moves that directly increase or decrease this Pok\u00e9mon's stats have the opposite effect. For exhaustion, you only gain half of the d20 negative effect. For example, at level 1 exhaustion, you only take +1 instead of -2. This ability has no effect on moves that would \"swap\" or \"average\" stats with a target like Heart Swap, Guard Split, etc."
     },
     "unnerve": {
-        "Name": "",
-        "Description": ""
+        "Name": "Unnerve",
+        "Description": "Opponents in combat with this Pok\u00e9mon cannot eat berries and have disadvantage on using any healing moves."
     },
     "defiant": {
-        "Name": "",
-        "Description": ""
+        "Name": "Defiant",
+        "Description": "While this Pok\u00e9mon is suffering from a negative status effect or stat change imposed by an opponent, it gains +2 to all attack rolls. You are not affected by the negative effects of any status condition, but still take any damage from them."
     },
     "defeatist": {
-        "Name": "",
-        "Description": ""
+        "Name": "Defeatist",
+        "Description": "When this Pok\u00e9mon drops below 25% of its maximum HP, all of its attacks are rolled with disadvantage."
     },
     "cursed-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Cursed Body",
+        "Description": "When this Pok\u00e9mon is hit by a melee attack, the opponent who made the attack cannot use the same move until the end of their next turn. This can only trigger once per turn."
     },
     "healer": {
-        "Name": "",
-        "Description": ""
+        "Name": "Healer",
+        "Description": "This Pok\u00e9mon gains +2 healing to all healing moves. Additionally, as an action, this Pok\u00e9mon may touch a creature to heal poison, burn, or paralysis. When it uses this ability, roll a d4. On a result of 1 or 2, the status effect is moved to itself. You also gain proficiency in Medicine."
     },
     "friend-guard": {
-        "Name": "",
-        "Description": ""
+        "Name": "Friend Guard",
+        "Description": "When an ally within 30 feet of this Pok\u00e9mon is hit by an attack, they may spend their reaction to halve the damage."
     },
     "weak-armor": {
-        "Name": "",
-        "Description": ""
+        "Name": "Weak Armor",
+        "Description": "When an attack hits this Pok\u00e9mon, it’s AC decreases by 1 and it gains advantage on its next attack. The AC change resets after the advantage is used. The advantage applies to moves that require a saving throw."
     },
     "heavy-metal": {
-        "Name": "",
-        "Description": ""
+        "Name": "Heavy Metal",
+        "Description": "This Pok\u00e9mon is especially heavy. Once per long rest, after being targeted by an attack, it may increase its AC by 2 if it would cause an attack to miss."
     },
     "light-metal": {
-        "Name": "",
-        "Description": ""
+        "Name": "Light Metal",
+        "Description": "This Pok\u00e9mon is especially light for its species. Once per long rest, it may impose disadvantage on an attack roll against it."
     },
     "multiscale": {
-        "Name": "",
-        "Description": ""
+        "Name": "Multiscale",
+        "Description": "If this Pok\u00e9mon is at full health, the first damage dealt to it is halved."
     },
     "toxic-boost": {
-        "Name": "",
-        "Description": ""
+        "Name": "Toxic Boost",
+        "Description": "When this Pok\u00e9mon is hit by a poison-type attack, its next attack is rolled at advantage."
     },
     "flare-boost": {
-        "Name": "",
-        "Description": ""
+        "Name": "Flare Boost",
+        "Description": "This Pok\u00e9mon adds proficiency to its damage rolls while burned."
     },
     "harvest": {
-        "Name": "",
-        "Description": ""
+        "Name": "Harvest",
+        "Description": "At the end of this Pok\u00e9mon's turn, if it used a berry, roll d4. On a result of 3 or 4, it regains that berry as a held item."
     },
     "telepathy": {
-        "Name": "",
-        "Description": ""
+        "Name": "Telepathy",
+        "Description": "This Pok\u00e9mon cannot be damaged by its allies' attacks."
     },
     "moody": {
-        "Name": "",
-        "Description": ""
+        "Name": "Moody",
+        "Description": "At the end of each long rest, this Pok\u00e9mon rerolls on the nature table, replacing its nature with the result until the next long rest."
     },
     "overcoat": {
-        "Name": "",
-        "Description": ""
+        "Name": "Overcoat",
+        "Description": "This Pok\u00e9mon does not take damage from weather-related moves or phenomena like Hail, Weather Ball, etc."
     },
     "poison-touch": {
-        "Name": "",
-        "Description": ""
+        "Name": "Poison Touch",
+        "Description": "On melee attacks made by this Pok\u00e9mon, roll a d10 on a hit. On a result of a 10, the target is poisoned. You are also immune to the poison status."
     },
     "regenerator": {
-        "Name": "",
-        "Description": ""
+        "Name": "Regenerator",
+        "Description": "This Pok\u00e9mon can choose to restore 1d4 + CON at the ends of each of its turns as a free action. At level 10, this increases to 2d4 + CON. After being used 5 turns in a row, the user must take a level of exhaustion."
     },
     "big-pecks": {
-        "Name": "",
-        "Description": ""
+        "Name": "Big Pecks",
+        "Description": "This Pok\u00e9mon's AC cannot be reduced by an opponent's moves."
     },
     "sand-rush": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sand Rush",
+        "Description": "This Pok\u00e9mon is immune to Sandstorm damage, and its speed is doubled in desert terrain, or during a Sandstorm."
     },
     "wonder-skin": {
-        "Name": "",
-        "Description": ""
+        "Name": "Wonder Skin",
+        "Description": "This Pok\u00e9mon has advantage on all saving throws against being burned, frozen, poisoned, or paralyzed."
     },
     "analytic": {
-        "Name": "",
-        "Description": ""
+        "Name": "Analytic",
+        "Description": "After this Pok\u00e9mon misses an attack, its next attack is done at advantage."
     },
     "illusion": {
-        "Name": "",
-        "Description": ""
+        "Name": "Illusion",
+        "Description": "This Pok\u00e9mon can take the visual form of any Pok\u00e9mon it can see. It can do this a number of times per long rest equal to its level. This illusion lasts for one hour or until the Pok\u00e9mon is hit by a damaging move."
     },
     "imposter": {
-        "Name": "",
-        "Description": ""
+        "Name": "Imposter",
+        "Description": "This Pok\u00e9mon can use Transform as a bonus action."
     },
     "infiltrator": {
-        "Name": "",
-        "Description": ""
+        "Name": "Infiltrator",
+        "Description": "This Pok\u00e9mon bypasses Light Screen, Reflect, Substitute, Mist, Safeguard, and Aurora Veil."
     },
     "mummy": {
-        "Name": "",
-        "Description": ""
+        "Name": "Mummy",
+        "Description": "When this Pok\u00e9mon is hit by a melee attack, all of the abilities of its attacker change to Mummy for the remainder of the encounter."
     },
     "moxie": {
-        "Name": "",
-        "Description": ""
+        "Name": "Moxie",
+        "Description": "Upon causing an opponent to faint, this Pok\u00e9mon may immediately take another action."
     },
     "justified": {
-        "Name": "",
-        "Description": ""
+        "Name": "Justified",
+        "Description": "When this Pok\u00e9mon is hit by a dark-type move, it gets advantage on its next attack."
     },
     "rattled": {
-        "Name": "",
-        "Description": ""
+        "Name": "Rattled",
+        "Description": "When this Pok\u00e9mon is hit by a damaging Dark, Bug, or Ghost move, it makes its next attack at advantage."
     },
     "magic-bounce": {
-        "Name": "",
-        "Description": ""
+        "Name": "Magic Bounce",
+        "Description": "A number of times equal to your proficiency modifier per long rest, when you are subjected to a <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Magic_Coat_(move)#Affected_moves\">reflectable move<\/a>, this Pok\u00e9mon can instead reflect the effect back on the attacker."
     },
     "sap-sipper": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sap Sipper",
+        "Description": "This Pok\u00e9mon takes no damage from grass-type attacks. If hit by a grass type move, it takes no damage and instead absorbs the energy, granting advantage on its next attack."
     },
     "prankster": {
-        "Name": "",
-        "Description": ""
+        "Name": "Prankster",
+        "Description": "Once per short rest, this Pok\u00e9mon can move to the top of initiative order in a single round, but must use a status affecting move on its turn."
     },
     "sand-force": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sand Force",
+        "Description": "During a Sandstorm, this Pok\u00e9mon can double its STAB when it hits an opponent."
     },
     "iron-barbs": {
-        "Name": "",
-        "Description": ""
+        "Name": "Iron Barbs",
+        "Description": "Each time this Pok\u00e9mon is hit by an enemy or hits an enemy with a contact move, the opponent takes steel damage equal to half its proficiency modifier, rounded down."
     },
     "zen-mode": {
-        "Name": "",
-        "Description": ""
+        "Name": "Zen Mode",
+        "Description": "When Darmanitan is below 50% of its HP, it enters Zen Mode. In Zen Mode, Darmanitan changes into the form of a solid statue. It's type changes to Fire/Psychic, it gains +4 to its AC, and its STR and WIS ability scores are swapped."
     },
     "victory-star": {
-        "Name": "",
-        "Description": ""
+        "Name": "Victory Star",
+        "Description": "While this Pok\u00e9mon is in battle, all allied Pok\u00e9mon add an additional +1 to their attack rolls."
     },
     "turboblaze": {
-        "Name": "",
-        "Description": ""
+        "Name": "Turboblaze",
+        "Description": "This Pok\u00e9mon\u2019s moves completely ignore any ability that would hinder or prevent their effect on the target or the user's ability to hit the target."
     },
     "teravolt": {
-        "Name": "",
-        "Description": ""
+        "Name": "Teravolt",
+        "Description": "This Pok\u00e9mon\u2019s moves completely ignore any ability that would hinder or prevent their effect on the target or the user's ability to hit the target."
     },
     "aroma-veil": {
-        "Name": "",
-        "Description": ""
+        "Name": "Aroma Veil",
+        "Description": "Any ally within 15 feet of this Pok\u00e9mon automatically passes any WIS save they are required to make."
     },
     "flower-veil": {
-        "Name": "",
-        "Description": ""
+        "Name": "Flower Veil",
+        "Description": "Any grass-type ally within 15 feet of this Pok\u00e9mon is immune to new status effects."
     },
     "cheek-pouch": {
-        "Name": "",
-        "Description": ""
+        "Name": "Cheek Pouch",
+        "Description": "When this Pok\u00e9mon eats any type of berry, is heals for an additional 10% of its maximum HP (rounded up to the nearest whole number)."
     },
     "protean": {
-        "Name": "",
-        "Description": ""
+        "Name": "Protean",
+        "Description": "This Pok\u00e9mon's type changes to the type of move it uses, just before the move is used. It takes on the new type's resistances, vulnerabilities, and immunities."
     },
     "fur-coat": {
-        "Name": "",
-        "Description": ""
+        "Name": "Fur Coat",
+        "Description": "Once per long rest, this Pok\u00e9mon may halve the damage dealt to it from any one attack."
     },
     "magician": {
-        "Name": "",
-        "Description": ""
+        "Name": "Magician",
+        "Description": "If not already holding an item, this Pok\u00e9mon steals the held item of any Pok\u00e9mon it hits with a melee attack. You also gain a single level in the Wizard class."
     },
     "bulletproof": {
-        "Name": "",
-        "Description": ""
+        "Name": "Bulletproof",
+        "Description": "This Pok\u00e9mon is immune to damage from moves with Bullet, Ball, or Bomb in their name."
     },
     "competitive": {
-        "Name": "",
-        "Description": ""
+        "Name": "Competitive",
+        "Description": "This Pok\u00e9mon adds its proficiency bonus to damage rolls while poisoned, burned, confused, or paralyzed. You do not take debuffs from being under the effects of the statuses listed, but still take any damage from them."
     },
     "strong-jaw": {
-        "Name": "",
-        "Description": ""
+        "Name": "Strong Jaw",
+        "Description": "For biting moves activated by this Pok\u00e9mon (Bite, Thunder Fang, Crunch, etc.), they may roll the damage twice and choose either total. Also, this Pok\u00e9mon may learn any non-exclusive biting move and have an easier time learning them."
     },
     "refrigerate": {
-        "Name": "",
-        "Description": ""
+        "Name": "Refrigerate",
+        "Description": "All of this Pok\u00e9mon's normal-type moves become ice-type."
     },
     "sweet-veil": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sweet Veil",
+        "Description": "Any ally within 15 feet of this Pok\u00e9mon (including itself) is immune to the sleep condition."
     },
     "stance-change": {
-        "Name": "",
-        "Description": ""
+        "Name": "Stance Change",
+        "Description": "Aegislash has two forms. When Aegislash uses King's Shield, it changes to Shield Forme, swapping its AC and DEX stats. When it uses a damaging move, Aegislash immediately returns to Blade Forme, returning its stats to normal."
     },
     "gale-wings": {
-        "Name": "",
-        "Description": ""
+        "Name": "Gale Wings",
+        "Description": "This Pok\u00e9mon adds an additional +1 to hit when using flying-type attacks. You may also double your STAB bonus on the first offensive flying-type move you use in combat."
     },
     "mega-launcher": {
-        "Name": "",
-        "Description": ""
+        "Name": "Mega Launcher",
+        "Description": "Aura and Pulse moves made by this Pok\u00e9mon deal additional damage/healing equal to this Pok\u00e9mon's proficiency bonus."
     },
     "grass-pelt": {
-        "Name": "",
-        "Description": ""
+        "Name": "Grass Pelt",
+        "Description": "This Pok\u00e9mon gains +2 to AC while in grassy terrain."
     },
     "symbiosis": {
-        "Name": "",
-        "Description": ""
+        "Name": "Symbiosis",
+        "Description": "This Pok\u00e9mon may swap held items with an ally as a free action if they are within 15 feet. Additionally, they can create a single Oran berry a number of times equal to their WIS or CON modifier, per day."
     },
     "tough-claws": {
-        "Name": "",
-        "Description": ""
+        "Name": "Tough Claws",
+        "Description": "A successful melee attack by this Pok\u00e9mon automatically gets STAB, regardless of its type. If it would normally get STAB, double the STAB bonus when adding to damage."
     },
     "pixilate": {
-        "Name": "",
-        "Description": ""
+        "Name": "Pixilate",
+        "Description": "All of this Pok\u00e9mon's normal-type moves become fairy-type."
     },
     "gooey": {
-        "Name": "",
-        "Description": ""
+        "Name": "Gooey",
+        "Description": "When this Pok\u00e9mon is hit with a melee attack, roll d4. On a result of 3 or 4, the attacker's speed is reduced to 0 until the end of its next turn."
     },
     "aerilate": {
-        "Name": "",
-        "Description": ""
+        "Name": "Aerilate",
+        "Description": "All of this Pok\u00e9mon's normal-type moves become flying-type."
     },
     "parental-bond": {
         "Name": "",
         "Description": ""
     },
     "dark-aura": {
-        "Name": "",
-        "Description": ""
+        "Name": "Dark Aura",
+        "Description": "When this Pok\u00e9mon is in battle, all dark-type moves by allies or opponents within 100 feet deal double their damage."
     },
     "fairy-aura": {
-        "Name": "",
-        "Description": ""
+        "Name": "Fairy Aura",
+        "Description": "When this Pok\u00e9mon is in battle, all fairy-type moves within 100 feet of you deal double their damage."
     },
     "aura-break": {
-        "Name": "",
-        "Description": ""
+        "Name": "Aura Break",
+        "Description": "When this Pok\u00e9mon is in battle, the boost of Fairy Aura and Dark Aura abilities is reversed, Any applicable move type activated within 100 feet deals half damage instead of double."
     },
     "primordial-sea": {
         "Name": "",
@@ -764,76 +764,76 @@
         "Description": ""
     },
     "stamina": {
-        "Name": "",
-        "Description": ""
+        "Name": "Stamina",
+        "Description": "When this Pok\u00e9mon is damaged by a move, increase its AC by 2 until the start of its next turn. This ability does not stack and will remain in effect if the Pok\u00e9mon is successfully attacked multiple turns in a row."
     },
     "wimp-out": {
-        "Name": "",
-        "Description": ""
+        "Name": "Wimp Out",
+        "Description": "When a damaging move causes this Pok\u00e9mon to fall below 50% of its maximum HP, it MUST disengage and move up to its speed in a straight line towards its trainer as a free action. If this would put the Pok\u00e9mon in range of switching out, it must do so as another free action if another Pok\u00e9mon is available to replace it."
     },
     "emergency-exit": {
-        "Name": "",
-        "Description": ""
+        "Name": "Emergency Exit",
+        "Description": "At any time this Pok\u00e9mon is damaged when it is at or below 50% of its maximum HP, its trainer may switch it out as a free action."
     },
     "water-compaction": {
-        "Name": "",
-        "Description": ""
+        "Name": "Water Compaction",
+        "Description": "After being damaged by a water-type move, any other damage dealt to this Pok\u00e9mon until the beginning of its next turn is halved."
     },
     "merciless": {
-        "Name": "",
-        "Description": ""
+        "Name": "Merciless",
+        "Description": "When this Pok\u00e9mon makes a successful attack roll against a Poisoned Pok\u00e9mon, treat that attack as a critical hit."
     },
     "shields-down": {
-        "Name": "",
-        "Description": ""
+        "Name": "Shields Down",
+        "Description": "This Pok\u00e9mon is immune to Non-Volatile status effects while in Meteor Form. When this Pok\u00e9mon falls below 50% of its maximum hp, its outer shell breaks and it changes to Core Form. In Core Form, it adds 6 points to its DEX, but reduces its AC by 4. The Pok\u00e9mon must complete a short rest to restore itself to Meteor Form."
     },
     "stakeout": {
-        "Name": "",
-        "Description": ""
+        "Name": "Stakeout",
+        "Description": "When an opponent is switched out in battle, this Pok\u00e9mon doubles the damage dealt if it targets the replacement on the first turn immediately following the switch."
     },
     "water-bubble": {
-        "Name": "",
-        "Description": ""
+        "Name": "Water Bubble",
+        "Description": "This Pok\u00e9mon is resistant to fire-type damage and immune to the burned condition."
     },
     "steelworker": {
-        "Name": "",
-        "Description": ""
+        "Name": "Steelworker",
+        "Description": "This Pok\u00e9mon adds its proficiency bonus to damage dealt by steel-type moves."
     },
     "berserk": {
-        "Name": "",
-        "Description": ""
+        "Name": "Berserk",
+        "Description": "When this Pok\u00e9mon falls below 25% of its maximum health, all of its attacks are rolled with disadvantage, but deal double their damage. If a move activated requires a saving throw, the target(s) have advantage on the roll."
     },
     "slush-rush": {
-        "Name": "",
-        "Description": ""
+        "Name": "Slush Rush",
+        "Description": "This Pok\u00e9mon is immune to Hail damage, and its speed is doubled in arctic conditions, or during a hailstorm or snowstorm."
     },
     "long-reach": {
-        "Name": "",
-        "Description": ""
+        "Name": "Long Reach",
+        "Description": "This Pok\u00e9mon has an additional 5 feet of reach with all melee attacks and attacks of opportunity."
     },
     "liquid-voice": {
-        "Name": "",
-        "Description": ""
+        "Name": "Liquid Voice",
+        "Description": "Any sound-based move activated by this Pok\u00e9mon is water-type."
     },
     "triage": {
-        "Name": "",
-        "Description": ""
+        "Name": "Triage",
+        "Description": "This Pok\u00e9mon's healing or draining moves have a move time of 1 bonus action. Also, this Pok\u00e9mon may learn any non-exclusive healing move and have an easier time learning them."
     },
     "galvanize": {
-        "Name": "",
-        "Description": ""
+        "Name": "Galvanize",
+        "Description": "All of this Pok\u00e9mon's normal-type moves are electric-type."
     },
     "surge-surfer": {
-        "Name": "",
-        "Description": ""
+        "Name": "Surge Surfer",
+        "Description": "When this Pok\u00e9mon begins its turn in the area of effect from Electric Terrain, its speed is doubled."
     },
     "schooling": {
-        "Name": "",
-        "Description": ""
+        "Name": "Schooling",
+        "Description": "Beginning at level 5, this Pok\u00e9mon may change to School Form as a free action when it begins its turn above 25% of its maximum health. In School Form, the Pok\u00e9mon adds 5 to its AC and Strength, Dexterity, and Constitution ability scores (Additional CON does not alter this Pok\u00e9mon's HP in this form). The Pok\u00e9mon reverts back to Solo Form when it falls below 25% of maximum health, and must complete a short rest before activating this ability again."
     },
     "disguise": {
-        "Name": "",
-        "Description": ""
+        "Name": "Disguise",
+        "Description": "This Pok\u00e9mon has a disguise which gives it a temporary HP boost equal to twice its level. When the temporary hit points fall to zero, the disguise breaks and requires a short rest to repair."
     },
     "battle-bond": {
         "Name": "",
@@ -844,92 +844,92 @@
         "Description": ""
     },
     "corrosion": {
-        "Name": "",
-        "Description": ""
+        "Name": "Corrosion",
+        "Description": "This Pok\u00e9mon's moves ignore the poison immunity of creatures granted by their Pok\u00e9mon type, and can inflict the poisoned status on poison and steel type creatures. If the target\u2019s secondary type gives it vulnerability or resistance to the damage, it follows the secondary type for that effect."
     },
     "comatose": {
-        "Name": "",
-        "Description": ""
+        "Name": "Comatose",
+        "Description": "This Pok\u00e9mon is in a continuous state of drowsiness. It is immune to the sleep condition, but is considered affected by sleep for all moves that require a Pok\u00e9mon to be asleep to use or activate additional effects (Snore, Sleep Talk, Wake-Up Slap, Dream Eater, etc.)"
     },
     "queenly-majesty": {
-        "Name": "",
-        "Description": ""
+        "Name": "Queenly Majesty",
+        "Description": "Creatures within line of sight of this Pok\u00e9mon cannot use bonus actions to activate Moves. Moves that would normally have a Move Time of \"1 bonus action\" instead have a Move Time of \"1 action\"."
     },
     "innards-out": {
-        "Name": "",
-        "Description": ""
+        "Name": "Innards Out",
+        "Description": "When this Pok\u00e9mon is knocked out by a damaging move, any creature within 5 feet of it takes an amount of typeless damage equal to the amount of HP lost."
     },
     "dancer": {
-        "Name": "",
-        "Description": ""
+        "Name": "Dancer",
+        "Description": "If any creature within sight of this Pok\u00e9mon activates a move with Dance in its name, this Pok\u00e9mon may immediately use one of its moves as a reaction."
     },
     "battery": {
-        "Name": "",
-        "Description": ""
+        "Name": "Battery",
+        "Description": "Allies that activate electric-type moves within 20 feet of this Pok\u00e9mon double their damage dice."
     },
     "fluffy": {
-        "Name": "",
-        "Description": ""
+        "Name": "Fluffy",
+        "Description": "This Pok\u00e9mon is vulnerable to fire-type moves, but takes half damage from any melee attack (that isn't fire-type)."
     },
     "dazzling": {
-        "Name": "",
-        "Description": ""
+        "Name": "Dazzling",
+        "Description": "Creatures within line of sight of this Pok\u00e9mon cannot use bonus actions to activate Moves. Moves that would normally have a Move Time of \"1 bonus action\" instead have a Move Time of \"1 action\"."
     },
     "soul-heart": {
-        "Name": "",
-        "Description": ""
+        "Name": "Soul-Heart",
+        "Description": "Upon seeing an ally faint, this Pok\u00e9mon increases the ability scores of its saving throw proficiencies by 2 until the end of combat. This is stackable up to a maximum of +10 to any one ability score."
     },
     "tangling-hair": {
-        "Name": "",
-        "Description": ""
+        "Name": "Tangling Hair",
+        "Description": "When this Pok\u00e9mon is hit with a melee attack, roll d4. On a result of 3 or 4, the attacker's speed is reduced to 0 until the end of its next turn."
     },
     "receiver": {
-        "Name": "",
-        "Description": ""
+        "Name": "Receiver",
+        "Description": "When switched in after an ally faints, this Pok\u00e9mon copies the non-hidden ability of the fainted ally until switched out."
     },
     "power-of-alchemy": {
-        "Name": "",
-        "Description": ""
+        "Name": "Power Of Alchemy",
+        "Description": "When switched in after an ally faints, this Pok\u00e9mon copies the non-hidden ability of the fainted ally until switched out."
     },
     "beast-boost": {
-        "Name": "",
-        "Description": ""
+        "Name": "Beast Boost",
+        "Description": "Upon causing an opponent to faint, this Pok\u00e9mon increases the ability scores of its saving throw proficiencies by 2 until the end of combat. This is stackable up to a maximum of +10 to any one ability score."
     },
     "rks-system": {
-        "Name": "",
-        "Description": ""
+        "Name": "RKS System",
+        "Description": "This Pok\u00e9mon's type is determined by the memory disc it holds. If not holding a memory disc, this Pok\u00e9mon's type is normal."
     },
     "electric-surge": {
-        "Name": "",
-        "Description": ""
+        "Name": "Electric Surge",
+        "Description": "If the move is known, this Pok\u00e9mon may use the Electric Terrain move as a bonus action."
     },
     "psychic-surge": {
-        "Name": "",
-        "Description": ""
+        "Name": "Psychic Surge",
+        "Description": "If the move is known, this Pok\u00e9mon may use the Psychic Terrain move as a bonus action."
     },
     "misty-surge": {
-        "Name": "",
-        "Description": ""
+        "Name": "Misty Surge",
+        "Description": "If the move is known, this Pok\u00e9mon may use the Misty Terrain move as a bonus action."
     },
     "grassy-surge": {
-        "Name": "",
-        "Description": ""
+        "Name": "Grassy Surge",
+        "Description": "If the move is known, this Pok\u00e9mon may use the Grassy Terrain move as a bonus action."
     },
     "full-metal-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Full Metal Body",
+        "Description": "Other Pok\u00e9mon's moves or abilities cannot lower this Pok\u00e9mon stats."
     },
     "shadow-shield": {
-        "Name": "",
-        "Description": ""
+        "Name": "Shadow Shield",
+        "Description": "If this Pok\u00e9mon is at full health, the first damage dealt to it is halved."
     },
     "prism-armor": {
-        "Name": "",
-        "Description": ""
+        "Name": "Prism Armor",
+        "Description": "When this Pok\u00e9mon is subject to damage in its vulnerabilities list, roll the damage dice twice and use the lower result for the damage calculation."
     },
     "neuroforce": {
-        "Name": "",
-        "Description": ""
+        "Name": "Neuroforce",
+        "Description": "When this Pok\u00e9mon damages a creature with a super effective move, it may roll the damage dice twice and use the higher result."
     },
     "intrepid-sword": {
         "Name": "",
@@ -940,108 +940,108 @@
         "Description": ""
     },
     "libero": {
-        "Name": "",
-        "Description": ""
+        "Name": "Libero",
+        "Description": "This Pok\u00e9mon's type changes to the type of move it uses, just before the move is used. It takes on the new type's resistances, vulnerabilities, and immunities."
     },
     "ball-fetch": {
-        "Name": "",
-        "Description": ""
+        "Name": "Ball Fetch",
+        "Description": "The trainer has advantage on any rolls related to throwing a Pok\u00e9ball."
     },
     "cotton-down": {
-        "Name": "",
-        "Description": ""
+        "Name": "Cotton Down",
+        "Description": "When this Pok\u00e9mon is hit with a melee attack, roll d4. On a result of 3 or 4, the attacker's speed is reduced to 0 until the end of its next turn."
     },
     "propeller-tail": {
-        "Name": "",
-        "Description": ""
+        "Name": "Propeller Tail",
+        "Description": "If the user swims half of it's base movement speed or more immediately before a melee attack it adds one additional damage dice to the attack (this can only be used for 1 action per turn)."
     },
     "mirror-armor": {
-        "Name": "",
-        "Description": ""
+        "Name": "Mirror Armor",
+        "Description": "If an opponent tries to use a status lowering move on this Pok\u00e9mon. This Pok\u00e9mon can reflect the effect back at the opponent a number of times equal to its proficiency bonus."
     },
     "gulp-missile": {
-        "Name": "",
-        "Description": ""
+        "Name": "Gulp Missile",
+        "Description": "Three times per long rest, this Pok\u00e9mon can vomit a projectile at an opponent within 20 ft. Lower the opponent\u2019s AC by 2."
     },
     "stalwart": {
-        "Name": "",
-        "Description": ""
+        "Name": "Stalwart",
+        "Description": "Once per long rest, after an opponent knocks you out, you may attack them with any one of your moves right before you go down at the cost of a addition level of exhaustion when you are revived."
     },
     "steam-engine": {
-        "Name": "",
-        "Description": ""
+        "Name": "Steam Engine",
+        "Description": "When this Pok\u00e9mon is hit by a water or fire type attack, increase it\u2019s movement speed by 20 ft."
     },
     "punk-rock": {
-        "Name": "",
-        "Description": ""
+        "Name": "Punk Rock",
+        "Description": "For sound-based moves activated by this Pok\u00e9mon (Hyper Voice, Echoed Voice, Boomburst, etc.), they may roll the damage twice and choose either total. Furthermore, you are able to learn any non-exclusive sound-based move that could be affected by this ability, and they are easier to learn. Lastly, this Pokemon can take half damage from any sound based move used against it."
     },
     "sand-spit": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sand Spit",
+        "Description": "When hit by an attack, this Pok\u00e9mon can use Sand Attack as a reaction."
     },
     "ice-scales": {
-        "Name": "",
-        "Description": ""
+        "Name": "Ice Scales",
+        "Description": "Once per long rest take half damage from a ranged move of your choice."
     },
     "ripen": {
-        "Name": "",
-        "Description": ""
+        "Name": "Ripen",
+        "Description": "When this Pok\u00e9mon consumes a berry, the effects of the berry is doubled. Berry trees that are visited by this Pok\u00e9mon ripen quicker."
     },
     "ice-face": {
-        "Name": "",
-        "Description": ""
+        "Name": "Ice Face",
+        "Description": "When this Pok\u00e9mon is hit for the first time in battle by a melee attack, instead of taking damage, it\u2019s ice armor breaks. When this happens, it\u2019s AC goes down by 4, it\u2019s speed increases by 20 feet, and it\u2019s Dexterity increases by 4. It then needs to recraft the ice face."
     },
     "power-spot": {
-        "Name": "",
-        "Description": ""
+        "Name": "Power Spot",
+        "Description": "This Pok\u00e9mon shares it's aura with its allies. Allies within thirty feet of this Pok\u00e9mon may add +1 to their attack and damage rolls."
     },
     "mimicry": {
-        "Name": "",
-        "Description": ""
+        "Name": "Mimicry",
+        "Description": "This Pok\u00e9mon changes type based on the terrain of the battlefield."
     },
     "screen-cleaner": {
-        "Name": "",
-        "Description": ""
+        "Name": "Screen Cleaner",
+        "Description": "A number of times equal to this Pokemon\u2019s proficiency bonus you may force a Pokemon trying to use Reflect, Light Screen, or Aurora Veil into failing."
     },
     "steely-spirit": {
-        "Name": "",
-        "Description": ""
+        "Name": "Steely Spirit",
+        "Description": "This Pokemn grants its allies advantage on all their attack rolls for their steel type moves."
     },
     "perish-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Perish Body",
+        "Description": "When this Pok\u00e9mon is hit by a melee attack, roll a D20. On a natural 20, the Pok\u00e9mon that hit them will faint in 3 rounds. Withdrawing the Pok\u00e9mon effected pauses but does not erase this effect, with the effect fading away naturally in 24 hours."
     },
     "wandering-spirit": {
-        "Name": "",
-        "Description": ""
+        "Name": "Wandering Spirit",
+        "Description": "When this Pok\u00e9mon is hit by a melee attack, roll a d3. Depending on the roll, this Pokemon gains one of the abilities of its attacker for the remainder of the encounter."
     },
     "gorilla-tactics": {
-        "Name": "",
-        "Description": ""
+        "Name": "Gorilla Tactics",
+        "Description": "Grants advantage on attack rolls for one minute, but only allows use of one move."
     },
     "neutralizing-gas": {
-        "Name": "",
-        "Description": ""
+        "Name": "Neutralizing Gas",
+        "Description": "Pok\u00e9mon cannot activate their abilities while this Pok\u00e9mon is on the battlefield."
     },
     "pastel-veil": {
-        "Name": "",
-        "Description": ""
+        "Name": "Pastel Veil",
+        "Description": "This Pok\u00e9mon grants itself and teammates immunity from being poisoned, and it cures the poison status when this Pok\u00e9mon enters the battlefield."
     },
     "hunger-switch": {
-        "Name": "",
-        "Description": ""
+        "Name": "Hunger Switch",
+        "Description": "Once per long rest, this Pok\u00e9mon may double the damage of one of its moves. If it does so it gains an exhaustion counter and switches to Hangry Mode. If it uses this ability when using Aura wheel, triple the damage instead."
     },
     "quick-draw": {
-        "Name": "",
-        "Description": ""
+        "Name": "Quick Draw",
+        "Description": "Once per short rest, this Pok\u00e9mon can move to the top of initiative order in a single round, but must use a ranged attack on its turn."
     },
     "unseen-fist": {
-        "Name": "",
-        "Description": ""
+        "Name": "Unseen Fist",
+        "Description": "This Pokemon's melee attacks ignore the damage protection from moves like Protect or Light Screen. If the opponent has mastered their damage reduction move, the damage is halved instead of nullified regardless of the level of mastery of the move."
     },
     "curious-medicine": {
-        "Name": "",
-        "Description": ""
+        "Name": "Curious Medicine",
+        "Description": "When this Pok\u00e9mon enters the battlefield, it scatters a medicine that removes negative effects from allies as well as healing its allies by 1d6 + INT Modifier."
     },
     "transistor": {
         "Name": "",
@@ -1068,68 +1068,68 @@
         "Description": ""
     },
     "lingering-aroma": {
-        "Name": "",
-        "Description": ""
+        "Name": "Lingering Aroma",
+        "Description": "Male: When this Pok\u00e9mon is hit by a melee attack, all of the abilities of its attacker change to Lingering Aroma for the remainder of the encounter.\n\nFemale: Any ally within 15 feet of this Pok\u00e9mon automatically passes any WIS save they are required to make."
     },
     "seed-sower": {
-        "Name": "",
-        "Description": ""
+        "Name": "Seed Sower",
+        "Description": "This Pokemon gains a level of mastery for the move Grassy Terrain immediately upon evolution."
     },
     "thermal-exchange": {
-        "Name": "",
-        "Description": ""
+        "Name": "Thermal Exchange",
+        "Description": "This pokemon is immune to the burn status condition. In addition, they gain +1 to attack rolls when hit by a fire-type move until withdrawn from combat. This bonus can stack to a maximun of +5."
     },
     "anger-shell": {
-        "Name": "",
-        "Description": ""
+        "Name": "Anger Shell",
+        "Description": "When this Pokemon is below half health, immediately apply the effects of Shell Smash to it."
     },
     "purifying-salt": {
-        "Name": "",
-        "Description": ""
+        "Name": "Purifying Salt",
+        "Description": "This Pokemon cannot be inflicted with a negative status condition, and it gains one level of resistance to ghost-type attacks."
     },
     "well-baked-body": {
-        "Name": "",
-        "Description": ""
+        "Name": "Well-Baked Body",
+        "Description": "This Pok\u00e9mon takes no damage from fire or fire-type attacks. Instead, immediately after taking a hit from a fire-type move, or in open flames, increase this Pokemon\u2019s AC by 2. This AC bonus is not stackable."
     },
     "wind-rider": {
-        "Name": "",
-        "Description": ""
+        "Name": "Wind Rider",
+        "Description": "This Pokemon has immunity to taking damage from wind-based moves. Also, if it is hit by a wind-based move (or tailwind or sandstorm is active) then it gains +1 to its attack rolls. This effect is stackable to +5."
     },
     "guard-dog": {
-        "Name": "",
-        "Description": ""
+        "Name": "Guard Dog",
+        "Description": "This Pokemon gains the Sentinel feat."
     },
     "rocky-payload": {
-        "Name": "",
-        "Description": ""
+        "Name": "Rocky Payload",
+        "Description": "When this pokemon uses a rock type move while in the air, roll damage twice and take the higher value."
     },
     "wind-power": {
-        "Name": "",
-        "Description": ""
+        "Name": "Wind Power",
+        "Description": "This Pok\u00e9mon becomes charged when it is hit by a wind move, or when Tailwind/Sandstorm begins, doubling the user\u2019s STAB bonus."
     },
     "zero-to-hero": {
-        "Name": "",
-        "Description": ""
+        "Name": "Zero To Hero",
+        "Description": "When your Loyalty Bond is at +2 or above with your Palafin, you can trigger a powerful but tiring transformation. The Palafin must succeed a DC 20 Stealth check in order for the transformation to activate, or be recalled into their Pokeball for 30 seconds before being returned to battle.\n\nWhile in their Hero form the Palafin's STAB bonus is doubled, it gains +20 ft to swimming speed, gains 20 ft walking speed, and gains Temporary Hit Points equal to: 5x Base CON Modifier.\n\nAlso, it gains +3 to AC, +2 to its Strength modifier, and +1 to all of its of its other ability modifiers. You may choose to double Palafin\u2019s base move modifier attack rolls, double the base modifier for damage rolls, or you can add +1 to all of its saving throws. This transformation lasts for one minute and when ended, Palafin gains two levels of exhaustion."
     },
     "commander": {
-        "Name": "",
-        "Description": ""
+        "Name": "Commander",
+        "Description": "This Pok\u00e9mon can use the Help action as a free action for an ally Dondozo within 5 feet. Also, the Dondozo supported by this ability cannot be forcefully moved from its position."
     },
     "electromorphosis": {
-        "Name": "",
-        "Description": ""
+        "Name": "Electromorphosis",
+        "Description": "When this Pokemon is hit by an attack, you may roll an additional damage dice for its next electric attack."
     },
     "protosynthesis": {
-        "Name": "",
-        "Description": ""
+        "Name": "Protosynthesis",
+        "Description": "During harsh sunlight, this Pok\u00e9mon adds two ASI to its highest, non-CON stat."
     },
     "quark-drive": {
-        "Name": "",
-        "Description": ""
+        "Name": "Quark Drive",
+        "Description": "When electric terrain is active, this Pok\u00e9mon adds two ASI points to its highest, non-CON stat."
     },
     "good-as-gold": {
-        "Name": "",
-        "Description": ""
+        "Name": "Good As Gold",
+        "Description": "This Pok\u00e9mon cannot be inflicted with a negative status condition."
     },
     "vessel-of-ruin": {
         "Name": "",
@@ -1156,52 +1156,52 @@
         "Description": ""
     },
     "opportunist": {
-        "Name": "",
-        "Description": ""
+        "Name": "Opportunist",
+        "Description": "If an opponent's stat is boosted, the Pok\u00e9mon seizes the opportunity to boost the same stat for itself."
     },
     "cud-chew": {
-        "Name": "",
-        "Description": ""
+        "Name": "Cud Chew",
+        "Description": "This Pok\u00e9mon can re-eat a berry they had eaten before the battle, allowing it to make use of held berries in regulated battles. In unregulated battles, they may eat it twice."
     },
     "sharpness": {
-        "Name": "",
-        "Description": ""
+        "Name": "Sharpness",
+        "Description": "For damaging moves activated by this Pok\u00e9mon with a slashing aspect (i.e. Leaf Blade, Psycho Cut, etc.), they may roll the damage twice and choose either total. Also, this Pok\u00e9mon may learn any non-exclusive slashing move and have an easier time learning them."
     },
     "supreme-overlord": {
-        "Name": "",
-        "Description": ""
+        "Name": "Supreme Overlord",
+        "Description": "For each fainted Pok\u00e9mon in the same party, this Pok\u00e9mon lowers the natural dice needed for a critical hit by 1 (to a max of nat 15 for critical hits)."
     },
     "costar": {
-        "Name": "",
-        "Description": ""
+        "Name": "Costar",
+        "Description": "If an ally uses a stat buffing move while you are on the field, you may spend your reaction to also use that move."
     },
     "toxic-debris": {
-        "Name": "",
-        "Description": ""
+        "Name": "Toxic Debris",
+        "Description": "This Pok\u00e9mon has inborn knowledge/mastery over the move Toxic Spikes. Pok\u00e9mon with this ability will have know Toxic Spikes as a free egg move if hatched from an egg. Wild Pok\u00e9mon with this ability start with some level of mastery of the move."
     },
     "armor-tail": {
-        "Name": "",
-        "Description": ""
+        "Name": "Armor Tail",
+        "Description": "Before this Pok\u00e9mon's first turn in battle, it can use its reaction to prevent a Pok\u00e9mon from performing a move on itself or one of its allies."
     },
     "earth-eater": {
-        "Name": "",
-        "Description": ""
+        "Name": "Earth Eater",
+        "Description": "This Pok\u00e9mon takes no damage from ground-type attacks. Instead, heal the user by the half of the amount of damage you would have taken."
     },
     "mycelium-might": {
-        "Name": "",
-        "Description": ""
+        "Name": "Mycelium Might",
+        "Description": "This Pok\u00e9mon has mastery in one status inflicting move. It\u2019s status inflicting moves can ignore abilities if the Pok\u00e9mon has not used it\u2019s movement speed this turn."
     },
     "minds-eye": {
         "Name": "",
         "Description": ""
     },
     "supersweet-syrup": {
-        "Name": "",
-        "Description": ""
+        "Name": "Supersweet Syrup",
+        "Description": "Once per long rest this Pokemon can lower an opponent\u2019s AC by 3 for the rest of combat."
     },
     "hospitality": {
-        "Name": "",
-        "Description": ""
+        "Name": "Hospitality",
+        "Description": "This Pok\u00e9mon can choose to restore the HP of an ally within 50 feet by 1d4 + CON modifier at the ends of each of its turns as a free action. At level 10, this increases to 2d4 + CON modifier. After being used 5 times, the user must take a level of exhaustion."
     },
     "toxic-chain": {
         "Name": "",
@@ -1252,246 +1252,6 @@
         "Description": ""
     },
     "aura-guard": {
-        "Name": "",
-        "Description": ""
-    },
-    "mountaineer": {
-        "Name": "",
-        "Description": ""
-    },
-    "wave-rider": {
-        "Name": "",
-        "Description": ""
-    },
-    "skater": {
-        "Name": "",
-        "Description": ""
-    },
-    "thrust": {
-        "Name": "",
-        "Description": ""
-    },
-    "perception": {
-        "Name": "",
-        "Description": ""
-    },
-    "parry": {
-        "Name": "",
-        "Description": ""
-    },
-    "instinct": {
-        "Name": "",
-        "Description": ""
-    },
-    "dodge": {
-        "Name": "",
-        "Description": ""
-    },
-    "jagged-edge": {
-        "Name": "",
-        "Description": ""
-    },
-    "frostbite": {
-        "Name": "",
-        "Description": ""
-    },
-    "tenacity": {
-        "Name": "",
-        "Description": ""
-    },
-    "pride": {
-        "Name": "",
-        "Description": ""
-    },
-    "deep-sleep": {
-        "Name": "",
-        "Description": ""
-    },
-    "power-nap": {
-        "Name": "",
-        "Description": ""
-    },
-    "spirit": {
-        "Name": "",
-        "Description": ""
-    },
-    "warm-blanket": {
-        "Name": "",
-        "Description": ""
-    },
-    "gulp": {
-        "Name": "",
-        "Description": ""
-    },
-    "herbivore": {
-        "Name": "",
-        "Description": ""
-    },
-    "sandpit": {
-        "Name": "",
-        "Description": ""
-    },
-    "hot-blooded": {
-        "Name": "",
-        "Description": ""
-    },
-    "medic": {
-        "Name": "",
-        "Description": ""
-    },
-    "life-force": {
-        "Name": "",
-        "Description": ""
-    },
-    "lunchbox": {
-        "Name": "",
-        "Description": ""
-    },
-    "nurse": {
-        "Name": "",
-        "Description": ""
-    },
-    "melee": {
-        "Name": "",
-        "Description": ""
-    },
-    "sponge": {
-        "Name": "",
-        "Description": ""
-    },
-    "bodyguard": {
-        "Name": "",
-        "Description": ""
-    },
-    "hero": {
-        "Name": "",
-        "Description": ""
-    },
-    "last-bastion": {
-        "Name": "",
-        "Description": ""
-    },
-    "stealth": {
-        "Name": "",
-        "Description": ""
-    },
-    "vanguard": {
-        "Name": "",
-        "Description": ""
-    },
-    "nomad": {
-        "Name": "",
-        "Description": ""
-    },
-    "sequence": {
-        "Name": "",
-        "Description": ""
-    },
-    "grass-cloak": {
-        "Name": "",
-        "Description": ""
-    },
-    "celebrate": {
-        "Name": "",
-        "Description": ""
-    },
-    "lullaby": {
-        "Name": "",
-        "Description": ""
-    },
-    "calming": {
-        "Name": "",
-        "Description": ""
-    },
-    "daze": {
-        "Name": "",
-        "Description": ""
-    },
-    "frighten": {
-        "Name": "",
-        "Description": ""
-    },
-    "interference": {
-        "Name": "",
-        "Description": ""
-    },
-    "mood-maker": {
-        "Name": "",
-        "Description": ""
-    },
-    "confidence": {
-        "Name": "",
-        "Description": ""
-    },
-    "fortune": {
-        "Name": "",
-        "Description": ""
-    },
-    "bonanza": {
-        "Name": "",
-        "Description": ""
-    },
-    "explode": {
-        "Name": "",
-        "Description": ""
-    },
-    "omnipotent": {
-        "Name": "",
-        "Description": ""
-    },
-    "share": {
-        "Name": "",
-        "Description": ""
-    },
-    "black-hole": {
-        "Name": "",
-        "Description": ""
-    },
-    "shadow-dash": {
-        "Name": "",
-        "Description": ""
-    },
-    "sprint": {
-        "Name": "",
-        "Description": ""
-    },
-    "disgust": {
-        "Name": "",
-        "Description": ""
-    },
-    "high-rise": {
-        "Name": "",
-        "Description": ""
-    },
-    "climber": {
-        "Name": "",
-        "Description": ""
-    },
-    "flame-boost": {
-        "Name": "",
-        "Description": ""
-    },
-    "aqua-boost": {
-        "Name": "",
-        "Description": ""
-    },
-    "run-up": {
-        "Name": "",
-        "Description": ""
-    },
-    "conqueror": {
-        "Name": "",
-        "Description": ""
-    },
-    "shackle": {
-        "Name": "",
-        "Description": ""
-    },
-    "decoy": {
-        "Name": "",
-        "Description": ""
-    },
-    "shield": {
         "Name": "",
         "Description": ""
     }
