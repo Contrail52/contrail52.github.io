@@ -1,1 +1,14 @@
-{}
+{
+    "test1": {
+        "Name": "Item 1",
+        "Cost": 0,
+        "Category": "Trainer Packs",
+        "Description": "bjufdksoalvbhjk"
+    },
+    "test2": {
+        "Name": "Item 2",
+        "Cost": 10000,
+        "Category": "Pokeball",
+        "Description": "gdfjukasl"
+    }
+}

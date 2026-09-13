@@ -50,7 +50,7 @@ pwd = os.path.dirname(os.path.abspath(sys.argv[0]))
 ruleset_path = os.path.join(pwd, "src/databases")
 ruleset_file = os.path.join(ruleset_path, "active_rulesets.json")
 todo_file = os.path.join(ruleset_path, "todo.json")
-database_list = ("Pokedex", "Attackdex", "Abilitydex", "Itemdex", "Conditiondex", "Featdex", "Classdex", "Racedex")
+database_list = ("Pokedex", "Attackdex", "Abilitydex", "Itemdex", "TMdex", "Featdex", "Conditiondex", "Racedex", "Classdex")
 
 ruleset_listbox_selection_last = None
 database_listbox_selection_last = None
@@ -61,7 +61,7 @@ todo_color = "light pink"
 # Pokedex
 classification = ("Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan")
 sr = ("1/8", "1/4", "1/2", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30")
-hit_dice = ("1d4", "1d6", "1d8", "1d10", "1d12", "1d20", "1d100")
+hit_dice = ("1d4", "1d6", "1d8", "1d10", "1d12", "1d20")
 saves = ("Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma")
 skills = ("Acrobatics", "Animal Handling", "Arcana", "Athletics", "Deception", "History", "Insight", "Intimidation", "Investigation", "Medicine", "Nature", "Perception", "Performance", "Persuasion", "Religion", "Sleight of Hand", "Stealth", "Survival")
 default_evo_text = "{name1} can evolve into {name2} at level {lvl} and above. When it evolves, its health increases by double its level, and it gains {asi} points to add to its ability scores (max 20)."
@@ -70,6 +70,12 @@ default_evo_text = "{name1} can evolve into {name2} at level {lvl} and above. Wh
 power = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
 type = ("Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy")
 exhaustion = ("S+", "S", "S-", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-")
+
+# Itemdex
+item_category = ("Trainer Item", "Trainer Packs", "Medicine", "Pokeball", "X-Item", "Evolution Item", "Berry", "Held Item", "Pokemon Specific Item", "Pokemon Consumable", "Vitamin", "Miscellaneous")
+
+# Featdex
+feat_category = ("Universal", "Trainer", "Pokemon")
 
 # Ruleset and Database Object Definitions
 default_pokedex_entry = {
@@ -117,10 +123,15 @@ default_ability_entry = {
     "Description": ""
 }
 default_item_entry = {
-    "Redirect": "",
     "Name": "",
     "Cost": 0,
     "Category": "",
+    "Description": ""
+}
+default_tm_entry = {
+    "Name": "",
+    "Cost": 0,
+    "Move": "",
     "Description": ""
 }
 default_feat_entry = {
@@ -128,7 +139,7 @@ default_feat_entry = {
     "Category": "",
     "Description": ""
 }
-default_trainer_path_entry = {
+default_class_entry = {
     "Name": "",
     "Traits": {
         "LVL-2": {
@@ -158,10 +169,9 @@ default_race_entry = {
     "Proficiency": "",
     "Specialty": ""
 }
-default_status_entry = {
+default_condition_entry = {
     "Name": "",
     "Description": "",
-    "Levels": []
 }
 default_database_library = {}
 for database in database_list:
@@ -673,26 +683,365 @@ class AbilityEntryInterface(EntryInterface):
         entry["Name"] = self.name.get()
         entry["Description"] = self.description.get("1.0", "end-1c")
 #END_CLASS
-# TODO!!! Complete interfaces
+class ItemEntryInterface(EntryInterface):
+    name = StringVar()
+    cost = IntVar()
+    category = StringVar()
+    description = None
+    
+    def createFrame(self, parent):
+        vcmd = parent.register(self.callbackNumericOnly)
+        
+        container = Frame(parent)
+        
+        frame_name = Frame(container)
+        frame_cost = Frame(container)
+        frame_category = Frame(container)
+        frame_description = Frame(container)
+        
+        Label(frame_name, text = "Name: ").pack(side = "left")
+        Entry(frame_name, textvariable = self.name, width = 50).pack(side = "left")
+        
+        Label(frame_category, text = "Category: ").pack(side = "left")
+        ttk.Combobox(frame_category, textvariable = self.category, values = item_category, width = 30, state = "readonly").pack(side = "left")
+        
+        Label(frame_cost, text = "Cost: ").pack(side = "left")
+        Entry(frame_cost, textvariable = self.cost, width = 50, validate='all', validatecommand = (vcmd, "%P")).pack(side = "left")
+        
+        Label(frame_description, text = "Description:").pack(side = "top", anchor = "w")
+        self.description = Text(frame_description, width = 65, height = 6, wrap = WORD)
+        self.description.pack(side = "top", anchor = "w")
+        
+        frame_name.pack(side = "top", anchor = "w", pady = 3)
+        frame_cost.pack(side = "top", anchor = "w", pady = 3)
+        frame_category.pack(side = "top", anchor = "w", pady = 3)
+        frame_description.pack(side = "top", anchor = "w", pady = 3)
+        
+        return container
+    #END_DEF
+    def setFrameData(self, entry):
+        self.name.set(entry["Name"])
+        self.cost.set(entry["Cost"])
+        self.category.set(entry["Category"])
+        
+        self.description.delete("1.0", END)
+        self.description.insert(END, entry["Description"])
+    #END_DEF
+    def getFrameData(self, entry):
+        entry["Name"] = self.name.get()
+        entry["Cost"] = int(self.cost.get())
+        entry["Category"] = self.category.get()
+        entry["Description"] = self.description.get("1.0", "end-1c")
+#END_CLASS
+class TMEntryInterface(EntryInterface):
+    name = StringVar()
+    cost = IntVar()
+    move = StringVar()
+    
+    combo_moves = None
+    def updateMoveCombo(self):
+        global ruleset_library, listbox_ruleset, ruleset_listbox_selection_last
+        
+        
+        ruleset = listbox_ruleset.get(ruleset_listbox_selection_last)
+        move_values = [""]
+        for key, value in ruleset_library["rulesets"][ruleset]["Attackdex"].items():
+            move_values.append(key)
+        #END_FOR
+        
+        self.combo_moves.configure(values = move_values)
+    #END_DEF
+    def createFrame(self, parent):
+        vcmd = parent.register(self.callbackNumericOnly)
+        
+        container = Frame(parent)
+        
+        frame_name = Frame(container)
+        frame_cost = Frame(container)
+        frame_move = Frame(container)
+        
+        Label(frame_name, text = "Name: ").pack(side = "left")
+        Entry(frame_name, textvariable = self.name, width = 50).pack(side = "left")
+        
+        Label(frame_move, text = "Move: ").pack(side = "left")
+        self.combo_moves = ttk.Combobox(frame_move, textvariable = self.move, values = [""], width = 50, state = "readonly", postcommand = self.updateMoveCombo)
+        self.combo_moves.pack(side = "left")
+        
+        Label(frame_cost, text = "Cost: ").pack(side = "left")
+        Entry(frame_cost, textvariable = self.cost, width = 50, validate='all', validatecommand = (vcmd, "%P")).pack(side = "left")
+        
+        frame_name.pack(side = "top", anchor = "w", pady = 3)
+        frame_cost.pack(side = "top", anchor = "w", pady = 3)
+        frame_move.pack(side = "top", anchor = "w", pady = 3)
+        
+        return container
+    #END_DEF
+    def setFrameData(self, entry):
+        self.name.set(entry["Name"])
+        self.cost.set(entry["Cost"])
+        self.move.set(entry["Move"])
+    #END_DEF
+    def getFrameData(self, entry):
+        entry["Name"] = self.name.get()
+        entry["Cost"] = int(self.cost.get())
+        entry["Move"] = self.move.get()
+#END_CLASS
+class FeatEntryInterface(EntryInterface):
+    name = StringVar()
+    category = StringVar()
+    description = None
+    
+    def createFrame(self, parent):
+        container = Frame(parent)
+        
+        frame_name = Frame(container)
+        frame_category = Frame(container)
+        frame_description = Frame(container)
+        
+        Label(frame_name, text = "Name: ").pack(side = "left")
+        Entry(frame_name, textvariable = self.name, width = 50).pack(side = "left")
+        
+        Label(frame_category, text = "Category: ").pack(side = "left")
+        ttk.Combobox(frame_category, textvariable = self.category, values = feat_category, width = 30, state = "readonly").pack(side = "left")
+        
+        Label(frame_description, text = "Description:").pack(side = "top", anchor = "w")
+        self.description = Text(frame_description, width = 65, height = 6, wrap = WORD)
+        self.description.pack(side = "top", anchor = "w")
+        
+        frame_name.pack(side = "top", anchor = "w", pady = 3)
+        frame_category.pack(side = "top", anchor = "w", pady = 3)
+        frame_description.pack(side = "top", anchor = "w", pady = 3)
+        
+        return container
+    #END_DEF
+    def setFrameData(self, entry):
+        self.name.set(entry["Name"])
+        self.category.set(entry["Category"])
+        
+        self.description.delete("1.0", END)
+        self.description.insert(END, entry["Description"])
+    #END_DEF
+    def getFrameData(self, entry):
+        entry["Name"] = self.name.get()
+        entry["Category"] = self.category.get()
+        entry["Description"] = self.description.get("1.0", "end-1c")
+#END_CLASS
+class ConditionEntryInterface(EntryInterface):
+    name = StringVar()
+    description = None
+    
+    def createFrame(self, parent):
+        container = Frame(parent)
+        
+        frame_name = Frame(container)
+        frame_description = Frame(container)
+        
+        Label(frame_name, text = "Name: ").pack(side = "left")
+        Entry(frame_name, textvariable = self.name, width = 50).pack(side = "left")
+        
+        Label(frame_description, text = "Description:").pack(side = "top", anchor = "w")
+        self.description = Text(frame_description, width = 65, height = 6, wrap = WORD)
+        self.description.pack(side = "top", anchor = "w")
+        
+        frame_name.pack(side = "top", anchor = "w", pady = 3)
+        frame_description.pack(side = "top", anchor = "w", pady = 3)
+        
+        return container
+    #END_DEF
+    def setFrameData(self, entry):
+        self.name.set(entry["Name"])
+        
+        self.description.delete("1.0", END)
+        self.description.insert(END, entry["Description"])
+    #END_DEF
+    def getFrameData(self, entry):
+        entry["Name"] = self.name.get()
+        entry["Description"] = self.description.get("1.0", "end-1c")
+#END_CLASS
+class RaceEntryInterface(EntryInterface):
+    name = StringVar()
+    proficiency = StringVar()
+    specialty = None
+    
+    def createFrame(self, parent):
+        container = Frame(parent)
+        
+        frame_name = Frame(container)
+        frame_proficiency = Frame(container)
+        frame_specialty = Frame(container)
+        
+        Label(frame_name, text = "Name: ").pack(side = "left")
+        Entry(frame_name, textvariable = self.name, width = 50).pack(side = "left")
+        
+        Label(frame_proficiency, text = "Proficiency: ").pack(side = "left")
+        Entry(frame_proficiency, textvariable = self.proficiency, width = 70).pack(side = "left")
+        
+        Label(frame_specialty, text = "Description:").pack(side = "top", anchor = "w")
+        self.specialty = Text(frame_specialty, width = 65, height = 6, wrap = WORD)
+        self.specialty.pack(side = "top", anchor = "w")
+        
+        frame_name.pack(side = "top", anchor = "w", pady = 3)
+        frame_proficiency.pack(side = "top", anchor = "w", pady = 3)
+        frame_specialty.pack(side = "top", anchor = "w", pady = 3)
+        
+        return container
+    #END_DEF
+    def setFrameData(self, entry):
+        self.name.set(entry["Name"])
+        self.proficiency.set(entry["Proficiency"])
+        
+        self.specialty.delete("1.0", END)
+        self.specialty.insert(END, entry["Specialty"])
+    #END_DEF
+    def getFrameData(self, entry):
+        entry["Name"] = self.name.get()
+        entry["Proficiency"] = self.proficiency.get()
+        entry["Specialty"] = self.specialty.get("1.0", "end-1c")
+#END_CLASS
+class ClassEntryInterface(EntryInterface):
+    name = StringVar()
+    
+    name_lvl2 = StringVar()
+    description_lvl2 = None
+    
+    name_lvl5 = StringVar()
+    description_lvl5 = None
+    
+    name_lvl5_action = StringVar()
+    description_lvl5_action = None
+    
+    name_lvl9 = StringVar()
+    description_lvl9 = None
+    
+    name_lvl15 = StringVar()
+    description_lvl15 = None
+    
+    def createFrame(self, parent):
+        container = Frame(parent)
+        
+        frame_name = Frame(container)
+        frame_lvl2 = Frame(container)
+        frame_lvl5 = Frame(container)
+        frame_lvl5_action = Frame(container)
+        frame_lvl9 = Frame(container)
+        frame_lvl15 = Frame(container)
+        
+        Label(frame_name, text = "Name: ").pack(side = "left")
+        Entry(frame_name, textvariable = self.name, width = 50).pack(side = "left")
+        
+        def frameWrapper(parent, title, entry_width, entry_interface, text_width, text_height, validatecommand = None):
+            frame = Frame(parent)
+            
+            entry_frame = Frame(frame)
+            Label(entry_frame, textvariable = StringVar(frame, title)).pack(side = "left")
+            Entry(entry_frame, textvariable = entry_interface, width = entry_width, validate='all', validatecommand = validatecommand).pack(side = "left")
+            entry_frame.pack(side = "top", anchor = "w", pady = 1)
+            
+            text_frame = Frame(frame)
+            Label(text_frame, text = "Description:").pack(side = "top", anchor = "w")
+            text_interface = Text(text_frame, width = text_width, height = text_height, wrap = WORD)
+            text_interface.pack(side = "top", anchor = "w")
+            text_frame.pack(side = "top", anchor = "w", pady = 1)
+            
+            frame.pack(side = "top", anchor = "w", pady = 1)
+            return text_interface
+        #END_DEF
+        
+        self.description_lvl2 = frameWrapper(frame_lvl2, "Level 2: ", 50, self.name_lvl2, 70, 4)
+        self.description_lvl5 = frameWrapper(frame_lvl5, "Level 5: ", 50, self.name_lvl5, 70, 4)
+        self.description_lvl5_action = frameWrapper(frame_lvl5_action, "Level 5 Action: ", 50, self.name_lvl5_action, 70, 4)
+        self.description_lvl9 = frameWrapper(frame_lvl9, "Level 9: ", 50, self.name_lvl9, 70, 4)
+        self.description_lvl15 = frameWrapper(frame_lvl15, "Level 15: ", 50, self.name_lvl15, 70, 4)
+        
+        frame_name.pack(side = "top", anchor = "w", pady = 1)
+        frame_lvl2.pack(side = "top", anchor = "w", pady = 1)
+        frame_lvl5.pack(side = "top", anchor = "w", pady = 1)
+        frame_lvl5_action.pack(side = "top", anchor = "w", pady = 1)
+        frame_lvl9.pack(side = "top", anchor = "w", pady = 1)
+        frame_lvl15.pack(side = "top", anchor = "w", pady = 1)
+        
+        return container
+    #END_DEF
+    def setFrameData(self, entry):
+        self.name.set(entry["Name"])
+        self.name_lvl2.set(entry["Traits"]["LVL-2"]["Name"])
+        self.name_lvl5.set(entry["Traits"]["LVL-5"]["Name"])
+        self.name_lvl5_action.set(entry["Traits"]["LVL-5_Action"]["Name"])
+        self.name_lvl9.set(entry["Traits"]["LVL-9"]["Name"])
+        self.name_lvl15.set(entry["Traits"]["LVL-15"]["Name"])
+        
+        self.description_lvl2.delete("1.0", END)
+        self.description_lvl2.insert(END, entry["Traits"]["LVL-2"]["Description"])
+        
+        self.description_lvl5.delete("1.0", END)
+        self.description_lvl5.insert(END, entry["Traits"]["LVL-5"]["Description"])
+        
+        self.description_lvl5_action.delete("1.0", END)
+        self.description_lvl5_action.insert(END, entry["Traits"]["LVL-5_Action"]["Description"])
+        
+        self.description_lvl9.delete("1.0", END)
+        self.description_lvl9.insert(END, entry["Traits"]["LVL-9"]["Description"])
+        
+        self.description_lvl15.delete("1.0", END)
+        self.description_lvl15.insert(END, entry["Traits"]["LVL-15"]["Description"])
+    #END_DEF
+    def getFrameData(self, entry):
+        entry["Name"] = self.name.get()
+        entry["Traits"]["LVL-2"]["Name"] = self.name_lvl2.get()
+        entry["Traits"]["LVL-5"]["Name"] = self.name_lvl5.get()
+        entry["Traits"]["LVL-5_Action"]["Name"] = self.name_lvl5_action.get()
+        entry["Traits"]["LVL-9"]["Name"] = self.name_lvl9.get()
+        entry["Traits"]["LVL-15"]["Name"] = self.name_lvl15.get()
+        
+        entry["Traits"]["LVL-2"]["Description"] = self.description_lvl2.get("1.0", "end-1c")
+        entry["Traits"]["LVL-5"]["Description"] = self.description_lvl5.get("1.0", "end-1c")
+        entry["Traits"]["LVL-5_Action"]["Description"] = self.description_lvl5_action.get("1.0", "end-1c")
+        entry["Traits"]["LVL-9"]["Description"] = self.description_lvl9.get("1.0", "end-1c")
+        entry["Traits"]["LVL-15"]["Description"] = self.description_lvl15.get("1.0", "end-1c")
+#END_CLASS
 
 pokedexInterface = PokedexEntryInterface()
 attackdexInterface = AttackEntryInterface()
 abilitydexInterface = AbilityEntryInterface()
+itemdexInterface = ItemEntryInterface()
+tmdexInterface = TMEntryInterface()
+featdexInterface = FeatEntryInterface()
+conditiondexInterface = ConditionEntryInterface()
+racedexInterface = RaceEntryInterface()
+classdexInterface = ClassEntryInterface()
 
 pokedex_frame = pokedexInterface.createFrame(frame_content)
 attackdex_frame = attackdexInterface.createFrame(frame_content)
 abilitydex_frame = abilitydexInterface.createFrame(frame_content)
+itemdex_frame = itemdexInterface.createFrame(frame_content)
+tmdex_frame = tmdexInterface.createFrame(frame_content)
+featdex_frame = featdexInterface.createFrame(frame_content)
+conditiondex_frame = conditiondexInterface.createFrame(frame_content)
+racedex_frame = racedexInterface.createFrame(frame_content)
+classdex_frame = classdexInterface.createFrame(frame_content)
 
 current_content_frame = None
 current_interface = None
 
 frame_list = ((pokedex_frame, pokedexInterface),\
               (attackdex_frame, attackdexInterface),\
-              (abilitydex_frame, abilitydexInterface))
+              (abilitydex_frame, abilitydexInterface),\
+              (itemdex_frame, itemdexInterface),\
+              (tmdex_frame, tmdexInterface),\
+              (featdex_frame, featdexInterface),\
+              (conditiondex_frame, conditiondexInterface),\
+              (racedex_frame, racedexInterface),\
+              (classdex_frame, classdexInterface))
 
 default_entry_list = (default_pokedex_entry,\
                       default_attack_entry,\
-                      default_ability_entry)
+                      default_ability_entry,\
+                      default_item_entry,\
+                      default_tm_entry,\
+                      default_feat_entry,\
+                      default_condition_entry,\
+                      default_race_entry,\
+                      default_class_entry)
 
 def switchContent(database = None, entry = None):
     global database_list, current_content_frame, current_interface, frame_list

@@ -1,0 +1,14 @@
+{
+    "test1": {
+        "Name": "TM-001",
+        "Cost": 1500,
+        "Move": "fire-punch",
+        "Description": ""
+    },
+    "test2": {
+        "Name": "",
+        "Cost": 0,
+        "Move": "",
+        "Description": ""
+    }
+}

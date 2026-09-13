@@ -2669,6 +2669,7 @@
             "shield": 1
         },
         "Itemdex": {},
+        "TMdex": {},
         "Conditiondex": {},
         "Featdex": {},
         "Classdex": {},
@@ -5344,6 +5345,7 @@
             "shield": 1
         },
         "Itemdex": {},
+        "TMdex": {},
         "Conditiondex": {},
         "Featdex": {},
         "Classdex": {},
@@ -8018,7 +8020,14 @@
             "decoy": 1,
             "shield": 1
         },
-        "Itemdex": {},
+        "Itemdex": {
+            "test1": 0,
+            "test2": 0
+        },
+        "TMdex": {
+            "test1": 0,
+            "test2": 1
+        },
         "Conditiondex": {},
         "Featdex": {},
         "Classdex": {},
