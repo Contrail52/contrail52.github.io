@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
+from autocombobox import AutoCombobox
 import os, errno
 import sys
 import json
@@ -230,6 +231,9 @@ scrollbar_database = Scrollbar(frame_database)
 listbox_database = Listbox(frame_database, yscrollcommand = scrollbar_database.set, selectmode = SINGLE, width = 20)
 scrollbar_entries = Scrollbar(frame_entries)
 listbox_entries = Listbox(frame_entries, yscrollcommand = scrollbar_entries.set, selectmode = SINGLE, width = 30)
+
+
+combobox_entry_search = AutoCombobox(frame_entries)
 
 
 # Initialize Ruleset Listbox with data loaded from file
@@ -1068,7 +1072,7 @@ def switchContent(database = None, entry = None):
 # Listbox Selection Callback Functions
 def rulesetSelectionCallback(event):
     global ruleset_library, listbox_database, listbox_entries,\
-           ruleset_listbox_selection_last, database_listbox_selection_last, entry_listbox_selection_last
+           ruleset_listbox_selection_last, database_listbox_selection_last, entry_listbox_selection_last, combobox_entry_search
     
     selection = event.widget.curselection()
     if selection:
@@ -1088,11 +1092,14 @@ def rulesetSelectionCallback(event):
             listbox_database.insert("end", key)
         #END_FOR
         
+        combobox_entry_search["values"] = []
+        combobox_entry_search.set("")
+        
         switchContent()
 #END_DEF
 def databaseSelectionCallback(event):
     global ruleset_library, listbox_ruleset, listbox_database, listbox_entries,\
-           ruleset_listbox_selection_last, database_listbox_selection_last, entry_listbox_selection_last
+           ruleset_listbox_selection_last, database_listbox_selection_last, entry_listbox_selection_last, combobox_entry_search
     
     selection = event.widget.curselection()
     if selection:
@@ -1112,6 +1119,8 @@ def databaseSelectionCallback(event):
             if ruleset_library["todo"][ruleset][database][key] == 1:
                 listbox_entries.itemconfig("end", {"bg": todo_color})
         #END_FOR
+        combobox_entry_search["values"] = listbox_entries.get(0, "end")
+        combobox_entry_search.set("")
         
         switchContent()
 #END_DEF
@@ -1135,10 +1144,24 @@ def entrySelectionCallback(event):
         switchContent(database, ruleset_library["rulesets"][ruleset][database][entry])
 #END_DEF
 
+def autocomboboxSelectionCallback(event):
+    global listbox_entries
+    value = event.widget.get()
+    entry_list = listbox_entries.get(0, "end")
+    index = 0
+    for entry in entry_list:
+        if value == entry:
+            listbox_entries.selection_set(index)
+            listbox_entries.event_generate("<<ListboxSelect>>")
+            break
+        index = index + 1
+#END_DEF
+
 listbox_ruleset.bind("<<ListboxSelect>>", rulesetSelectionCallback)
 listbox_database.bind("<<ListboxSelect>>", databaseSelectionCallback)
 listbox_entries.bind("<<ListboxSelect>>", entrySelectionCallback)
-        
+
+combobox_entry_search.bind("<<ComboboxSelected>>", autocomboboxSelectionCallback)
 
 
 
@@ -1709,7 +1732,6 @@ def createMenubar(root):
     
     return menubar
 #END_DEF
-
 # Configure Window
 root.title("Scarlet League PHB Database Editor")
 root.geometry('1050x670')
@@ -1745,6 +1767,7 @@ listbox_database.pack(side = TOP, fill = Y, expand = True)
 scrollbar_database.config(command = listbox_database.yview)
 
 # Configure Entry Listbox
+combobox_entry_search.pack(side = TOP, fill = X, anchor = "n")
 scrollbar_entries.pack(side = RIGHT, fill = Y)
 listbox_entries.pack(side = TOP, fill = Y, expand = True)
 scrollbar_entries.config(command = listbox_entries.yview)
