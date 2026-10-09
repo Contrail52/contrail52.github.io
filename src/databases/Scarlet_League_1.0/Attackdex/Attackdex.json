@@ -3,301 +3,371 @@
         "Redirect": "",
         "Name": "Pound",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You crush a creature with a pound attack. Make a melee attack roll against a target, doing 1d6 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "karate-chop": {
         "Redirect": "",
         "Name": "Karate-chop",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You extend a hand towards a target creature for a savage karate chop. Make a melee attack roll, doing 1d8 + MOVE fighting damage on a hit. Karate Chop scores a critical hit on 19s and 20s.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
     },
     "double-slap": {
         "Redirect": "",
         "Name": "Double-slap",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You reach out with quick slaps. Make a melee attack roll, doing 1d4 + MOVE on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, another slap lands (add an additional damage dice). Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of four additional hits.",
+        "Higher_Levels": "The damage dice rolls for this move change to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
     },
     "comet-punch": {
         "Redirect": "",
         "Name": "Comet-punch",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out with a series of lightning fast punches. Make a melee attack roll. The target takes 1d4 + MOVE normal damage on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, another punch lands (add an additional damage dice). Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of four additional dice.",
+        "Higher_Levels": "The damage dice rolls for this move change to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
     },
     "mega-punch": {
         "Redirect": "",
         "Name": "Mega-punch",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out with a hard punch Make a melee attack against a target, doing 2d6 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "pay-day": {
         "Redirect": "",
         "Name": "Pay-day",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX",
+            "CHA"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike a target, causing it to shake out its purse. Make a melee attack, doing 1d6 + MOVE normal damage on a hit. In addition, 10x the user\u2019s level in cash is scattered on the floor until the end of combat. This release of funds can only occur once per target.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "fire-punch": {
         "Redirect": "",
         "Name": "Fire-punch",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fire",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out with fire-infused fists. Make a melee attack roll, doing 1d12 + MOVE fire damage on a hit. On a natural attack roll of 19 or 20, the target is burned.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
     },
     "ice-punch": {
         "Redirect": "",
         "Name": "Ice-punch",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Ice",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out with ice-infused fists. Make a melee attack roll, doing 1d12 + MOVE ice damage on a hit. On a natural attack roll of 19 or 20, the target is frozen.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
     },
     "thunder-punch": {
         "Redirect": "",
         "Name": "Thunder-punch",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Electric",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "Your punches are imbued with electric energy. Make a melee attack on a target, doing 1d12 + MOVE electric damage on a hit. On a natural attack roll of 19 or 20, the target is paralyzed.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
     },
     "scratch": {
         "Redirect": "",
         "Name": "Scratch",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You slash out at a creature in range. Make a melee attack, doing 1d6 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "vice-grip": {
         "Redirect": "",
         "Name": "Vice-grip",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You crush a creature with a forceful, gripping attack. Make a melee attack, doing 1d8 + MOVE normal damage on a hit, grappling the target. On each successive turn, if the creature is still grappled, you may use this move again (as an action) and automatically hit. A creature may attempt to escape the grapple at the beginning of its turns with a STR save against your Move DC.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
     },
     "guillotine": {
         "Redirect": "",
         "Name": "Guillotine",
         "Type": "Normal",
         "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You are filled with an incredible rage, grabbing the head of a target creature in an attempt to squeeze the life from it. Roll a d20. Upon rolling higher a 16 or higher deal 8d12 normal damage that bypasses Protect/Detect, but regardless of whether the move hits or not, take disadvantage on all attacks directed towards you until the beginning of your next turn. If the target's level is 10 more than your own, this move automatically fails.",
         "Higher_Levels": ""
     },
     "razor-wind": {
         "Redirect": "",
         "Name": "Razor-wind",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action (Charge)",
+        "Duration": "1 Round (Concentration)",
+        "Range": "20ft (Self Radius)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "When you use this move, strong winds begin to circle around you, granting +2 to AC. On your next turn, if you keep your concentration, you release those winds as an action in a 20 foot radius, centered on you. Each creature in the area must make a DEX save against your Move DC, taking 2d6 + MOVE normal damage on a fail, or half as much on a success.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "swords-dance": {
         "Redirect": "",
         "Name": "Swords-dance",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "DEX",
+            "WIS"
+        ],
+        "Time": "1 Action",
+        "Duration": "1 Minute (Concentration)",
+        "Range": "Self",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "When you activate this move, a sword appears and dances around you, increasing your AC by 1. As a bonus action on a future turn, you may drop concentration to release this sword and roll a ranged attack at a target within 30 feet of you, dealing 2d6 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice for this move changes to 2d8 at level 5. At level 10, you can now create two swords for +2 to AC and two ranged attacks. At level 17, the damage dice for each sword increases to 3d8."
     },
     "cut": {
         "Redirect": "",
         "Name": "Cut",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You lash out at a target with vine or claw or blade. Make a melee roll on a target, doing 1d8 + MOVE on a successful hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
     },
     "gust": {
         "Redirect": "",
         "Name": "Gust",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Flying",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You create a strong wind that batters a target in range. Make a ranged attack, doing 1d6 + MOVE flying damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "wing-attack": {
         "Redirect": "",
         "Name": "Wing-attack",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Flying",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out at a target creature with your wings. Make a melee attack roll, doing 1d10 + MOVE flying damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "whirlwind": {
         "Redirect": "",
         "Name": "Whirlwind",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "5ft (Self Radius)",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You create a whirlwind of spinning air around you, increasing your AC by +2 until the beginning of your next turn. When you activate this move, any creature within 5 feet of you must succeed on a STR saving throw against your Move DC or fall prone. In wild creature battles, this move can be activated to automatically count as a single success in a group DEX check to run away.",
         "Higher_Levels": ""
     },
     "fly": {
         "Redirect": "",
         "Name": "Fly",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Flying",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "1 Round (Charge)",
+        "Range": "80ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You fly high into the air to prepare for a dive bomb attack. When you activate this move, you use 10 feet of your movement to vanish and fly upwards, remaining in an invulnerable state until your next turn. During this time, you are immune to the damage and effects of any move. If you have no remaining movement or are grappled/restrained before activating this move, the move fails. On your next turn, you use your action to reappear and make a diving melee attack on a creature in range, with advantage, dealing 2d8 + MOVE flying damage on a successful hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
     },
     "bind": {
         "Redirect": "",
         "Name": "Bind",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You attempt to grapple a target into submission. Make a melee attack roll. On a hit, the target takes 1d4 + MOVE normal damage and is grappled. At the beginning of each of its turns, it may attempt to escape with a STR save against your Move DC. While a creature is grappled, you may continue this move, as a bonus action, to do an automatic 1d4 normal damage without having to make an attack roll.",
+        "Higher_Levels": "The damage dice rolls for this move to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
     },
     "slam": {
         "Redirect": "",
         "Name": "Slam",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You crush a creature with a slam attack. Make a melee attack roll against a target, doing 2d6 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "vine-whip": {
         "Redirect": "",
         "Name": "Vine-whip",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee (15ft Reach)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You extend a sharp vine to whip the target with. This vine can strike anything within 15 feet of you. Make a melee attack roll, doing 1d6 + MOVE grass damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "stomp": {
         "Redirect": "",
         "Name": "Stomp",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You raise your feet up for a stomp attack. Make a melee attack roll against a target, doing 1d10 + MOVE normal damage on a hit. If the natural attack roll is 18 or more, the target flinches.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "double-kick": {
         "Redirect": "",
         "Name": "Double-kick",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike twice with two devastating kicks. Make two melee attack rolls, doing 1d6 + MOVE fighting damage on each successful hit.",
+        "Higher_Levels": "The damage dice rolls for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "mega-kick": {
         "Redirect": "",
         "Name": "Mega-kick",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike with a powerful kick. Make a melee attack against a target, doing 2d10 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
     },
     "jump-kick": {
         "Redirect": "",

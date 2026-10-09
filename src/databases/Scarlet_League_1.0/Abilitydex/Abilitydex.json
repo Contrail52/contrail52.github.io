@@ -253,7 +253,7 @@
     },
     "liquid-ooze": {
         "Name": "Liquid Ooze",
-        "Description": "If an enemy uses a leeching or absorb move against this Pok\u00e9mon, the Pok\u00e9mon must make a CON save against this Pok\u00e9mon’s CON or become poisoned."
+        "Description": "If an enemy uses a leeching or absorb move against this Pok\u00e9mon, the Pok\u00e9mon must make a CON save against this Pok\u00e9mon\u00e2\u20ac\u2122s CON or become poisoned."
     },
     "overgrow": {
         "Name": "Overgrow",
@@ -401,7 +401,7 @@
     },
     "technician": {
         "Name": "Technician",
-        "Description": "For weak, damaging moves activated by this Pok\u00e9mon, they may add a single additional damage die. <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Technician_(Ability)\" target=\"_blank\" rel=\"noopener noreferrer\">(List of moves affected by Technician can be found on Bulbapedia.)<\/a>"
+        "Description": "For weak, damaging moves activated by this Pok\u00e9mon, they may add a single additional damage die. <a href=\"https://bulbapedia.bulbagarden.net/wiki/Technician_(Ability)\" target=\"_blank\" rel=\"noopener noreferrer\">(List of moves affected by Technician can be found on Bulbapedia.)</a>"
     },
     "leaf-guard": {
         "Name": "Leaf Guard",
@@ -529,7 +529,7 @@
     },
     "weak-armor": {
         "Name": "Weak Armor",
-        "Description": "When an attack hits this Pok\u00e9mon, it’s AC decreases by 1 and it gains advantage on its next attack. The AC change resets after the advantage is used. The advantage applies to moves that require a saving throw."
+        "Description": "When an attack hits this Pok\u00e9mon, it\u00e2\u20ac\u2122s AC decreases by 1 and it gains advantage on its next attack. The AC change resets after the advantage is used. The advantage applies to moves that require a saving throw."
     },
     "heavy-metal": {
         "Name": "Heavy Metal",
@@ -621,7 +621,7 @@
     },
     "magic-bounce": {
         "Name": "Magic Bounce",
-        "Description": "A number of times equal to your proficiency modifier per long rest, when you are subjected to a <a href=\"https:\/\/bulbapedia.bulbagarden.net\/wiki\/Magic_Coat_(move)#Affected_moves\" target=\"_blank\" rel=\"noopener noreferrer\">reflectable move<\/a>, this Pok\u00e9mon can instead reflect the effect back on the attacker."
+        "Description": "A number of times equal to your proficiency modifier per long rest, when you are subjected to a <a href=\"https://bulbapedia.bulbagarden.net/wiki/Magic_Coat_(move)#Affected_moves\" target=\"_blank\" rel=\"noopener noreferrer\">reflectable move</a>, this Pok\u00e9mon can instead reflect the effect back on the attacker."
     },
     "sap-sipper": {
         "Name": "Sap Sipper",

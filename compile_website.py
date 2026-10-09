@@ -21,6 +21,7 @@
 #
 # Additions:
 # - Added section to configure the "/scripts/config.js" file by filling in the database path and database hash
+# - Added reference ".ref" files to point to common html files used between databases without changes between them
 
 
 
@@ -69,7 +70,7 @@ def print_log(log_file_handle, msg):
     log_file_handle.write(msg + "\n")
 #END_DEF
 
-def compile_directory(log_file_handle, template_data, src_dir, dst_dir, warn_empty = True):
+def compile_directory(log_file_handle, pwd, template_data, src_dir, dst_dir, warn_empty = True):
     assert os.path.isdir(src_dir)
     assert os.path.isdir(dst_dir)
     
@@ -79,9 +80,22 @@ def compile_directory(log_file_handle, template_data, src_dir, dst_dir, warn_emp
         print_log(log_file_handle, str(src_file))
         dst_file = os.path.join(dst_dir, os.path.basename(src_file))
         
-        with open(dst_file, "w") as src_file_handle:
-            with open(src_file, "r") as dst_file_handle:
-                src_file_handle.write(template_data.format(WEB_PAGE_CONTENT=dst_file_handle.read()))
+        with open(src_file, "r") as src_file_handle:
+            with open(dst_file, "w") as dst_file_handle:
+                dst_file_handle.write(template_data.format(WEB_PAGE_CONTENT=src_file_handle.read()))
+        
+        count = count + 1
+    
+    # Compile REF files
+    for ref_file in Path(src_dir).glob("*.ref"):
+        print_log(log_file_handle, str(ref_file))
+        
+        with open(ref_file, "r") as ref_file_handle:
+            src_file = os.path.join(pwd, ref_file_handle.read())
+            dst_file = os.path.join(dst_dir, os.path.basename(src_file))
+            with open(src_file, "r") as src_file_handle:
+                with open(dst_file, "w") as dst_file_handle:
+                    dst_file_handle.write(template_data.format(WEB_PAGE_CONTENT=src_file_handle.read()))
         
         count = count + 1
     
@@ -92,7 +106,7 @@ def compile_directory(log_file_handle, template_data, src_dir, dst_dir, warn_emp
     for path in Path(src_dir).glob("*/"):
         print_log(log_file_handle, str(path))
         os.mkdir(os.path.normpath(os.path.join(dst_dir, os.path.basename(path))))
-        compile_directory(log_file_handle, template_data, os.path.normpath(os.path.join(src_dir, os.path.basename(path))), os.path.normpath(os.path.join(dst_dir, os.path.basename(path))))
+        compile_directory(log_file_handle, pwd, template_data, os.path.normpath(os.path.join(src_dir, os.path.basename(path))), os.path.normpath(os.path.join(dst_dir, os.path.basename(path))))
 #END_DEF
 
 def clear_directory(directory):
@@ -188,7 +202,7 @@ except IOError as e:
 
 # Loop through all subdirectories and HTML files in databases directory and compile them
 try:
-    compile_directory(log_file_handle, template_data, database_path, website_path, False)
+    compile_directory(log_file_handle, pwd, template_data, database_path, website_path, False)
 except IOError as e:
     print_log(log_file_handle, "I/O error({0}): {1}".format(e.errno, e.strerror))
     log_file_handle.close()
