@@ -372,253 +372,311 @@
     "jump-kick": {
         "Redirect": "",
         "Name": "Jump-kick",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You leap into the air to deliver a strong kick to a creature. Make a melee attack against a target, doing 4d4 + MOVE fighting damage on a hit. On a miss, you take 2 damage. And, the recoil damage increases by 1 for each damage dice increase.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 6d6 at level 17."
     },
     "rolling-kick": {
         "Redirect": "",
         "Name": "Rolling-kick",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You swing your feet around in a wide arc to strike a target. Make a melee attack roll, doing 1d10 + MOVE fighting damage on a hit. If the natural attack roll is 18 or more, the target flinches.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "sand-attack": {
         "Redirect": "",
         "Name": "Sand-attack",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Ground",
+        "Power": [
+            "DEX",
+            "CON"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "30ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You kick up a cloud of sand in an attempt to blind a target in range. The target must make a CON save against your Move DC. On a fail, for the remainder of the encounter, they add -1 to all of their attack rolls. This move can be stacked for a maximum of -5 to attack rolls.",
         "Higher_Levels": ""
     },
     "headbutt": {
         "Redirect": "",
         "Name": "Headbutt",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You really know how to use your head. Make a melee attack roll, doing 1d12 + MOVE normal damage on a hit. If the natural attack roll is 18 or more, the target falls prone.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
     },
     "horn-attack": {
         "Redirect": "",
         "Name": "Horn-attack",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike at a target with your horn. Make a melee attack, doing 1d10 + MOVE normal damage on a hit. If you moved 20 feet or more straight towards a target, immediately before activating this move, force a creature to make a STR save against your Move DC or be knocked prone.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "fury-attack": {
         "Redirect": "",
         "Name": "Fury-attack",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You reach out and unleash relentless strikes against a creature. Make a melee attack roll, doing 1d4 + MOVE normal damage on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, another strike lands (add an additional damage dice). Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of four additional dice.",
+        "Higher_Levels": "The damage dice rolls for this move change to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
     },
     "horn-drill": {
         "Redirect": "",
         "Name": "Horn-drill",
         "Type": "Normal",
         "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You attempt to drill your horn through a target creature with tremendous strength.\nChoose a target in range and roll a d20. Upon rolling a 16 or higher deal 8d12 normal type damage that bypasses Protect/Detect, but regardless of whether the move hits or not, take disadvantage on all attacks directed towards you until the beginning of your next turn. If the target's level is 10 more than your own, this move automatically fails.",
         "Higher_Levels": ""
     },
     "tackle": {
         "Redirect": "",
         "Name": "Tackle",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You rush forward and slam into a creature. Make a melee attack roll against a target, doing 1d6 + MOVE normal damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
     },
     "body-slam": {
         "Redirect": "",
         "Name": "Body-slam",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "CON"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You thrust yourself towards a creature in an attempt to crush them with your physical size. Make a melee attack on a target. On a hit, the target takes 2d6 + MOVE normal damage, and must succeed on a STR saving throw against your Move DC or be knocked prone.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "wrap": {
         "Redirect": "",
         "Name": "Wrap",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You attempt to grapple a target into submission. Make a melee attack roll. On a hit, the target takes 1d4 + MOVE normal damage and is grappled. At the beginning of each of its turns, it may attempt to escape with a STR save against your Move DC. As long as the target is grappled on your subsequent turns, this move can be activated again as a bonus action with an automatic hit, dealing 1d4 normal damage.",
+        "Higher_Levels": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
     },
     "take-down": {
         "Redirect": "",
         "Name": "Take-down",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You sacrifice your own position to take down a creature. Roll a melee attack roll. On a hit, you deal 2d8 + MOVE normal damage, taking a quarter of the total damage (rounded down) in typeless recoil.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
     },
     "thrash": {
         "Redirect": "",
         "Name": "Thrash",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You thrash about wildly, doing several attacks without control. Make a melee attack roll, doing 1d10 + MOVE normal damage on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, you may immediately hit again for an additional 1d10 normal damage. Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of two additional hits. At the end of this attack, you become confused.",
+        "Higher_Levels": "The damage dice rolls for this move change to 2d8 at level 5, 2d10 at level 10, and 4d6 at level 17."
     },
     "double-edge": {
         "Redirect": "",
         "Name": "Double-edge",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You commit a massive attack against a creature. Make a melee attack against a target, doing 2d10 + MOVE normal damage on a hit, but taking a quarter of the total damage (rounded down) in typeless recoil.",
+        "Higher_Levels": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
     },
     "tail-whip": {
         "Redirect": "",
         "Name": "Tail-whip",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "DEX",
+            "CHA"
+        ],
+        "Time": "1 Action",
+        "Duration": "1 Minute",
+        "Range": "100ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You shake your tail at a target, distracting it and opening up its defenses. The creature must make a WIS save against your Move DC. On a fail, allies add +1 to any attack they target it with for the duration. This modifier can be stacked if it fails multiple tail whip saves, up to a maximum of +5.",
         "Higher_Levels": ""
     },
     "poison-sting": {
         "Redirect": "",
         "Name": "Poison-sting",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Poison",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "15ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out at a creature with a poisonous sting. Make a melee attack roll against a target within range, doing 1d6 + MOVE poison damage on a hit. If the natural attack roll is 18 or more, the creature is poisoned.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "twineedle": {
         "Redirect": "",
         "Name": "Twineedle",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Bug",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You fire two sharp projectiles at a creature in range. They do not have to target the same creature. Make two ranged attack rolls, dealing 1d4 + MOVE bug damage on each hit. If the natural roll of either attack is a 19 or 20, the target is poisoned.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
     },
     "pin-missile": {
         "Redirect": "",
         "Name": "Pin-missile",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Bug",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "60ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike a creature with sharp projectiles in quick succession. Make a ranged attack roll, doing 1d4 + MOVE bug damage on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, another missile lands (add an additional damage dice). Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of four additional dice.",
+        "Higher_Levels": "The damage dice rolls for this move change to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
     },
     "leer": {
         "Redirect": "",
         "Name": "Leer",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "WIS",
+            "CHA"
+        ],
+        "Time": "1 Action",
+        "Duration": "1 Minute",
+        "Range": "60ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You stare down a target, reducing its will. The creature must make a WIS save against your Move DC. On a fail, allies may add +1 to any attack they target it with for the duration. This modifier can be stacked if it fails multiple leer saves, up to a maximum of +5.",
         "Higher_Levels": ""
     },
     "bite": {
         "Redirect": "",
         "Name": "Bite",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Dark",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You sink your teeth into a target creature. Make a melee attack roll, doing 1d10 + MOVE dark damage on a successful hit. On natural attack rolls of 19 or 20, the target flinches.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "growl": {
         "Redirect": "",
         "Name": "Growl",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "CHA"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "100ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You target a creature with an intimidating growl. The creature must make a WIS save against your Move DC. On a fail, it adds -1 to any attack it makes for the duration. This modifier can be stacked if it fails multiple growl saves, up to a maximum of -5.",
         "Higher_Levels": ""
     },
     "roar": {
         "Redirect": "",
         "Name": "Roar",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "CHA"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "15ft (Self Radius)",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You release an intimidating roar at all opponents within 15 feet of you. Opponents that can hear you must make a WIS save against your Move DC. On a fail, the creature is frightened and is forced to immediately move up to its speed in a straight line away from you, or until met with an impending force (does not provoke attacks of opportunity). A creature frightened in this way must make a WIS save against your Move DC at the end of each of its turns to remove the effect.",
         "Higher_Levels": ""
     },
     "sing": {
@@ -626,395 +684,480 @@
         "Name": "Sing",
         "Type": "Normal",
         "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "30ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You sing a beautiful song in an attempt to put creatures to sleep. Roll 5d8, the total is how many hit points of creatures this move can affect. Creatures within 30 feet of you are affected in ascending order of their current hit points. Starting with the creature that has the lowest current hit points, each creature affected by this move falls asleep. Subtract each creature\u2019s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u2019s hit points must be equal to or less than the remaining total for that creature to be affected.",
+        "Higher_Levels": "The number of hit points affected changes to 7d8 at level 5, 6d12 at level 10, and 11d8 at level 17."
     },
     "supersonic": {
         "Redirect": "",
         "Name": "Supersonic",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "DEX",
+            "WIS"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You emit a high pitched screech heard only by the target. Choose a target in range. The target must pass a WIS saving throw against your Move DC or become confused.",
         "Higher_Levels": ""
     },
     "sonic-boom": {
         "Redirect": "",
         "Name": "Sonic-boom",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "20ft (Self Radius)",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You unleash a deafening sound that harms creatures in a 40 foot circle, centered on you. Creatures in range must make a CON save against your Move DC, taking 20 flat normal damage on a fail, or half as much on a success.",
         "Higher_Levels": ""
     },
     "disable": {
         "Redirect": "",
         "Name": "Disable",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "WIS",
+            "CHA"
+        ],
+        "Time": "1 Action",
+        "Duration": "1 Minute (Concentration)",
+        "Range": "60ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You attempt to disable a target, hindering its moves. Choose a target in range. The target must succeed on a WIS saving throw against your Move DC. On a failed save, the last Move it activated is unable to be used while you hold your concentration. (If this would end Solar Beam, Skull Bash, etc. during the charge phase of the Move, the Move automatically fails on the target's next turn)",
         "Higher_Levels": ""
     },
     "acid": {
         "Redirect": "",
         "Name": "Acid",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Poison",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "30ft (Self Cone)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You create a stream of hot acid in a 30-foot cone, centered on you. Creatures caught in the cone must make a DEX save, taking 1d6 + MOVE poison damage on a failure, and half as much on a success.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "ember": {
         "Redirect": "",
         "Name": "Ember",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fire",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "60ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You hurl a ball of flame at a target within range. Make a ranged attack, doing 1d6 + Move fire damage on a successful hit. If the natural attack roll is 19 or 20, the target is burnt.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "flamethrower": {
         "Redirect": "",
         "Name": "Flamethrower",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fire",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft (Self Cone)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You shoot a concentrated gout of flame in a 40 foot cone. Any creature caught in the cone must succeed on a DEX save against your Move DC, taking 2d8 + MOVE fire damage on a failure, or half damage on a success. Any creature that fails the save by 5 or more becomes burned.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
     },
     "mist": {
         "Redirect": "",
         "Name": "Mist",
-        "Type": "Normal",
+        "Type": "Ice",
         "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Time": "1 Action",
+        "Duration": "1 Minute",
+        "Range": "30ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "A light mist surrounds a target, offering a protective barrier. The target is immune to negative stat changes for the duration, but any current effects are still in place.",
         "Higher_Levels": ""
     },
     "water-gun": {
         "Redirect": "",
         "Name": "Water-gun",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Water",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You fire a quick spurt of water at a creature in range. Make a ranged attack roll, doing 1d6 + MOVE water damage on a hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "hydro-pump": {
         "Redirect": "",
         "Name": "Hydro-pump",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Water",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "80ft (Self Line)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You send a surge of powerful water towards creatures in a 80 foot line, 5 feet wide. Creatures caught in the blast must succeed on a DEX save against your Move DC, taking 3d6 + MOVE water damage on a failed save, and half as much on a success.",
+        "Higher_Levels": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
     },
     "surf": {
         "Redirect": "",
         "Name": "Surf",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Water",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "30ft (Self Cone)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You summon a fast-moving wave in front of you that crashes down on creatures in a 30 foot cone. Any creature caught in the blast must make a STR saving throw, taking 2d8 + MOVE water damage and falling prone on a failure, or half as much without falling prone on a success.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
     },
     "ice-beam": {
         "Redirect": "",
         "Name": "Ice-beam",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Ice",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "80ft (Self Line)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You create a 80 foot line of freezing ice, 5 feet wide. Any creature caught in the line must succeed on a DEX save against your Move DC or take 2d8 + MOVE ice damage on a failure, or half as much on a success. Creatures that fail this save by 5 or more become frozen.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
     },
     "blizzard": {
         "Redirect": "",
         "Name": "Blizzard",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Ice",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "100ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "Icy clouds form overhead and pelt the ground with hail and snow, centered on a point you choose within range. Each creature in a 30 ft radius, centered on a point within range, must make a DEX saving throw against your Move DC, taking 3d6 + MOVE ice damage on a failed save, or half as much on a successful one. Targets that fail the save by 5 or more become frozen. During a hailstorm, targets become frozen if they fail the save by 3 or more.",
+        "Higher_Levels": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
     },
     "psybeam": {
         "Redirect": "",
         "Name": "Psybeam",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Psychic",
+        "Power": [
+            "DEX",
+            "INT",
+            "WIS"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "60ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You send a beam of invisible, psychic energy at a target in range. The target must make a WIS saving throw against your Move DC, taking 2d6 + MOVE psychic damage on a fail, or half as much on a success. Creatures that fail the save by 5 or more become confused.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "bubble-beam": {
         "Redirect": "",
         "Name": "Bubble-beam",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Water",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "80ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You shoot a concentrated stream of bubbles at a single creature in range. Make a ranged attack roll, doing 1d10 + MOVE water damage on a hit. On natural attack rolls of 19 or 20, the target's speed is halved until the end of their next turn.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "aurora-beam": {
         "Redirect": "",
         "Name": "Aurora-beam",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Ice",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "80ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You send a concentrated beam of freezing ice at a single creature in range. Make a ranged attack roll, doing 1d10 + MOVE ice damage on a hit. On natural attack rolls of 15 or higher, the target has disadvantage on any attack it makes on its next turn.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "hyper-beam": {
         "Redirect": "",
         "Name": "Hyper-beam",
         "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action (Recharge)",
+        "Duration": "Instantaneous",
+        "Range": "80ft (Self Line)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You unleash a concentrated beam of pure energy in a 80 foot line, 5ft wide. Any creature caught in the line must succeed on a DEX save or take 3d8 + MOVE normal damage on a fail and half as much on a save. This move cannot be used on consecutive turns by the same creature.",
+        "Higher_Levels": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
     },
     "peck": {
         "Redirect": "",
         "Name": "Peck",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Flying",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You hammer down on a target with a peck attack. Make a melee attack roll on a target, doing 1d6 + MOVE flying damage on a successful hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
     },
     "drill-peck": {
         "Redirect": "",
         "Name": "Drill-peck",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Flying",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You hammer down on a target with a peck attack. Make a melee attack roll on a target, doing 2d6 + MOVE flying damage on a successful hit. Drill Peck scores a critical hit on 19s and 20s.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "submission": {
         "Redirect": "",
         "Name": "Submission",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You attempt a forceful grapple on a target. Make a melee attack, doing 2d6 + MOVE fighting damage on a hit, but taking a quarter of the damage dealt in recoil. On a hit, the target is grappled. At the beginning of each of its turns, it may attempt to escape with a STR save against your Move DC. While a creature is grappled, this move can be activated again as a bonus action with an automatic hit, dealing 2d6 fighting damage with a quarter of the damage dealt in typeless recoil.",
+        "Higher_Levels": "The damage dice rolls for this move change to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "low-kick": {
         "Redirect": "",
         "Name": "Low-kick",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You kick out at a creature\u2019s lower half, dealing damage and attempting to knock it off balance. Make a melee attack, dealing 1d10 + MOVE fighting damage on a hit. If the target's size is Large or bigger, double the dice roll for the damage. On a natural attack roll of 19 or 20, the target falls prone.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
     },
     "counter": {
         "Redirect": "",
         "Name": "Counter",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Reaction",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "When you are hit by a melee attack, you can use your reaction to make a melee attack against the creature, doing 1d4 + MOVE fighting damage on a successful hit.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
     },
     "seismic-toss": {
         "Redirect": "",
         "Name": "Seismic-toss",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You attempt to throw a creature into the ground with tremendous force. Make a melee attack roll. On a hit, deal an amount of fighting damage equal to 1d6 + the user\u2019s level. Seismic Toss results in a critical hit on 19s and 20s.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d10+Level at level 5, 2d8+Level at level 10, and 5d4+Level at level 17."
     },
     "strength": {
         "Redirect": "",
         "Name": "Strength",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Fighting",
+        "Power": [
+            "STR"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "Melee",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You strike out at a creature with brute strength. Make a melee attack roll, doing 2d6 + MOVE normal damage on a hit. On a hit, you may also choose to push the creature 5 feet away.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
     },
     "absorb": {
         "Redirect": "",
         "Name": "Absorb",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "10ft (Reach)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You attempt to absorb some of a target\u2019s health. Make a melee attack on a creature within range. On a hit, the creature takes 1d4 + MOVE grass damage. Half the damage done is restored by the user.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
     },
     "mega-drain": {
         "Redirect": "",
         "Name": "Mega-drain",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "15ft (Reach)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You attempt to drain the life force of a target. Make a melee attack against a target in range, dealing 1d6 + MOVE grass damage on a hit. Half of the damage dealt is restored to the user.",
+        "Higher_Levels": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
     },
     "leech-seed": {
         "Redirect": "",
         "Name": "Leech-seed",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "80ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You send a seed at a creature in range that implants itself in their hide. Make a ranged attack roll. On a hit, a seed implants into their skin. The target takes 1d4 grass damage at the end of each of its subsequent turns until it faints or is switched out. Half of the damage is restored by the attacker, or any other active creature the trainer has in battle, even if the original attacker faints or is returned to its Pok\u00e9ball. Only one creature can be seeded by the attacker at a time. Grass-type creatures are immune to the damage from this move.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d4 at level 5, 2d6 at level 10, and 2d8 at level 17."
     },
     "growth": {
         "Redirect": "",
         "Name": "Growth",
         "Type": "Normal",
         "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Time": "1 Action",
+        "Duration": "1 Minute (Concentration)",
+        "Range": "30ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You increase the size of a target. When you use this move, a creature in range (or you) grows slightly larger, gaining the ability to add a d4 to any attack roll or saving throw for the duration.",
+        "Higher_Levels": "The dice to add increases to 1d6 at level 10."
     },
     "razor-leaf": {
         "Redirect": "",
         "Name": "Razor-leaf",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "80ft",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "You send a razor sharp leaf at a creature in range at tremendous speed. Make a ranged attack roll, doing 1d8 + MOVE grass damage on a hit. Razor Leaf results in a critical hit on 19s and 20s.",
+        "Higher_Levels": "The damage dice roll for this move changes to 2d6 at level 5, 5d4 at level 10, and 3d10 at level 17."
     },
     "solar-beam": {
         "Redirect": "",
         "Name": "Solar-beam",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "STR",
+            "DEX"
+        ],
+        "Time": "1 Action (Charge)",
+        "Duration": "1 Round (Concentration)",
+        "Range": "80ft (Self Line)",
         "Exhaustion": "D-",
-        "Description": "",
-        "Higher_Levels": ""
+        "Description": "When you use this move, soak in solar energy and prepare to unleash a devastating beam. On your next turn, if you keep your concentration, use an action to create a 80 foot line of solar energy, 5 feet wide. Any creature caught in the line must succeed on a DEX save or take 3d8 + MOVE grass damage on a fail and half as much on a save. If this move is used in harsh sunlight, double your original, base MOVE modifier for damage and it can be used on the turn it is activated, without concentration.",
+        "Higher_Levels": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
     },
     "poison-powder": {
         "Redirect": "",
         "Name": "Poison-powder",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Poison",
+        "Power": [
+            "CON"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You release a cluster of poisonous spores that burst into the air above a target. The creature must succeed on a CON save against your Move DC, becoming poisoned on a fail.",
         "Higher_Levels": ""
     },
     "stun-spore": {
         "Redirect": "",
         "Name": "Stun-spore",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "CON"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You release a mixture of spores that are specialized in numbing the movements of creatures. Force a creature in range to make a CON saving throw, they are paralyzed on fail.",
         "Higher_Levels": ""
     },
     "sleep-powder": {
         "Redirect": "",
         "Name": "Sleep-powder",
-        "Type": "Normal",
-        "Power": [],
-        "Time": "",
-        "Duration": "",
-        "Range": "",
+        "Type": "Grass",
+        "Power": [
+            "CON"
+        ],
+        "Time": "1 Action",
+        "Duration": "Instantaneous",
+        "Range": "40ft",
         "Exhaustion": "D-",
-        "Description": "",
+        "Description": "You release a cluster of spores at a creature in range, attempting to put them to sleep. The target must make a CON saving throw against your Move DC or fall asleep.",
         "Higher_Levels": ""
     },
     "petal-dance": {
